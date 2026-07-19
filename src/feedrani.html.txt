@@ -910,7 +910,7 @@
             class="reveal group relative translate-y-6 overflow-hidden rounded-[1.75rem] bg-[#002144] p-7 text-white opacity-0 transition-all duration-700 hover:-translate-y-2 hover:shadow-[0_25px_60px_rgba(0,0,0,0.15)] md:row-span-2 lg:col-span-5"
           >
             <img
-              src="https://images.pexels.com/photos/458991/pexels-photo-458991.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1400"
+              src="/assets/dairy-farm.jpg"
               alt="Healthy cattle feeding together on a farm"
               loading="lazy"
               class="absolute inset-0 h-full w-full object-cover opacity-30 transition-transform duration-700 group-hover:scale-105"
@@ -1115,8 +1115,8 @@
                 class="flex items-center justify-between md:col-span-3 md:justify-end md:gap-8"
               >
                 <img
-                  src="https://images.pexels.com/photos/4110251/pexels-photo-4110251.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=700"
-                  alt="Premium cattle feed pellets and farm nutrition ingredients"
+                  src="/assets/cow.webp"
+                  alt="Healthy cow on a dairy farm"
                   loading="lazy"
                   class="h-28 w-36 rounded-2xl object-cover transition-transform duration-500 group-hover:scale-105"
                 />
@@ -1150,8 +1150,8 @@
                 class="flex items-center justify-between md:col-span-3 md:justify-end md:gap-8"
               >
                 <img
-                  src="https://images.unsplash.com/photo-1550583724-b2692b85b150?auto=format&amp;fit=crop&amp;w=500&amp;q=80"
-                  alt="Fresh milk from healthy dairy animals"
+                  src="/assets/hen.webp"
+                  alt="Healthy chickens on a poultry farm"
                   loading="lazy"
                   class="h-28 w-36 rounded-2xl object-cover transition-transform duration-500 group-hover:scale-105"
                 />
@@ -1185,8 +1185,8 @@
                 class="flex items-center justify-between md:col-span-3 md:justify-end md:gap-8"
               >
                 <img
-                  src="https://images.unsplash.com/photo-1548550023-2bdb3c5beed7?auto=format&amp;fit=crop&amp;w=500&amp;q=80"
-                  alt="Broilers &amp; layers flock"
+                  src="/assets/fish-feed.webp"
+                  alt="Premium aqua and fish feed pellets"
                   loading="lazy"
                   class="h-28 w-36 rounded-2xl object-cover transition-transform duration-500 group-hover:scale-105"
                 />
@@ -1220,8 +1220,8 @@
                 class="flex items-center justify-between md:col-span-3 md:justify-end md:gap-8"
               >
                 <img
-                  src="https://images.unsplash.com/photo-1500595046743-cd271d694d30?auto=format&amp;fit=crop&amp;w=500&amp;q=80"
-                  alt="Livestock grazing on a productive farm"
+                  src="/assets/goat.webp"
+                  alt="Healthy goat on a farm"
                   loading="lazy"
                   class="h-28 w-36 rounded-2xl object-cover transition-transform duration-500 group-hover:scale-105"
                 />
@@ -1244,7 +1244,7 @@
 
       <section class="relative min-h-[42rem] overflow-hidden">
         <img
-          src="https://images.unsplash.com/photo-1565514020179-026b92b84bb6?auto=format&amp;fit=crop&amp;w=2000&amp;q=90"
+          src="/assets/facility.jpg"
           alt="FeedRani modern feed manufacturing plant, pellet mill and warehousing facility"
           loading="lazy"
           class="absolute inset-0 h-full w-full object-cover"
@@ -1396,7 +1396,7 @@
               stroke-width="1.5"
             ></iconify-icon>
             <img
-              src="https://images.pexels.com/photos/2289947/pexels-photo-2289947.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=500"
+              src="/assets/packaging.jpg"
               alt="Traceable secure packaging of FeedRani bags"
               loading="lazy"
               class="mb-4 h-20 w-full rounded-xl object-cover transition-transform duration-500 group-hover:scale-105"
@@ -1460,7 +1460,7 @@
               class="relative min-h-[27rem] overflow-hidden rounded-[1.75rem] sm:row-span-2"
             >
               <img
-                src="https://images.unsplash.com/photo-1576086213369-97a306d36557?auto=format&amp;fit=crop&amp;w=900&amp;q=85"
+                src="/assets/lab.jpg"
                 alt="Animal nutrition scientists conducting laboratory analysis"
                 loading="lazy"
                 class="absolute inset-0 h-full w-full object-cover"
@@ -1694,7 +1694,7 @@
               class="group relative aspect-[4/3] overflow-hidden rounded-[1.75rem]"
             >
               <img
-                src="https://images.pexels.com/photos/162801/cow-dairy-cow-pasture-animal-162801.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200"
+                src="/assets/cows.jpg"
                 alt="Dairy cattle on green farmland"
                 loading="lazy"
                 class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
@@ -1709,7 +1709,7 @@
               class="group relative aspect-[4/3] overflow-hidden rounded-[1.75rem]"
             >
               <img
-                src="https://images.unsplash.com/photo-1548550023-2bdb3c5beed7?auto=format&amp;fit=crop&amp;w=1200&amp;q=85"
+                src="/assets/hen-2.webp"
                 alt="Healthy layer hens and broiler chickens"
                 loading="lazy"
                 class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
@@ -1724,7 +1724,7 @@
               class="group relative aspect-[4/3] overflow-hidden rounded-[1.75rem]"
             >
               <img
-                src="https://images.pexels.com/photos/4110251/pexels-photo-4110251.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200"
+                src="/assets/fodder.jpg"
                 alt="Premium balanced livestock feed pellets"
                 loading="lazy"
                 class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
@@ -1739,8 +1739,8 @@
               class="group relative aspect-[4/3] overflow-hidden rounded-[1.75rem]"
             >
               <img
-                src="https://images.unsplash.com/photo-1565514020179-026b92b84bb6?auto=format&amp;fit=crop&amp;w=1200&amp;q=85"
-                alt="Modern feed mill and feed facility"
+                src="/assets/dairy-farm.jpg"
+                alt="Modern dairy farm"
                 loading="lazy"
                 class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
               />
@@ -2265,11 +2265,19 @@
       </section>
     </main>
 
+    <!-- Wave SVG Separator for Footer (inspired by Henraajh Feeds) -->
+    <div class="w-full overflow-hidden leading-none bg-white -mt-2">
+      <svg viewBox="0 0 1200 120" preserveAspectRatio="none" class="relative block w-full h-[40px] text-[#002144] fill-current">
+        <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V120H0V0C26.9,8.75,55.05,17,83.63,24.47,163.6,45.47,243.6,59.34,321.39,56.44Z"></path>
+      </svg>
+    </div>
+
     <footer
-      class="bg-[#002144] px-5 pb-8 pt-20 text-white sm:px-10 lg:px-16 lg:pt-28 xl:px-24"
+      class="bg-[#002144] px-5 pb-8 pt-12 text-white sm:px-10 lg:px-16 lg:pt-16 xl:px-24"
     >
       <div class="mx-auto max-w-[1480px]">
         <div class="grid gap-14 border-b border-white/15 pb-16 lg:grid-cols-12">
+          <!-- Column 1: About and Socials -->
           <div class="lg:col-span-5">
             <a href="#" class="flex items-center gap-3">
               <img
@@ -2284,95 +2292,104 @@
               </span>
             </a>
             <p class="mt-6 max-w-sm text-sm leading-relaxed text-white/55">
-              Scientifically formulated cattle, poultry, aqua, goat and swine feed, mineral mixtures and supplements — manufactured for healthier livestock, productive farms and resilient rural communities.
+              FeedRani Feeds &amp; Nutrition Private Limited is a leading scientific feed manufacturer. We formulate high-performance poultry, cattle, aqua, and swine feed to support animal health, FCR, and farm profitability across Bihar and India.
             </p>
             <div class="mt-8 flex gap-3">
               <a
                 href="#"
-                aria-label="LinkedIn"
-                class="grid size-10 place-items-center rounded-full border border-white/15 bg-white/[0.05] transition-all duration-300 hover:bg-[#327411] hover:text-white hover:border-[#327411]/50 hover:scale-110 hover:shadow-[0_0_20px_rgba(50, 116, 17,0.3)]"
+                aria-label="Facebook"
+                class="grid size-10 place-items-center rounded-full border border-white/15 bg-white/[0.05] transition-all duration-300 hover:bg-[#327411] hover:text-white hover:border-[#327411]/50 hover:scale-110 hover:shadow-[0_0_20px_rgba(50,116,17,0.3)]"
               >
                 <iconify-icon
-                  icon="solar:link-circle-linear"
-                  width="20"
-                  stroke-width="1.5"
+                  icon="ri:facebook-fill"
+                  width="18"
                 ></iconify-icon>
               </a>
               <a
                 href="#"
-                aria-label="Instagram"
-                class="grid size-10 place-items-center rounded-full border border-white/15 bg-white/[0.05] transition-all duration-300 hover:bg-[#327411] hover:text-white hover:border-[#327411]/50 hover:scale-110 hover:shadow-[0_0_20px_rgba(50, 116, 17,0.3)]"
+                aria-label="Twitter"
+                class="grid size-10 place-items-center rounded-full border border-white/15 bg-white/[0.05] transition-all duration-300 hover:bg-[#327411] hover:text-white hover:border-[#327411]/50 hover:scale-110 hover:shadow-[0_0_20px_rgba(50,116,17,0.3)]"
               >
                 <iconify-icon
-                  icon="solar:camera-linear"
-                  width="20"
-                  stroke-width="1.5"
+                  icon="ri:twitter-x-fill"
+                  width="18"
                 ></iconify-icon>
               </a>
               <a
                 href="#"
                 aria-label="YouTube"
-                class="grid size-10 place-items-center rounded-full border border-white/15 bg-white/[0.05] transition-all duration-300 hover:bg-[#327411] hover:text-white hover:border-[#327411]/50 hover:scale-110 hover:shadow-[0_0_20px_rgba(50, 116, 17,0.3)]"
+                class="grid size-10 place-items-center rounded-full border border-white/15 bg-white/[0.05] transition-all duration-300 hover:bg-[#327411] hover:text-white hover:border-[#327411]/50 hover:scale-110 hover:shadow-[0_0_20px_rgba(50,116,17,0.3)]"
               >
                 <iconify-icon
-                  icon="solar:play-linear"
-                  width="20"
-                  stroke-width="1.5"
+                  icon="ri:youtube-fill"
+                  width="18"
+                ></iconify-icon>
+              </a>
+              <a
+                href="#"
+                aria-label="LinkedIn"
+                class="grid size-10 place-items-center rounded-full border border-white/15 bg-white/[0.05] transition-all duration-300 hover:bg-[#327411] hover:text-white hover:border-[#327411]/50 hover:scale-110 hover:shadow-[0_0_20px_rgba(50,116,17,0.3)]"
+              >
+                <iconify-icon
+                  icon="ri:linkedin-fill"
+                  width="18"
                 ></iconify-icon>
               </a>
             </div>
           </div>
 
+          <!-- Columns 2, 3, 4: Quick Links -->
           <div
             class="grid grid-cols-2 gap-8 text-sm sm:grid-cols-3 lg:col-span-7"
           >
             <div>
               <h3
-                class="mb-5 text-xs uppercase tracking-[0.14rem] text-white/40"
+                class="mb-5 text-xs font-bold uppercase tracking-[0.14rem] text-white/40"
               >
-                Company
+                Explore Links
               </h3>
               <ul class="space-y-3 text-white/70">
-                <li><a href="#about" class="hover:text-white">About us</a></li>
-                <li>
-                  <a href="#science" class="hover:text-white">Nutrition R&amp;D</a>
-                </li>
-                <li><a href="#" class="hover:text-white">Feed manufacturing</a></li>
-                <li><a href="#" class="hover:text-white">Careers</a></li>
+                <li><a href="#about" class="hover:text-[#8ec44a] transition-colors">About FeedRani</a></li>
+                <li><a href="#science" class="hover:text-[#8ec44a] transition-colors">Why Choose Us</a></li>
+                <li><a href="#science" class="hover:text-[#8ec44a] transition-colors">Vision &amp; Mission</a></li>
+                <li><a href="#science" class="hover:text-[#8ec44a] transition-colors">Quality Standards</a></li>
+                <li><a href="#science" class="hover:text-[#8ec44a] transition-colors">Manufacturing</a></li>
+                <li><a href="#contact" class="hover:text-[#8ec44a] transition-colors">Contact Us</a></li>
               </ul>
             </div>
             <div>
               <h3
-                class="mb-5 text-xs uppercase tracking-[0.14rem] text-white/40"
+                class="mb-5 text-xs font-bold uppercase tracking-[0.14rem] text-white/40"
               >
-                Feed &amp; Supplements
+                Product Range
               </h3>
               <ul class="space-y-3 text-white/70">
-                <li>
-                  <a href="#products" class="hover:text-white">Cattle &amp; dairy feed</a>
-                </li>
-                <li>
-                  <a href="#products" class="hover:text-white">Poultry feed</a>
-                </li>
-                <li>
-                  <a href="#products" class="hover:text-white">Aqua &amp; fish feed</a>
-                </li>
-                <li>
-                  <a href="#products" class="hover:text-white">Mineral mixtures &amp; supplements</a>
-                </li>
+                <li><a href="#products" class="hover:text-[#8ec44a] transition-colors">Cattle &amp; Dairy Feed</a></li>
+                <li><a href="#products" class="hover:text-[#8ec44a] transition-colors">Poultry Feed Line</a></li>
+                <li><a href="#products" class="hover:text-[#8ec44a] transition-colors">Aqua &amp; Fish Feed</a></li>
+                <li><a href="#products" class="hover:text-[#8ec44a] transition-colors">Goat &amp; Swine Feed</a></li>
+                <li><a href="#products" class="hover:text-[#8ec44a] transition-colors">Mineral Mixtures</a></li>
               </ul>
             </div>
             <div class="col-span-2 sm:col-span-1">
               <h3
-                class="mb-5 text-xs uppercase tracking-[0.14rem] text-white/40"
+                class="mb-5 text-xs font-bold uppercase tracking-[0.14rem] text-white/40"
               >
-                Contact
+                Contact Info
               </h3>
-              <ul class="space-y-3 text-white/70">
-                <li>1800 000 000</li>
-                <li>care@feedrani.in</li>
-                <li>Mon–Sat, 9:00–18:00</li>
-                <li>India</li>
+              <ul class="space-y-3.5 text-white/70">
+                <li class="flex items-start gap-2.5">
+                  <iconify-icon icon="solar:map-point-linear" width="18" class="text-[#8ec44a] shrink-0 mt-0.5"></iconify-icon>
+                  <span>Khajekalan, Patna City, Bihar, 800008</span>
+                </li>
+                <li class="flex items-center gap-2.5">
+                  <iconify-icon icon="solar:letter-linear" width="18" class="text-[#8ec44a] shrink-0"></iconify-icon>
+                  <a href="mailto:care@feedrani.in" class="hover:text-[#8ec44a]">care@feedrani.in</a>
+                </li>
+                <li class="flex items-center gap-2.5">
+                  <iconify-icon icon="solar:phone-calling-linear" width="18" class="text-[#8ec44a] shrink-0"></iconify-icon>
+                  <a href="tel:+917544000912" class="hover:text-[#8ec44a]">+91 7544000912</a>
+                </li>
               </ul>
             </div>
           </div>
@@ -2382,17 +2399,87 @@
           class="flex flex-col gap-4 pt-7 text-xs text-white/40 sm:flex-row sm:items-center sm:justify-between"
         >
           <div>
-            <p>© 2026 FeedRani Feeds &amp; Nutrition Private Limited.</p>
+            <p>© 2026 FeedRani Feeds &amp; Nutrition Private Limited. All Rights Reserved.</p>
             <p class="mt-1">Developed &amp; Maintained by <a href="https://www.webfloratechnologies.com" target="_blank" rel="noopener noreferrer" class="transition-colors duration-200 hover:text-white underline decoration-white/20 hover:decoration-white">Webflora Technologies</a></p>
           </div>
           <div class="flex gap-5">
-            <a href="#" class="transition-colors duration-200 hover:text-[#327411]">Privacy</a>
-            <a href="#" class="transition-colors duration-200 hover:text-[#327411]">Terms</a>
-            <a href="#" class="transition-colors duration-200 hover:text-[#327411]">Feed quality policy</a>
+            <a href="#" class="transition-colors duration-200 hover:text-[#327411]">Privacy Policy</a>
+            <a href="#" class="transition-colors duration-200 hover:text-[#327411]">Terms &amp; Conditions</a>
+            <a href="#" class="transition-colors duration-200 hover:text-[#327411]">Quality Policy</a>
           </div>
         </div>
       </div>
     </footer>
+
+    <!-- Floating Quick Enquiry Widget (inspired by Henraajh Feeds) -->
+    <div class="fixed bottom-6 right-6 z-[100]">
+      <!-- Trigger Button -->
+      <button
+        id="enquiryTrigger"
+        class="flex h-14 w-14 items-center justify-center rounded-full bg-gradient-to-r from-[#327411] to-[#002144] text-white shadow-[0_8px_30px_rgba(50,116,17,0.4)] transition-all duration-300 hover:scale-110 hover:shadow-[0_12px_40px_rgba(50,116,17,0.6)]"
+        aria-label="Quick Enquiry"
+      >
+        <iconify-icon icon="solar:chat-line-linear" width="26"></iconify-icon>
+      </button>
+
+      <!-- Enquiry Box -->
+      <div
+        id="enquiryBox"
+        class="absolute bottom-16 right-0 w-80 translate-y-4 scale-95 opacity-0 pointer-events-none rounded-3xl border border-gray-100 bg-white p-6 shadow-[0_20px_50px_rgba(0,0,0,0.15)] transition-all duration-300 z-50 text-gray-800"
+      >
+        <div class="flex items-center justify-between border-b border-gray-100 pb-3 mb-4">
+          <h5 class="font-['Space_Grotesk'] text-lg font-bold text-[#002144]">Quick Enquiry</h5>
+          <button id="closeEnquiry" class="text-gray-400 hover:text-gray-600 transition-colors">
+            <iconify-icon icon="solar:close-circle-linear" width="22"></iconify-icon>
+          </button>
+        </div>
+
+        <form id="quickEnquiryForm" class="space-y-3.5">
+          <div>
+            <input
+              type="text"
+              placeholder="Your Name"
+              required
+              class="w-full rounded-xl border border-gray-200 bg-gray-50/50 px-4 py-2.5 text-xs font-medium text-gray-800 placeholder-gray-400 outline-none transition-all focus:border-[#327411] focus:bg-white"
+            />
+          </div>
+          <div>
+            <input
+              type="tel"
+              placeholder="Mobile Number"
+              required
+              class="w-full rounded-xl border border-gray-200 bg-gray-50/50 px-4 py-2.5 text-xs font-medium text-gray-800 placeholder-gray-400 outline-none transition-all focus:border-[#327411] focus:bg-white"
+            />
+          </div>
+          <div>
+            <select
+              required
+              class="w-full rounded-xl border border-gray-200 bg-gray-50/50 px-4 py-2.5 text-xs font-medium text-gray-800 outline-none transition-all focus:border-[#327411] focus:bg-white"
+            >
+              <option value="">Select Product Feed</option>
+              <option value="cattle">Cattle &amp; Dairy Feed</option>
+              <option value="poultry">Poultry Feed</option>
+              <option value="aqua">Aqua &amp; Fish Feed</option>
+              <option value="goat">Goat &amp; Swine Feed</option>
+              <option value="mineral">Mineral Mixtures</option>
+            </select>
+          </div>
+          <div>
+            <textarea
+              rows="3"
+              placeholder="Your message..."
+              class="w-full rounded-xl border border-gray-200 bg-gray-50/50 px-4 py-2.5 text-xs font-medium text-gray-800 placeholder-gray-400 outline-none transition-all focus:border-[#327411] focus:bg-white"
+            ></textarea>
+          </div>
+          <button
+            type="submit"
+            class="w-full rounded-xl bg-gradient-to-r from-[#327411] to-[#002144] py-2.5 text-xs font-semibold text-white shadow-[0_4px_12px_rgba(50,116,17,0.2)] transition-all hover:opacity-95"
+          >
+            Send Enquiry
+          </button>
+        </form>
+      </div>
+    </div>
 
     <script>
       const navbar = document.getElementById("navbar");
