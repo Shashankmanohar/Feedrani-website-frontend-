@@ -1,10 +1,10 @@
 import "../_runtime.mjs";
 import { n as require_jsx_runtime, r as require_react } from "../_libs/react+tanstack__react-query.mjs";
-import { A as invariant, C as resolveManifestCssLink, D as rootRouteId, E as isResolvedRedirect, O as isNotFound, S as resolveManifestAssetLink, T as isRedirect, a as replaceSsrResponse, b as getScriptPreloadAttrs, i as normalizeSsrResponse, l as RouterProvider, n as defineHandlerCallback, o as stripSsrResponseBody, r as isSsrResponse, t as renderRouterToStream, w as executeRewriteInput, x as getStylesheetHref } from "../_libs/@tanstack/react-router+[...].mjs";
+import { C as resolveManifestAssetLink, D as isResolvedRedirect, E as isRedirect, O as rootRouteId, S as getStylesheetHref, T as executeRewriteInput, a as replaceSsrResponse, i as normalizeSsrResponse, j as invariant, k as isNotFound, l as RouterProvider, n as defineHandlerCallback, o as stripSsrResponseBody, r as isSsrResponse, t as renderRouterToStream, w as resolveManifestCssLink, x as getScriptPreloadAttrs } from "../_libs/@tanstack/react-router+[...].mjs";
 import { n as createMemoryHistory } from "../_libs/tanstack__history.mjs";
-import { a as defaultSerovalPlugins, c as makeSerovalPlugin, d as su, i as getOrigin, l as Pu, n as attachRouterServerSsrUtils, o as createRawStreamRPCPlugin, r as getNormalizedURL, s as createSerializationAdapter, t as mergeHeaders, u as iu } from "../_libs/@tanstack/router-core+[...].mjs";
-import { t as createMiddleware } from "./createStart-Dt05N14y.mjs";
-import { n as toResponse, t as H3Event } from "../_libs/h3-v2+srvx.mjs";
+import { a as defaultSerovalPlugins, c as makeSerovalPlugin, d as lu, i as getOrigin, l as Ou, n as attachRouterServerSsrUtils, o as createRawStreamRPCPlugin, r as getNormalizedURL, s as createSerializationAdapter, t as mergeHeaders, u as cu } from "../_libs/@tanstack/router-core+[...].mjs";
+import { t as createMiddleware } from "./createMiddleware-B_4t7rW1.mjs";
+import { n as toResponse, t as H3Event } from "../_libs/h3-v2+rou3.mjs";
 import processModule from "node:process";
 import { AsyncLocalStorage } from "node:async_hooks";
 require_react();
@@ -82,7 +82,7 @@ var HEADERS = { TSS_SHELL: "X-TSS_SHELL" };
 * the dev styles URL for route-scoped CSS collection.
 */
 async function getStartManifest(matchedRoutes) {
-	const { tsrStartManifest } = await import("../_tanstack-start-manifest_v-s2_TXLmV.mjs");
+	const { tsrStartManifest } = await import("../_tanstack-start-manifest_v-EjFys2bw.mjs");
 	const startManifest = tsrStartManifest();
 	let routes = startManifest.routes;
 	routes[rootRouteId];
@@ -254,7 +254,7 @@ function getDefaultSerovalPlugins() {
 /** Cached TextEncoder for frame encoding */
 var textEncoder = new TextEncoder();
 /** Shared empty payload for END frames - avoids allocation per call */
-var EMPTY_PAYLOAD = new Uint8Array(0);
+var EMPTY_PAYLOAD = /* @__PURE__ */ new Uint8Array(0);
 /**
 * Encodes a single frame with header and payload.
 */
@@ -417,7 +417,7 @@ var handleServerAction = async ({ request, context, serverFnId }) => {
 	if (!serovalPlugins) serovalPlugins = getDefaultSerovalPlugins();
 	const contentType = request.headers.get("Content-Type");
 	function parsePayload(payload) {
-		return Pu(payload, { plugins: serovalPlugins });
+		return Ou(payload, { plugins: serovalPlugins });
 	}
 	return await (async () => {
 		try {
@@ -433,7 +433,7 @@ var handleServerAction = async ({ request, context, serverFnId }) => {
 						method: methodUpper
 					};
 					if (typeof serializedContext === "string") try {
-						const deserializedContext = Pu(JSON.parse(serializedContext), { plugins: serovalPlugins });
+						const deserializedContext = Ou(JSON.parse(serializedContext), { plugins: serovalPlugins });
 						if (typeof deserializedContext === "object" && deserializedContext) params.context = safeObjectMerge(deserializedContext, context);
 					} catch (e) {}
 					return await action(params);
@@ -500,7 +500,7 @@ var handleServerAction = async ({ request, context, serverFnId }) => {
 							throw error;
 						}
 					};
-					iu(res, {
+					cu(res, {
 						refs: /* @__PURE__ */ new Map(),
 						plugins,
 						onParse(value) {
@@ -576,7 +576,7 @@ var handleServerAction = async ({ request, context, serverFnId }) => {
 			console.info();
 			console.error(error);
 			console.info();
-			const serializedError = JSON.stringify(await Promise.resolve(su(error, {
+			const serializedError = JSON.stringify(await Promise.resolve(lu(error, {
 				refs: /* @__PURE__ */ new Map(),
 				plugins: serovalPlugins
 			})));
@@ -603,7 +603,7 @@ function isNotFoundResponse(error) {
 	});
 }
 var LINK_PARAM_TOKEN_RE = /^[!#$%&'*+\-.^_`|~0-9A-Za-z]+$/;
-var PRELOAD_AS_VALUES = new Set([
+var PRELOAD_AS_VALUES = /* @__PURE__ */ new Set([
 	"fetch",
 	"font",
 	"image",
@@ -1163,8 +1163,8 @@ var getBaseManifest = getProdBaseManifest;
 var createEarlyHintsForRequest = createEarlyHintsCollector;
 async function loadEntries() {
 	const [routerEntry, startEntry, pluginAdapters] = await Promise.all([
-		import("./router-DOgDGQ-4.mjs"),
-		import("./start-Ok9K6Nid.mjs"),
+		import("./router-BerQveru.mjs"),
+		import("./start-BcSBlhe9.mjs"),
 		import("./empty-plugin-adapters-D9UWiqvJ.mjs")
 	]);
 	return {

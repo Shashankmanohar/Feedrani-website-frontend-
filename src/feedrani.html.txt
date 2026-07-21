@@ -167,7 +167,7 @@
       >
         <!-- Logo -->
         <a
-          href="#"
+          href="/"
           aria-label="FeedRani home"
           class="flex shrink-0 items-center gap-3"
         >
@@ -184,55 +184,89 @@
 
         <!-- Center Navigation Links -->
         <div
-          class="hidden items-center gap-7 font-['Plus_Jakarta_Sans'] text-[13px] font-medium text-[#3d3d3d] lg:flex"
+          class="hidden items-center gap-6 font-['Plus_Jakarta_Sans'] text-[13px] font-semibold text-[#1e293b] lg:flex"
         >
-          <a
-            href="#products"
-            class="transition-colors duration-200 hover:text-[#327411]"
-            >Products</a
-          >
-          <a
-            href="#products"
-            class="transition-colors duration-200 hover:text-[#327411]"
-            >Livestock</a
-          >
-          <a
-            href="#about"
-            class="transition-colors duration-200 hover:text-[#327411]"
-            >About</a
-          >
-          <a
-            href="#"
-            class="transition-colors duration-200 hover:text-[#327411]"
-            >Careers</a
-          >
-          <a
-            href="#knowledge"
-            class="transition-colors duration-200 hover:text-[#327411]"
-            >Resources</a
-          >
-          <a
-            href="#contact"
-            class="transition-colors duration-200 hover:text-[#327411]"
-            >Contact</a
-          >
+          <a href="/" class="transition-colors duration-200 hover:text-[#327411]">Home</a>
+
+          <a href="/about" class="transition-colors duration-200 hover:text-[#327411]">About Us</a>
+
+          <!-- Products Dropdown -->
+          <div class="relative group py-2">
+            <a
+              href="/products"
+              class="flex items-center gap-1.5 transition-colors duration-200 hover:text-[#327411] py-1"
+            >
+              <span>Products</span>
+              <iconify-icon
+                icon="solar:alt-arrow-down-linear"
+                width="14"
+                class="transition-transform duration-300 group-hover:rotate-180 text-[#327411]"
+              ></iconify-icon>
+            </a>
+
+            <!-- Dropdown Menu -->
+            <div
+              class="absolute left-0 top-full hidden w-64 rounded-2xl border border-slate-100 bg-white/95 p-2 shadow-xl backdrop-blur-xl transition-all group-hover:block animate-in fade-in slide-in-from-top-2 duration-200 z-50"
+            >
+              <div class="space-y-1">
+                <a
+                  href="/products/poultry-feed"
+                  class="flex items-center justify-between rounded-xl px-3.5 py-2.5 text-xs font-semibold text-[#002144] transition-all hover:bg-[#327411]/10 hover:text-[#327411]"
+                >
+                  <span>Poultry Feed</span>
+                  <iconify-icon icon="solar:arrow-right-linear" width="14" class="opacity-60"></iconify-icon>
+                </a>
+                <a
+                  href="/products/aqua-fish-feed"
+                  class="flex items-center justify-between rounded-xl px-3.5 py-2.5 text-xs font-semibold text-[#002144] transition-all hover:bg-[#327411]/10 hover:text-[#327411]"
+                >
+                  <span>Aqua &amp; Fish Feed</span>
+                  <iconify-icon icon="solar:arrow-right-linear" width="14" class="opacity-60"></iconify-icon>
+                </a>
+                <a
+                  href="/products/goat-swine-minerals"
+                  class="flex items-center justify-between rounded-xl px-3.5 py-2.5 text-xs font-semibold text-[#002144] transition-all hover:bg-[#327411]/10 hover:text-[#327411]"
+                >
+                  <span>Goat, Swine &amp; Mineral Mixtures</span>
+                  <iconify-icon icon="solar:arrow-right-linear" width="14" class="opacity-60"></iconify-icon>
+                </a>
+                <a
+                  href="/products/cattle-dairy-feed"
+                  class="flex items-center justify-between rounded-xl px-3.5 py-2.5 text-xs font-semibold text-[#002144] transition-all hover:bg-[#327411]/10 hover:text-[#327411]"
+                >
+                  <span>Cattle &amp; Dairy Feed</span>
+                  <iconify-icon icon="solar:arrow-right-linear" width="14" class="opacity-60"></iconify-icon>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <a href="#science" class="transition-colors duration-200 hover:text-[#327411]">Quality &amp; Science</a>
+          <a href="#knowledge" class="transition-colors duration-200 hover:text-[#327411]">Knowledge Hub</a>
+          <a href="/contact" class="transition-colors duration-200 hover:text-[#327411]">Contact</a>
         </div>
 
-        <!-- Right: Search + CTA + Menu -->
+        <!-- Right: Actions & Call -->
         <div class="flex items-center gap-3">
-          <!-- Search Button (Glass Circle) -->
+          <!-- Call Us Button -->
+          <a
+            href="tel:+917544000912"
+            aria-label="Call FeedRani"
+            class="inline-flex items-center gap-2 rounded-full border border-slate-200 bg-slate-100/90 px-4 py-2 text-xs font-semibold text-[#002144] shadow-sm transition-all duration-300 hover:bg-[#002144] hover:text-white"
+          >
+            <iconify-icon icon="solar:phone-calling-bold-duotone" width="16" class="text-[#e11d48] sm:text-[#327411]"></iconify-icon>
+            <span class="hidden sm:inline font-['Plus_Jakarta_Sans'] text-xs font-semibold">Call Us</span>
+          </a>
 
-
-          <!-- CTA Button -->
+          <!-- CTA Button (Become a Dealer) -->
           <a
             href="#contact"
-            class="hidden items-center gap-2 rounded-[999px] bg-gradient-to-r from-[#327411] to-[#002144] px-6 font-['Plus_Jakarta_Sans'] text-[13px] font-semibold text-white shadow-[0_4px_16px_rgba(50, 116, 17,0.3)] transition-all duration-300 hover:-translate-y-0.5 hover:shadow-[0_8px_24px_rgba(50, 116, 17,0.4)] sm:inline-flex"
-            style="height: 48px; line-height: 48px"
+            class="hidden items-center gap-2 rounded-full bg-[#327411] px-6 py-2.5 font-['Plus_Jakarta_Sans'] text-[13px] font-semibold text-white shadow-md transition-all duration-300 hover:bg-[#285e0e] hover:shadow-lg sm:inline-flex"
           >
-            Get Started
+            Become a Dealer
             <iconify-icon
               icon="solar:arrow-right-linear"
-              width="18"
+              width="16"
               stroke-width="1.5"
             ></iconify-icon>
           </a>
@@ -271,7 +305,7 @@
       <div
         class="flex items-center justify-between border-b border-white/10 px-6 py-5 sm:px-8"
       >
-        <a href="#" aria-label="FeedRani home" class="flex items-center gap-3">
+        <a href="/" aria-label="FeedRani home" class="flex items-center gap-3">
           <img
             src="/feedrani-logo.png"
             alt="FeedRani Agricultural Logo"
@@ -301,17 +335,25 @@
           aria-label="Mobile primary navigation"
           class="flex flex-col gap-6 sm:gap-8"
         >
-          <a
-            href="#products"
-            class="group flex items-center justify-between text-4xl font-bold tracking-tight text-white/80 transition-all duration-300 hover:translate-x-2 hover:text-[#327411] sm:text-5xl lg:text-6xl"
-          >
-            <span>Products</span>
-            <iconify-icon
-              icon="solar:arrow-right-linear"
-              class="-translate-x-4 text-[#327411] opacity-0 transition-all duration-300 group-hover:translate-x-0 group-hover:opacity-100"
-              width="32"
-            ></iconify-icon>
-          </a>
+          <div>
+            <a
+              href="#products"
+              class="group flex items-center justify-between text-4xl font-bold tracking-tight text-white/80 transition-all duration-300 hover:translate-x-2 hover:text-[#327411] sm:text-5xl lg:text-6xl"
+            >
+              <span>Products</span>
+              <iconify-icon
+                icon="solar:arrow-right-linear"
+                class="-translate-x-4 text-[#327411] opacity-0 transition-all duration-300 group-hover:translate-x-0 group-hover:opacity-100"
+                width="32"
+              ></iconify-icon>
+            </a>
+            <div class="mt-3 ml-4 flex flex-col gap-2 border-l-2 border-[#8ec44a]/30 pl-4 font-['Plus_Jakarta_Sans'] text-sm font-semibold text-white/70">
+              <a href="/products/poultry-feed" class="hover:text-[#8ec44a] transition-colors py-1">Poultry Feed</a>
+              <a href="/products/aqua-fish-feed" class="hover:text-[#8ec44a] transition-colors py-1">Aqua &amp; Fish Feed</a>
+              <a href="/products/goat-swine-minerals" class="hover:text-[#8ec44a] transition-colors py-1">Goat, Swine &amp; Mineral Mixtures</a>
+              <a href="/products/cattle-dairy-feed" class="hover:text-[#8ec44a] transition-colors py-1">Cattle &amp; Dairy Feed</a>
+            </div>
+          </div>
           <a
             href="#products"
             class="group flex items-center justify-between text-4xl font-bold tracking-tight text-white/80 transition-all duration-300 hover:translate-x-2 hover:text-[#327411] sm:text-5xl lg:text-6xl"
@@ -636,6 +678,49 @@
             </a>
           </div>
         </div>
+
+        <!-- ================= Key Reach & Distribution Grid Section ================= -->
+        <section class="relative z-20 bg-[#f8fafc] py-14 border-b border-slate-200/80">
+          <div class="mx-auto max-w-[1400px] px-6 lg:px-8">
+            <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+              <!-- Card 1: 38+ Districts -->
+              <div class="rounded-3xl border border-slate-200/70 bg-white p-8 text-center shadow-[0_4px_20px_rgba(0,0,0,0.03)] transition-all duration-300 hover-card-rise">
+                <div class="mx-auto mb-5 grid size-14 place-items-center rounded-2xl bg-[#FFF6EB] text-2xl">
+                  📍
+                </div>
+                <h3 class="text-2xl font-extrabold tracking-tight text-[#002144] sm:text-3xl">38+ Districts</h3>
+                <p class="mt-2 text-xs font-semibold text-slate-500">Wide coverage across Bihar</p>
+              </div>
+
+              <!-- Card 2: 500+ Dealers -->
+              <div class="rounded-3xl border border-slate-200/70 bg-white p-8 text-center shadow-[0_4px_20px_rgba(0,0,0,0.03)] transition-all duration-300 hover-card-rise">
+                <div class="mx-auto mb-5 grid size-14 place-items-center rounded-2xl bg-[#FFF6EB] text-2xl">
+                  🏪
+                </div>
+                <h3 class="text-2xl font-extrabold tracking-tight text-[#002144] sm:text-3xl">500+ Dealers</h3>
+                <p class="mt-2 text-xs font-semibold text-slate-500">Strong dealer network</p>
+              </div>
+
+              <!-- Card 3: 10,000+ Farmers -->
+              <div class="rounded-3xl border border-slate-200/70 bg-white p-8 text-center shadow-[0_4px_20px_rgba(0,0,0,0.03)] transition-all duration-300 hover-card-rise">
+                <div class="mx-auto mb-5 grid size-14 place-items-center rounded-2xl bg-[#FFF6EB] text-2xl">
+                  👥
+                </div>
+                <h3 class="text-2xl font-extrabold tracking-tight text-[#002144] sm:text-3xl">10,000+ Farmers</h3>
+                <p class="mt-2 text-xs font-semibold text-slate-500">Trusted by farmers</p>
+              </div>
+
+              <!-- Card 4: Fast Supply -->
+              <div class="rounded-3xl border border-slate-200/70 bg-white p-8 text-center shadow-[0_4px_20px_rgba(0,0,0,0.03)] transition-all duration-300 hover-card-rise">
+                <div class="mx-auto mb-5 grid size-14 place-items-center rounded-2xl bg-[#FFF6EB] text-2xl">
+                  🚚
+                </div>
+                <h3 class="text-2xl font-extrabold tracking-tight text-[#002144] sm:text-3xl">Fast Supply</h3>
+                <p class="mt-2 text-xs font-semibold text-slate-500">Efficient logistics system</p>
+              </div>
+            </div>
+          </div>
+        </section>
 
         <!-- ================= Premium Stats Marquee ================= -->
 
@@ -1100,13 +1185,16 @@
 
           <div class="mt-14 border-t border-[#DCDCD7]">
             <article
+              id="product-cattle"
               class="product-row group grid gap-7 border-b border-[#DCDCD7] py-8 transition-all duration-500 hover:bg-[#FAFAF8] md:grid-cols-12 md:items-center"
             >
               <div class="flex items-center gap-5 md:col-span-5">
                 <span class="text-xs text-[#888888]">01</span>
-                <h3 class="text-3xl font-bold tracking-tight sm:text-4xl">
-                  Cattle &amp; Dairy Feed
-                </h3>
+                <a href="/products/cattle-dairy-feed" class="hover:text-[#327411] transition-colors">
+                  <h3 class="text-3xl font-bold tracking-tight sm:text-4xl">
+                    Cattle &amp; Dairy Feed
+                  </h3>
+                </a>
               </div>
               <p class="text-sm leading-relaxed text-[#666666] md:col-span-4">
                 Pelleted and mash cattle feed for milking cows, buffaloes, calves and dry animals — balanced for milk yield, body condition and fertility.
@@ -1114,15 +1202,17 @@
               <div
                 class="flex items-center justify-between md:col-span-3 md:justify-end md:gap-8"
               >
-                <img
-                  src="/assets/cow.webp"
-                  alt="Healthy cow on a dairy farm"
-                  loading="lazy"
-                  class="h-28 w-36 rounded-2xl object-cover transition-transform duration-500 group-hover:scale-105"
-                />
+                <a href="/products/cattle-dairy-feed">
+                  <img
+                    src="/assets/cow.webp"
+                    alt="Healthy cow on a dairy farm"
+                    loading="lazy"
+                    class="h-28 w-36 rounded-2xl object-cover transition-transform duration-500 group-hover:scale-105"
+                  />
+                </a>
                 <a
-                  href="#contact"
-                  aria-label="Learn about cattle and dairy feed"
+                  href="/products/cattle-dairy-feed"
+                  aria-label="View Cattle & Dairy Feed products"
                   class="grid size-12 place-items-center rounded-full border border-[#CFCFC9] transition-colors group-hover:bg-[#327411] group-hover:text-white"
                 >
                   <iconify-icon
@@ -1135,13 +1225,16 @@
             </article>
 
             <article
+              id="product-poultry"
               class="product-row group grid gap-7 border-b border-[#DCDCD7] py-8 transition-all duration-500 hover:bg-[#FAFAF8] md:grid-cols-12 md:items-center"
             >
               <div class="flex items-center gap-5 md:col-span-5">
                 <span class="text-xs text-[#888888]">02</span>
-                <h3 class="text-3xl font-bold tracking-tight sm:text-4xl">
-                  Poultry Feed
-                </h3>
+                <a href="/products/poultry-feed" class="hover:text-[#327411] transition-colors">
+                  <h3 class="text-3xl font-bold tracking-tight sm:text-4xl">
+                    Poultry Feed
+                  </h3>
+                </a>
               </div>
               <p class="text-sm leading-relaxed text-[#666666] md:col-span-4">
                 Broiler pre-starter, starter, finisher and layer feed engineered for FCR, weight gain, egg mass and shell strength.
@@ -1149,15 +1242,17 @@
               <div
                 class="flex items-center justify-between md:col-span-3 md:justify-end md:gap-8"
               >
-                <img
-                  src="/assets/hen.webp"
-                  alt="Healthy chickens on a poultry farm"
-                  loading="lazy"
-                  class="h-28 w-36 rounded-2xl object-cover transition-transform duration-500 group-hover:scale-105"
-                />
+                <a href="/products/poultry-feed">
+                  <img
+                    src="/assets/hen.webp"
+                    alt="Healthy chickens on a poultry farm"
+                    loading="lazy"
+                    class="h-28 w-36 rounded-2xl object-cover transition-transform duration-500 group-hover:scale-105"
+                  />
+                </a>
                 <a
-                  href="#contact"
-                  aria-label="Learn about aqua and fish feed"
+                  href="/products/poultry-feed"
+                  aria-label="View Poultry Feed products"
                   class="grid size-12 place-items-center rounded-full border border-[#CFCFC9] transition-colors group-hover:bg-[#327411] group-hover:text-white"
                 >
                   <iconify-icon
@@ -1170,13 +1265,16 @@
             </article>
 
             <article
+              id="product-aqua"
               class="product-row group grid gap-7 border-b border-[#DCDCD7] py-8 transition-all duration-500 hover:bg-[#FAFAF8] md:grid-cols-12 md:items-center"
             >
               <div class="flex items-center gap-5 md:col-span-5">
                 <span class="text-xs text-[#888888]">03</span>
-                <h3 class="text-3xl font-bold tracking-tight sm:text-4xl">
-                  Aqua &amp; Fish Feed
-                </h3>
+                <a href="/products/aqua-fish-feed" class="hover:text-[#327411] transition-colors">
+                  <h3 class="text-3xl font-bold tracking-tight sm:text-4xl">
+                    Aqua &amp; Fish Feed
+                  </h3>
+                </a>
               </div>
               <p class="text-sm leading-relaxed text-[#666666] md:col-span-4">
                 Floating and sinking pellets for freshwater and brackish fish, shrimp and hatcheries — stable in water, complete in nutrition.
@@ -1184,15 +1282,17 @@
               <div
                 class="flex items-center justify-between md:col-span-3 md:justify-end md:gap-8"
               >
-                <img
-                  src="/assets/fish-feed.webp"
-                  alt="Premium aqua and fish feed pellets"
-                  loading="lazy"
-                  class="h-28 w-36 rounded-2xl object-cover transition-transform duration-500 group-hover:scale-105"
-                />
+                <a href="/products/aqua-fish-feed">
+                  <img
+                    src="/assets/fish-feed.webp"
+                    alt="Premium aqua and fish feed pellets"
+                    loading="lazy"
+                    class="h-28 w-36 rounded-2xl object-cover transition-transform duration-500 group-hover:scale-105"
+                  />
+                </a>
                 <a
-                  href="#contact"
-                  aria-label="Learn about poultry feed"
+                  href="/products/aqua-fish-feed"
+                  aria-label="View Aqua & Fish Feed products"
                   class="grid size-12 place-items-center rounded-full border border-[#CFCFC9] transition-colors group-hover:bg-[#327411] group-hover:text-white"
                 >
                   <iconify-icon
@@ -1205,13 +1305,16 @@
             </article>
 
             <article
+              id="product-goat-swine-minerals"
               class="product-row group grid gap-7 border-b border-[#DCDCD7] py-8 transition-all duration-500 hover:bg-[#FAFAF8] md:grid-cols-12 md:items-center"
             >
               <div class="flex items-center gap-5 md:col-span-5">
                 <span class="text-xs text-[#888888]">04</span>
-                <h3 class="text-3xl font-bold tracking-tight sm:text-4xl">
-                  Goat, Swine &amp; Mineral Mixtures
-                </h3>
+                <a href="/products/goat-swine-minerals" class="hover:text-[#327411] transition-colors">
+                  <h3 class="text-3xl font-bold tracking-tight sm:text-4xl">
+                    Goat, Swine &amp; Mineral Mixtures
+                  </h3>
+                </a>
               </div>
               <p class="text-sm leading-relaxed text-[#666666] md:col-span-4">
                 Specialty feed for goat, sheep and swine plus chelated mineral mixtures, vitamin premixes and feed supplements that close regional dietary gaps.
@@ -1219,15 +1322,17 @@
               <div
                 class="flex items-center justify-between md:col-span-3 md:justify-end md:gap-8"
               >
-                <img
-                  src="/assets/goat.webp"
-                  alt="Healthy goat on a farm"
-                  loading="lazy"
-                  class="h-28 w-36 rounded-2xl object-cover transition-transform duration-500 group-hover:scale-105"
-                />
+                <a href="/products/goat-swine-minerals">
+                  <img
+                    src="/assets/goat.webp"
+                    alt="Healthy goat on a farm"
+                    loading="lazy"
+                    class="h-28 w-36 rounded-2xl object-cover transition-transform duration-500 group-hover:scale-105"
+                  />
+                </a>
                 <a
-                  href="#contact"
-                  aria-label="Learn about goat, swine feed and mineral mixtures"
+                  href="/products/goat-swine-minerals"
+                  aria-label="View Goat, Swine & Mineral Mixtures"
                   class="grid size-12 place-items-center rounded-full border border-[#CFCFC9] transition-colors group-hover:bg-[#327411] group-hover:text-white"
                 >
                   <iconify-icon
@@ -2270,7 +2375,104 @@
       <svg viewBox="0 0 1200 120" preserveAspectRatio="none" class="relative block w-full h-[40px] text-[#002144] fill-current">
         <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V120H0V0C26.9,8.75,55.05,17,83.63,24.47,163.6,45.47,243.6,59.34,321.39,56.44Z"></path>
       </svg>
-    </div>
+      <!-- FAQ Accordion Section -->
+      <section id="faq" class="relative z-10 border-t border-white/10 bg-[#00152e] py-20 text-white">
+        <div class="mx-auto max-w-[1200px] px-6 lg:px-8">
+          <div class="text-center max-w-3xl mx-auto mb-14">
+            <span class="text-xs font-bold uppercase tracking-widest text-[#8ec44a]">Got Questions?</span>
+            <h2 class="mt-2 text-3xl font-extrabold tracking-tight text-white sm:text-4xl">
+              Frequently Asked Questions
+            </h2>
+            <p class="mt-3 text-slate-300 text-sm">
+              Everything you need to know about FeedRani scientific livestock feeds, dealership programs, and feeding practices.
+            </p>
+          </div>
+
+          <div class="space-y-4 max-w-4xl mx-auto">
+            <details class="group rounded-2xl border border-white/10 bg-white/5 p-6 transition-all [&_summary::-webkit-details-marker]:hidden">
+              <summary class="flex cursor-pointer items-center justify-between font-bold text-white text-base">
+                <span>What makes FeedRani animal feed superior in scientific nutrition?</span>
+                <span class="ml-4 shrink-0 text-[#8ec44a] transition-transform duration-300 group-open:-rotate-180">▼</span>
+              </summary>
+              <p class="mt-4 text-sm leading-relaxed text-slate-300 border-t border-white/10 pt-4">
+                FeedRani feeds are formulated by specialized veterinary nutritionists utilizing high-digestibility ingredients, organic trace minerals, phytase enzymes, and mycotoxin binders to deliver maximum Feed Conversion Ratio (FCR) and immunity.
+              </p>
+            </details>
+
+            <details class="group rounded-2xl border border-white/10 bg-white/5 p-6 transition-all [&_summary::-webkit-details-marker]:hidden">
+              <summary class="flex cursor-pointer items-center justify-between font-bold text-white text-base">
+                <span>How can I become an authorized FeedRani distributor or dealer?</span>
+                <span class="ml-4 shrink-0 text-[#8ec44a] transition-transform duration-300 group-open:-rotate-180">▼</span>
+              </summary>
+              <p class="mt-4 text-sm leading-relaxed text-slate-300 border-t border-white/10 pt-4">
+                You can apply for dealership support by clicking the "Become a Dealer" button on our header or reaching our sales team directly at +91 7544000912 / care@feedrani.in. We offer competitive dealer margins, logistics support, and marketing assistance.
+              </p>
+            </details>
+
+            <details class="group rounded-2xl border border-white/10 bg-white/5 p-6 transition-all [&_summary::-webkit-details-marker]:hidden">
+              <summary class="flex cursor-pointer items-center justify-between font-bold text-white text-base">
+                <span>What product categories does FeedRani offer?</span>
+                <span class="ml-4 shrink-0 text-[#8ec44a] transition-transform duration-300 group-open:-rotate-180">▼</span>
+              </summary>
+              <p class="mt-4 text-sm leading-relaxed text-slate-300 border-t border-white/10 pt-4">
+                FeedRani manufactures high-performance feeds across 4 major livestock divisions: Poultry Feed (Layer &amp; Broiler), Aqua &amp; Fish Feed (Floating Pellets), Cattle &amp; Dairy Feed (Lactation &amp; Bypass Fat), and Goat, Swine &amp; Mineral Mixtures.
+              </p>
+            </details>
+
+            <details class="group rounded-2xl border border-white/10 bg-white/5 p-6 transition-all [&_summary::-webkit-details-marker]:hidden">
+              <summary class="flex cursor-pointer items-center justify-between font-bold text-white text-base">
+                <span>Are FeedRani feeds tested for safety and quality standards?</span>
+                <span class="ml-4 shrink-0 text-[#8ec44a] transition-transform duration-300 group-open:-rotate-180">▼</span>
+              </summary>
+              <p class="mt-4 text-sm leading-relaxed text-slate-300 border-t border-white/10 pt-4">
+                Yes, every batch undergoes rigorous Near-Infrared (NIR) chemical testing, toxin screening, and moisture verification in ISO 9001 certified manufacturing facilities to ensure safety and consistent performance.
+              </p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <!-- Schema.org Structured Data (FAQPage Schema) -->
+      <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What makes FeedRani animal feed superior in scientific nutrition?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "FeedRani feeds are formulated by specialized veterinary nutritionists utilizing high-digestibility ingredients, organic trace minerals, phytase enzymes, and mycotoxin binders to deliver maximum Feed Conversion Ratio (FCR) and immunity."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How can I become an authorized FeedRani distributor or dealer?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "You can apply for dealership support by clicking the 'Become a Dealer' button on our header or reaching our sales team directly at +91 7544000912 / care@feedrani.in. We offer competitive dealer margins, logistics support, and marketing assistance."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What product categories does FeedRani offer?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "FeedRani manufactures high-performance feeds across 4 major livestock divisions: Poultry Feed (Layer & Broiler), Aqua & Fish Feed (Floating Pellets), Cattle & Dairy Feed (Lactation & Bypass Fat), and Goat, Swine & Mineral Mixtures."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Are FeedRani feeds tested for safety and quality standards?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, every batch undergoes rigorous Near-Infrared (NIR) chemical testing, toxin screening, and moisture verification in ISO 9001 certified manufacturing facilities to ensure safety and consistent performance."
+            }
+          }
+        ]
+      }
+      </script>
 
     <footer
       class="bg-[#002144] px-5 pb-8 pt-12 text-white sm:px-10 lg:px-16 lg:pt-16 xl:px-24"
@@ -2400,7 +2602,16 @@
         >
           <div>
             <p>© 2026 FeedRani Feeds &amp; Nutrition Private Limited. All Rights Reserved.</p>
-            <p class="mt-1">Developed &amp; Maintained by <a href="https://www.webfloratechnologies.com" target="_blank" rel="noopener noreferrer" class="transition-colors duration-200 hover:text-white underline decoration-white/20 hover:decoration-white">Webflora Technologies</a></p>
+            <p class="mt-1">
+              Developed &amp; Maintained by
+              <a
+                href="https://www.webfloratechnologies.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="text-[#8ec44a] font-medium transition-colors duration-200 hover:underline"
+                >Webflora Technologies</a
+              >
+            </p>
           </div>
           <div class="flex gap-5">
             <a href="#" class="transition-colors duration-200 hover:text-[#327411]">Privacy Policy</a>
@@ -2585,12 +2796,36 @@
 
       document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
         anchor.addEventListener("click", (event) => {
-          const target = document.querySelector(anchor.getAttribute("href"));
+          const href = anchor.getAttribute("href");
+          if (href === "#") {
+            event.preventDefault();
+            window.scrollTo({ top: 0, behavior: "smooth" });
+            return;
+          }
+          const target = document.querySelector(href);
           if (!target) return;
           event.preventDefault();
           target.scrollIntoView({ behavior: "smooth", block: "start" });
         });
       });
     </script>
+
+    <!-- Sleek & Professional Floating WhatsApp Widget -->
+    <a
+      href="https://wa.me/919876543210?text=Hello%20FeedRani%2C%20I%20would%20like%20to%20inquire%20about%20your%20feed%20products."
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Chat with FeedRani on WhatsApp"
+      class="fixed bottom-6 right-6 z-[999] group flex items-center gap-3 rounded-full bg-[#25D366] p-3.5 text-white shadow-[0_10px_25px_rgba(37,211,102,0.35)] transition-all duration-300 hover:shadow-[0_14px_30px_rgba(37,211,102,0.5)] hover:-translate-y-1"
+    >
+      <div class="relative flex items-center justify-center">
+        <!-- Subtle Pulse Ring -->
+        <span class="absolute inline-flex h-full w-full animate-ping rounded-full bg-white opacity-40"></span>
+        <iconify-icon icon="logos:whatsapp-icon" width="28" class="relative z-10"></iconify-icon>
+      </div>
+      <span class="hidden sm:inline font-['Plus_Jakarta_Sans'] text-xs font-bold uppercase tracking-wider text-white pr-2">
+        Chat with Us
+      </span>
+    </a>
   </body>
 </html>

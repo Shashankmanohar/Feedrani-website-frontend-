@@ -1,11 +1,11 @@
 {
-  "compatibility_date": "2026-07-18",
+  "compatibility_date": "2026-07-21",
   "main": "index.mjs",
   "assets": {
     "binding": "ASSETS",
-    "directory": "../public"
+    "directory": "..\\public"
   },
-  "name": "tanstack-start-ts",
+  "name": "shashankmanohar-feedrani-website-frontend-",
   "compatibility_flags": [
     "nodejs_compat"
   ],
