@@ -1,12 +1,11 @@
 import { o as __toESM } from "../_runtime.mjs";
 import { n as require_jsx_runtime, r as require_react, t as QueryClientProvider } from "../_libs/react+tanstack__react-query.mjs";
 import { c as HeadContent, d as Outlet, f as lazyRouteComponent, g as useRouter, h as Link, m as createRootRouteWithContext, p as createFileRoute, s as Scripts, u as createRouter } from "../_libs/@tanstack/react-router+[...].mjs";
-import { t as feedrani_html_default } from "./feedrani.html-HH7AGa95.mjs";
 import { t as QueryClient } from "../_libs/tanstack__query-core.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/router-BrQYDxL-.js
+//#region node_modules/.nitro/vite/services/ssr/assets/router-CNM4O2Sr.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
-var styles_default = "/assets/styles-B4u9S2D1.css";
+var styles_default = "/assets/styles-BA_rSKMz.css";
 function reportLovableError(error, context = {}) {
 	if (typeof window === "undefined") return;
 	window.__lovableEvents?.captureException?.(error, {
@@ -56,7 +55,7 @@ function NotFoundComponent() {
 	});
 }
 function ErrorComponent({ error, reset }) {
-	console.error(error);
+	console.error("Root Error caught:", error);
 	const router = useRouter();
 	(0, import_react.useEffect)(() => {
 		reportLovableError(error, { boundary: "tanstack_root_error_component" });
@@ -81,11 +80,11 @@ function ErrorComponent({ error, reset }) {
 							router.invalidate();
 							reset();
 						},
-						className: "inline-flex items-center justify-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground transition-colors hover:bg-primary/90",
+						className: "inline-flex items-center justify-center rounded-md bg-[#327411] px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-[#285e0e]",
 						children: "Try again"
 					}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
 						href: "/",
-						className: "inline-flex items-center justify-center rounded-md border border-input bg-background px-4 py-2 text-sm font-medium text-foreground transition-colors hover:bg-accent",
+						className: "inline-flex items-center justify-center rounded-md border border-slate-200 bg-white px-4 py-2 text-sm font-medium text-slate-700 transition-colors hover:bg-slate-50",
 						children: "Go home"
 					})]
 				})
@@ -170,35 +169,29 @@ function RootComponent() {
 		children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Outlet, {})
 	});
 }
-var $$splitComponentImporter$11 = () => import("./routes-C8199j9O.mjs");
-var Route$11 = createFileRoute("/")({
-	component: lazyRouteComponent($$splitComponentImporter$11, "component"),
-	server: { handlers: { GET: () => new Response(feedrani_html_default, { headers: {
-		"Content-Type": "text/html; charset=utf-8",
-		"Cache-Control": "public, max-age=300"
-	} }) } }
-});
-var $$splitComponentImporter$10 = () => import("./about-CyE0vwee.mjs");
+var $$splitComponentImporter$11 = () => import("./routes-CKaSJEDm.mjs");
+var Route$11 = createFileRoute("/")({ component: lazyRouteComponent($$splitComponentImporter$11, "component") });
+var $$splitComponentImporter$10 = () => import("./about-uP6ltSlf.mjs");
 var Route$10 = createFileRoute("/about")({ component: lazyRouteComponent($$splitComponentImporter$10, "component") });
 var $$splitComponentImporter$9 = () => import("./admin-BkqBfmA7.mjs");
 var Route$9 = createFileRoute("/admin")({ component: lazyRouteComponent($$splitComponentImporter$9, "component") });
-var $$splitComponentImporter$8 = () => import("./contact-DThfg5TC.mjs");
+var $$splitComponentImporter$8 = () => import("./contact-D5JV0M5k.mjs");
 var Route$8 = createFileRoute("/contact")({ component: lazyRouteComponent($$splitComponentImporter$8, "component") });
-var $$splitComponentImporter$7 = () => import("./privacy-policy-D55OPiLi.mjs");
+var $$splitComponentImporter$7 = () => import("./privacy-policy-DwH3Lodl.mjs");
 var Route$7 = createFileRoute("/privacy-policy")({ component: lazyRouteComponent($$splitComponentImporter$7, "component") });
-var $$splitComponentImporter$6 = () => import("./quality-nutrition-lqE5MTZu.mjs");
+var $$splitComponentImporter$6 = () => import("./quality-nutrition-DdVCV0vr.mjs");
 var Route$6 = createFileRoute("/quality-nutrition")({ component: lazyRouteComponent($$splitComponentImporter$6, "component") });
-var $$splitComponentImporter$5 = () => import("./terms-conditions-JugCCNaD.mjs");
+var $$splitComponentImporter$5 = () => import("./terms-conditions-f-VlKLtU.mjs");
 var Route$5 = createFileRoute("/terms-conditions")({ component: lazyRouteComponent($$splitComponentImporter$5, "component") });
-var $$splitComponentImporter$4 = () => import("./products-B0D8TcYT.mjs");
+var $$splitComponentImporter$4 = () => import("./products-B25hDkhP.mjs");
 var Route$4 = createFileRoute("/products/")({ component: lazyRouteComponent($$splitComponentImporter$4, "component") });
-var $$splitComponentImporter$3 = () => import("./aqua-fish-feed-BzDVkQdF.mjs");
+var $$splitComponentImporter$3 = () => import("./aqua-fish-feed-COkIPXGA.mjs");
 var Route$3 = createFileRoute("/products/aqua-fish-feed")({ component: lazyRouteComponent($$splitComponentImporter$3, "component") });
-var $$splitComponentImporter$2 = () => import("./cattle-dairy-feed-B_rNkLCn.mjs");
+var $$splitComponentImporter$2 = () => import("./cattle-dairy-feed-C76Ltn1G.mjs");
 var Route$2 = createFileRoute("/products/cattle-dairy-feed")({ component: lazyRouteComponent($$splitComponentImporter$2, "component") });
-var $$splitComponentImporter$1 = () => import("./goat-swine-minerals-zBU2anIc.mjs");
+var $$splitComponentImporter$1 = () => import("./goat-swine-minerals-DQDubyk8.mjs");
 var Route$1 = createFileRoute("/products/goat-swine-minerals")({ component: lazyRouteComponent($$splitComponentImporter$1, "component") });
-var $$splitComponentImporter = () => import("./poultry-feed-D9W1N56i.mjs");
+var $$splitComponentImporter = () => import("./poultry-feed-KvMyZbZ3.mjs");
 var Route = createFileRoute("/products/poultry-feed")({ component: lazyRouteComponent($$splitComponentImporter, "component") });
 var IndexRoute = Route$11.update({
 	id: "/",

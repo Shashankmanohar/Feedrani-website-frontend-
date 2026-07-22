@@ -1,26 +1,18 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useEffect, useMemo } from "react";
 import html from "../feedrani.html.txt?raw";
+import { Header } from "../components/ProductLayout";
 
 export const Route = createFileRoute("/")({
   component: HomePage,
-  server: {
-    handlers: {
-      GET: () =>
-        new Response(html, {
-          headers: {
-            "Content-Type": "text/html; charset=utf-8",
-            "Cache-Control": "public, max-age=300",
-          },
-        }),
-    },
-  },
 });
 
 function HomePage() {
   const bodyContent = useMemo(() => {
     const match = html.match(/<body[^>]*>([\s\S]*)<\/body>/i);
-    return match ? match[1] : html;
+    let content = match ? match[1] : html;
+    content = content.replace(/<header[\s\S]*?<\/header>/gi, "");
+    return content;
   }, []);
 
   useEffect(() => {
@@ -38,37 +30,12 @@ function HomePage() {
     } else if ((window as any).Iconify) {
       (window as any).Iconify.scan();
     }
-
-    const menuButton = document.getElementById("menuButton");
-    const closeDrawerButton = document.getElementById("closeDrawerButton");
-    const sideDrawer = document.getElementById("sideDrawer");
-    const menuBackdrop = document.getElementById("menuBackdrop");
-
-    const openMenu = () => {
-      if (sideDrawer && menuBackdrop) {
-        sideDrawer.classList.remove("-translate-x-full");
-        menuBackdrop.classList.remove("opacity-0", "pointer-events-none");
-      }
-    };
-
-    const closeMenu = () => {
-      if (sideDrawer && menuBackdrop) {
-        sideDrawer.classList.add("-translate-x-full");
-        menuBackdrop.classList.add("opacity-0", "pointer-events-none");
-      }
-    };
-
-    menuButton?.addEventListener("click", openMenu);
-    closeDrawerButton?.addEventListener("click", closeMenu);
-    menuBackdrop?.addEventListener("click", closeMenu);
-
-    return () => {
-      menuButton?.removeEventListener("click", openMenu);
-      closeDrawerButton?.removeEventListener("click", closeMenu);
-      menuBackdrop?.removeEventListener("click", closeMenu);
-    };
   }, []);
 
-  return <div dangerouslySetInnerHTML={{ __html: bodyContent }} />;
+  return (
+    <div className="min-h-screen bg-white font-['Plus_Jakarta_Sans'] text-[#0F172A] antialiased selection:bg-[#327411] selection:text-white">
+      <Header />
+      <div dangerouslySetInnerHTML={{ __html: bodyContent }} />
+    </div>
+  );
 }
-

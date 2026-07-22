@@ -156,312 +156,7 @@
       Skip to content
     </a>
 
-    <header
-      id="navbar"
-      class="fixed inset-x-0 top-0 z-50 transition-all duration-500 navbar-init"
-    >
-      <nav
-        aria-label="Primary navigation"
-        class="mx-auto mt-4 flex items-center justify-between rounded-[999px] border border-white/20 bg-white/75 px-5 py-2 shadow-[0_4px_24px_rgba(0,0,0,0.06),0_1px_2px_rgba(0,0,0,0.04)] backdrop-blur-[30px] transition-all duration-500 sm:px-6 lg:mt-5 lg:max-w-[1400px] lg:px-8"
-        style="height: 72px"
-      >
-        <!-- Logo -->
-        <a
-          href="/"
-          aria-label="FeedRani home"
-          class="flex shrink-0 items-center gap-3"
-        >
-          <img
-            src="/feedrani-logo.png"
-            alt="FeedRani Agricultural Logo"
-            class="h-11 w-11 shrink-0 object-contain sm:h-12 sm:w-12"
-          />
-          <span class="flex flex-col leading-none">
-            <span class="font-['Plus_Jakarta_Sans'] text-[18px] font-extrabold tracking-tight text-[#002144] sm:text-[20px]">Feed<span class="text-[#327411]">Rani</span></span>
-            <span class="mt-1 hidden font-['Plus_Jakarta_Sans'] text-[9px] font-semibold uppercase tracking-[0.18em] text-[#6b7280] sm:block">Balanced Animal Nutrition</span>
-          </span>
-        </a>
 
-        <!-- Center Navigation Links -->
-        <div
-          class="hidden items-center gap-6 font-['Plus_Jakarta_Sans'] text-[13px] font-semibold text-[#1e293b] lg:flex"
-        >
-          <a href="/" class="transition-colors duration-200 hover:text-[#327411]">Home</a>
-
-          <a href="/about" class="transition-colors duration-200 hover:text-[#327411]">About Us</a>
-
-          <!-- Products Dropdown -->
-          <div class="relative group py-2">
-            <a
-              href="/products"
-              class="flex items-center gap-1.5 transition-colors duration-200 hover:text-[#327411] py-1"
-            >
-              <span>Products</span>
-              <iconify-icon
-                icon="solar:alt-arrow-down-linear"
-                width="14"
-                class="transition-transform duration-300 group-hover:rotate-180 text-[#327411]"
-              ></iconify-icon>
-            </a>
-
-            <!-- Dropdown Menu -->
-            <div
-              class="absolute left-0 top-full hidden w-64 rounded-2xl border border-slate-100 bg-white/95 p-2 shadow-xl backdrop-blur-xl transition-all group-hover:block animate-in fade-in slide-in-from-top-2 duration-200 z-50"
-            >
-              <div class="space-y-1">
-                <a
-                  href="/products/poultry-feed"
-                  class="flex items-center justify-between rounded-xl px-3.5 py-2.5 text-xs font-semibold text-[#002144] transition-all hover:bg-[#327411]/10 hover:text-[#327411]"
-                >
-                  <span>Poultry Feed</span>
-                  <iconify-icon icon="solar:arrow-right-linear" width="14" class="opacity-60"></iconify-icon>
-                </a>
-                <a
-                  href="/products/aqua-fish-feed"
-                  class="flex items-center justify-between rounded-xl px-3.5 py-2.5 text-xs font-semibold text-[#002144] transition-all hover:bg-[#327411]/10 hover:text-[#327411]"
-                >
-                  <span>Aqua &amp; Fish Feed</span>
-                  <iconify-icon icon="solar:arrow-right-linear" width="14" class="opacity-60"></iconify-icon>
-                </a>
-                <a
-                  href="/products/goat-swine-minerals"
-                  class="flex items-center justify-between rounded-xl px-3.5 py-2.5 text-xs font-semibold text-[#002144] transition-all hover:bg-[#327411]/10 hover:text-[#327411]"
-                >
-                  <span>Goat, Swine &amp; Mineral Mixtures</span>
-                  <iconify-icon icon="solar:arrow-right-linear" width="14" class="opacity-60"></iconify-icon>
-                </a>
-                <a
-                  href="/products/cattle-dairy-feed"
-                  class="flex items-center justify-between rounded-xl px-3.5 py-2.5 text-xs font-semibold text-[#002144] transition-all hover:bg-[#327411]/10 hover:text-[#327411]"
-                >
-                  <span>Cattle &amp; Dairy Feed</span>
-                  <iconify-icon icon="solar:arrow-right-linear" width="14" class="opacity-60"></iconify-icon>
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <a href="#industries" class="transition-colors duration-200 hover:text-[#327411]">Industries We Serve</a>
-          <a href="/contact" class="transition-colors duration-200 hover:text-[#327411]">Contact</a>
-        </div>
-
-        <!-- Right: Actions & Call -->
-        <div class="flex items-center gap-3">
-          <!-- Call Us Button -->
-          <a
-            href="tel:+917544000912"
-            aria-label="Call FeedRani"
-            class="inline-flex items-center gap-2 rounded-full border border-slate-200 bg-slate-100/90 px-4 py-2 text-xs font-semibold text-[#002144] shadow-sm transition-all duration-300 hover:bg-[#002144] hover:text-white"
-          >
-            <iconify-icon icon="solar:phone-calling-bold-duotone" width="16" class="text-[#e11d48] sm:text-[#327411]"></iconify-icon>
-            <span class="hidden sm:inline font-['Plus_Jakarta_Sans'] text-xs font-semibold">Call Us</span>
-          </a>
-
-          <!-- CTA Button (Become a Dealer) -->
-          <a
-            href="#contact"
-            class="hidden items-center gap-2 rounded-full bg-[#327411] px-6 py-2.5 font-['Plus_Jakarta_Sans'] text-[13px] font-semibold text-white shadow-md transition-all duration-300 hover:bg-[#285e0e] hover:shadow-lg sm:inline-flex"
-          >
-            Become a Dealer
-            <iconify-icon
-              icon="solar:arrow-right-linear"
-              width="16"
-              stroke-width="1.5"
-            ></iconify-icon>
-          </a>
-
-          <!-- Mobile Menu Button -->
-          <button
-            id="menuButton"
-            type="button"
-            aria-label="Open navigation"
-            aria-expanded="false"
-            class="grid size-11 place-items-center rounded-full border border-[#E8E8E8] bg-white transition-colors duration-200 hover:bg-gray-50 lg:hidden"
-          >
-            <iconify-icon
-              id="menuIcon"
-              icon="solar:hamburger-menu-linear"
-              width="22"
-              stroke-width="1.5"
-            ></iconify-icon>
-          </button>
-        </div>
-      </nav>
-    </header>
-
-    <!-- Side Menu Backdrop Overlay -->
-    <div
-      id="menuBackdrop"
-      class="fixed inset-0 z-[90] bg-black/60 backdrop-blur-md opacity-0 pointer-events-none transition-opacity duration-500"
-    ></div>
-
-    <!-- Side Drawer Menu (Slide from Left) -->
-    <div
-      id="sideDrawer"
-      class="fixed inset-y-0 left-0 z-[100] flex w-full max-w-lg -translate-x-full flex-col bg-[#002144] text-white shadow-2xl transition-transform duration-500 ease-out"
-    >
-      <!-- Header inside Drawer -->
-      <div
-        class="flex items-center justify-between border-b border-white/10 px-6 py-5 sm:px-8"
-      >
-        <a href="/" aria-label="FeedRani home" class="flex items-center gap-3">
-          <img
-            src="/feedrani-logo.png"
-            alt="FeedRani Agricultural Logo"
-            class="h-10 w-10 shrink-0 rounded-full bg-white p-0.5 object-contain sm:h-11 sm:w-11"
-          />
-          <span class="font-['Plus_Jakarta_Sans'] text-[18px] font-extrabold tracking-tight text-white">Feed<span class="text-[#8ec44a]">Rani</span></span>
-        </a>
-        <button
-          id="closeDrawerButton"
-          type="button"
-          aria-label="Close navigation"
-          class="grid size-11 place-items-center rounded-full border border-white/10 bg-white/5 text-white hover:bg-white/10"
-        >
-          <iconify-icon
-            icon="solar:close-circle-linear"
-            width="22"
-            stroke-width="1.5"
-          ></iconify-icon>
-        </button>
-      </div>
-
-      <!-- Navigation Links (Big & Bulky Text) -->
-      <div
-        class="flex flex-grow flex-col justify-center overflow-y-auto px-6 py-10 sm:px-12"
-      >
-        <nav
-          aria-label="Mobile primary navigation"
-          class="flex flex-col gap-6 sm:gap-8"
-        >
-          <div>
-            <a
-              href="#products"
-              class="group flex items-center justify-between text-4xl font-bold tracking-tight text-white/80 transition-all duration-300 hover:translate-x-2 hover:text-[#327411] sm:text-5xl lg:text-6xl"
-            >
-              <span>Products</span>
-              <iconify-icon
-                icon="solar:arrow-right-linear"
-                class="-translate-x-4 text-[#327411] opacity-0 transition-all duration-300 group-hover:translate-x-0 group-hover:opacity-100"
-                width="32"
-              ></iconify-icon>
-            </a>
-            <div class="mt-3 ml-4 flex flex-col gap-2 border-l-2 border-[#8ec44a]/30 pl-4 font-['Plus_Jakarta_Sans'] text-sm font-semibold text-white/70">
-              <a href="/products/poultry-feed" class="hover:text-[#8ec44a] transition-colors py-1">Poultry Feed</a>
-              <a href="/products/aqua-fish-feed" class="hover:text-[#8ec44a] transition-colors py-1">Aqua &amp; Fish Feed</a>
-              <a href="/products/goat-swine-minerals" class="hover:text-[#8ec44a] transition-colors py-1">Goat, Swine &amp; Mineral Mixtures</a>
-              <a href="/products/cattle-dairy-feed" class="hover:text-[#8ec44a] transition-colors py-1">Cattle &amp; Dairy Feed</a>
-            </div>
-          </div>
-          <a
-            href="#products"
-            class="group flex items-center justify-between text-4xl font-bold tracking-tight text-white/80 transition-all duration-300 hover:translate-x-2 hover:text-[#327411] sm:text-5xl lg:text-6xl"
-          >
-            <span>Livestock</span>
-            <iconify-icon
-              icon="solar:arrow-right-linear"
-              class="-translate-x-4 text-[#327411] opacity-0 transition-all duration-300 group-hover:translate-x-0 group-hover:opacity-100"
-              width="32"
-            ></iconify-icon>
-          </a>
-          <a
-            href="#about"
-            class="group flex items-center justify-between text-4xl font-bold tracking-tight text-white/80 transition-all duration-300 hover:translate-x-2 hover:text-[#327411] sm:text-5xl lg:text-6xl"
-          >
-            <span>About</span>
-            <iconify-icon
-              icon="solar:arrow-right-linear"
-              class="-translate-x-4 text-[#327411] opacity-0 transition-all duration-300 group-hover:translate-x-0 group-hover:opacity-100"
-              width="32"
-            ></iconify-icon>
-          </a>
-          <a
-            href="#"
-            class="group flex items-center justify-between text-4xl font-bold tracking-tight text-white/80 transition-all duration-300 hover:translate-x-2 hover:text-[#327411] sm:text-5xl lg:text-6xl"
-          >
-            <span>Careers</span>
-            <iconify-icon
-              icon="solar:arrow-right-linear"
-              class="-translate-x-4 text-[#327411] opacity-0 transition-all duration-300 group-hover:translate-x-0 group-hover:opacity-100"
-              width="32"
-            ></iconify-icon>
-          </a>
-          <a
-            href="#knowledge"
-            class="group flex items-center justify-between text-4xl font-bold tracking-tight text-white/80 transition-all duration-300 hover:translate-x-2 hover:text-[#327411] sm:text-5xl lg:text-6xl"
-          >
-            <span>Resources</span>
-            <iconify-icon
-              icon="solar:arrow-right-linear"
-              class="-translate-x-4 text-[#327411] opacity-0 transition-all duration-300 group-hover:translate-x-0 group-hover:opacity-100"
-              width="32"
-            ></iconify-icon>
-          </a>
-          <a
-            href="#contact"
-            class="group flex items-center justify-between text-4xl font-bold tracking-tight text-white/80 transition-all duration-300 hover:translate-x-2 hover:text-[#327411] sm:text-5xl lg:text-6xl"
-          >
-            <span>Contact</span>
-            <iconify-icon
-              icon="solar:arrow-right-linear"
-              class="-translate-x-4 text-[#327411] opacity-0 transition-all duration-300 group-hover:translate-x-0 group-hover:opacity-100"
-              width="32"
-            ></iconify-icon>
-          </a>
-        </nav>
-      </div>
-
-      <!-- Footer inside Drawer -->
-      <div class="border-t border-white/10 bg-black/10 px-6 py-8 sm:px-12">
-        <div class="flex flex-col gap-5">
-          <a
-            href="#contact"
-            class="flex items-center justify-center gap-3 rounded-full bg-gradient-to-r from-[#327411] to-[#002144] px-6 py-4 text-center font-semibold text-white shadow-[0_4px_16px_rgba(50, 116, 17,0.3)] transition-all duration-300 hover:shadow-[0_8px_24px_rgba(50, 116, 17,0.4)] hover:-translate-y-0.5"
-          >
-            <span>Find a dealer</span>
-            <iconify-icon
-              icon="solar:arrow-right-up-linear"
-              stroke-width="1.5"
-            ></iconify-icon>
-          </a>
-
-          <div class="flex flex-col gap-2 text-xs text-white/50">
-            <span class="flex items-center gap-2">
-              <iconify-icon
-                icon="solar:letter-linear"
-                class="text-[#327411]"
-              ></iconify-icon>
-              care@feedrani.in
-            </span>
-            <span class="flex items-center gap-2">
-              <iconify-icon
-                icon="solar:phone-linear"
-                class="text-[#327411]"
-              ></iconify-icon>
-              1800 000 000
-            </span>
-          </div>
-
-          <div class="flex gap-4">
-            <a href="#" class="text-white/40 hover:text-white"
-              ><iconify-icon
-                icon="solar:link-circle-linear"
-                width="20"
-              ></iconify-icon
-            ></a>
-            <a href="#" class="text-white/40 hover:text-white"
-              ><iconify-icon
-                icon="solar:camera-linear"
-                width="20"
-              ></iconify-icon
-            ></a>
-            <a href="#" class="text-white/40 hover:text-white"
-              ><iconify-icon icon="solar:play-linear" width="20"></iconify-icon
-            ></a>
-          </div>
-        </div>
-      </div>
-    </div>
 
     <main id="main">
       <section class="relative overflow-hidden bg-[#FFFFFF]">
@@ -2861,32 +2556,6 @@
         { passive: true },
       );
 
-      const openMenu = () => {
-        sideDrawer.classList.remove("-translate-x-full");
-        sideDrawer.classList.add("translate-x-0");
-        menuBackdrop.classList.remove("opacity-0", "pointer-events-none");
-        menuBackdrop.classList.add("opacity-100", "pointer-events-auto");
-        menuButton.setAttribute("aria-expanded", "true");
-        document.body.classList.add("overflow-hidden");
-      };
-
-      const closeMenu = () => {
-        sideDrawer.classList.remove("translate-x-0");
-        sideDrawer.classList.add("-translate-x-full");
-        menuBackdrop.classList.remove("opacity-100", "pointer-events-auto");
-        menuBackdrop.classList.add("opacity-0", "pointer-events-none");
-        menuButton.setAttribute("aria-expanded", "false");
-        document.body.classList.remove("overflow-hidden");
-      };
-
-      menuButton.addEventListener("click", openMenu);
-      closeDrawerButton.addEventListener("click", closeMenu);
-      menuBackdrop.addEventListener("click", closeMenu);
-
-      document.querySelectorAll("#sideDrawer a").forEach((link) => {
-        link.addEventListener("click", closeMenu);
-      });
-
       const revealObserver = new IntersectionObserver(
         (entries) => {
           entries.forEach((entry, index) => {
@@ -2942,15 +2611,22 @@
       document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
         anchor.addEventListener("click", (event) => {
           const href = anchor.getAttribute("href");
-          if (href === "#") {
+          if (!href || href === "#") {
             event.preventDefault();
             window.scrollTo({ top: 0, behavior: "smooth" });
             return;
           }
-          const target = document.querySelector(href);
-          if (!target) return;
-          event.preventDefault();
-          target.scrollIntoView({ behavior: "smooth", block: "start" });
+          try {
+            if (href.startsWith("#") && href.length > 1) {
+              const target = document.querySelector(href);
+              if (target) {
+                event.preventDefault();
+                target.scrollIntoView({ behavior: "smooth", block: "start" });
+              }
+            }
+          } catch (e) {
+            // Ignore invalid query selector
+          }
         });
       });
     </script>

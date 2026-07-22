@@ -1,10 +1,10 @@
 import { o as __toESM } from "../_runtime.mjs";
 import { n as require_jsx_runtime, r as require_react } from "../_libs/react+tanstack__react-query.mjs";
 import { h as Link } from "../_libs/@tanstack/react-router+[...].mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/ProductLayout-svKYNA3e.js
+//#region node_modules/.nitro/vite/services/ssr/assets/ProductLayout-BiewZlIP.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
-function Header() {
+function Navbar() {
 	const [isMobileMenuOpen, setIsMobileMenuOpen] = (0, import_react.useState)(false);
 	return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("header", {
 		className: "fixed inset-x-0 top-0 z-50 transition-all duration-500",
@@ -44,41 +44,41 @@ function Header() {
 						}),
 						/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Link, {
 							to: "/about",
-							class: "transition-colors duration-200 hover:text-[#327411]",
+							className: "transition-colors duration-200 hover:text-[#327411]",
 							children: "About Us"
 						}),
 						/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-							class: "relative group py-2",
+							className: "relative group py-2",
 							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)(Link, {
 								to: "/products",
-								class: "flex items-center gap-1.5 transition-colors duration-200 hover:text-[#327411] py-1 font-semibold text-[#327411]",
+								className: "flex items-center gap-1.5 transition-colors duration-200 hover:text-[#327411] py-1 font-semibold text-[#327411]",
 								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "Products" }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
-									class: "text-xs",
+									className: "text-xs",
 									children: "▾"
 								})]
 							}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-								class: "absolute left-0 top-full hidden w-64 rounded-2xl border border-slate-100 bg-white/95 p-2 shadow-xl backdrop-blur-xl transition-all group-hover:block z-50",
+								className: "absolute left-0 top-full hidden w-64 rounded-2xl border border-slate-100 bg-white/95 p-2 shadow-xl backdrop-blur-xl transition-all group-hover:block z-50",
 								children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-									class: "space-y-1",
+									className: "space-y-1",
 									children: [
 										/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Link, {
 											to: "/products/poultry-feed",
-											class: "block rounded-xl px-3.5 py-2.5 text-xs font-semibold text-[#002144] transition-all hover:bg-[#327411]/10 hover:text-[#327411]",
+											className: "block rounded-xl px-3.5 py-2.5 text-xs font-semibold text-[#002144] transition-all hover:bg-[#327411]/10 hover:text-[#327411]",
 											children: "Poultry Feed"
 										}),
 										/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Link, {
 											to: "/products/aqua-fish-feed",
-											class: "block rounded-xl px-3.5 py-2.5 text-xs font-semibold text-[#002144] transition-all hover:bg-[#327411]/10 hover:text-[#327411]",
+											className: "block rounded-xl px-3.5 py-2.5 text-xs font-semibold text-[#002144] transition-all hover:bg-[#327411]/10 hover:text-[#327411]",
 											children: "Aqua & Fish Feed"
 										}),
 										/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Link, {
 											to: "/products/goat-swine-minerals",
-											class: "block rounded-xl px-3.5 py-2.5 text-xs font-semibold text-[#002144] transition-all hover:bg-[#327411]/10 hover:text-[#327411]",
+											className: "block rounded-xl px-3.5 py-2.5 text-xs font-semibold text-[#002144] transition-all hover:bg-[#327411]/10 hover:text-[#327411]",
 											children: "Goat, Swine & Mineral Mixtures"
 										}),
 										/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Link, {
 											to: "/products/cattle-dairy-feed",
-											class: "block rounded-xl px-3.5 py-2.5 text-xs font-semibold text-[#002144] transition-all hover:bg-[#327411]/10 hover:text-[#327411]",
+											className: "block rounded-xl px-3.5 py-2.5 text-xs font-semibold text-[#002144] transition-all hover:bg-[#327411]/10 hover:text-[#327411]",
 											children: "Cattle & Dairy Feed"
 										})
 									]
@@ -127,32 +127,39 @@ function Header() {
 						}),
 						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", {
 							type: "button",
-							onClick: () => setIsMobileMenuOpen(!isMobileMenuOpen),
-							className: "grid size-10 place-items-center rounded-full border border-gray-200 bg-white text-gray-700 transition-colors hover:bg-gray-100 lg:hidden",
+							onClick: (e) => {
+								e.stopPropagation();
+								setIsMobileMenuOpen((prev) => !prev);
+							},
+							className: "relative z-50 grid size-10 place-items-center rounded-full border border-gray-200 bg-white text-gray-800 transition-all hover:bg-gray-100 lg:hidden cursor-pointer shadow-sm active:scale-95",
 							"aria-label": "Toggle navigation menu",
-							children: isMobileMenuOpen ? "✕" : "☰"
+							children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+								className: "text-xl font-bold leading-none",
+								children: isMobileMenuOpen ? "✕" : "☰"
+							})
 						})
 					]
 				})
 			]
 		}), isMobileMenuOpen && /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-			className: "fixed inset-0 z-[100] bg-black/60 backdrop-blur-sm lg:hidden",
+			className: "fixed inset-0 z-[9999] bg-black/70 backdrop-blur-md lg:hidden",
 			onClick: () => setIsMobileMenuOpen(false),
 			children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-				className: "fixed inset-y-0 right-0 w-full max-w-xs bg-[#002144] p-6 text-white shadow-2xl flex flex-col justify-between",
+				className: "fixed inset-y-0 right-0 z-[10000] w-full max-w-xs bg-[#002144] p-6 text-white shadow-2xl flex flex-col justify-between",
 				onClick: (e) => e.stopPropagation(),
 				children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 					className: "flex items-center justify-between border-b border-white/10 pb-4",
 					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
 						className: "text-lg font-bold",
-						children: "Menu"
+						children: "FeedRani Navigation"
 					}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", {
+						type: "button",
 						onClick: () => setIsMobileMenuOpen(false),
-						className: "text-xl",
+						className: "grid size-9 place-items-center rounded-full bg-white/10 text-xl font-bold text-white hover:bg-white/20",
 						children: "✕"
 					})]
 				}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-					className: "mt-6 flex flex-col gap-4 font-medium",
+					className: "mt-6 flex flex-col gap-4 font-medium text-sm",
 					children: [
 						/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Link, {
 							to: "/",
@@ -160,13 +167,21 @@ function Header() {
 							className: "text-[#8ec44a] font-semibold hover:underline",
 							children: "Home"
 						}),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Link, {
+							to: "/about",
+							onClick: () => setIsMobileMenuOpen(false),
+							className: "hover:text-[#8ec44a]",
+							children: "About Us"
+						}),
 						/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 							className: "border-t border-white/10 pt-3",
-							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
-								className: "text-xs font-bold uppercase tracking-wider text-[#8ec44a]",
-								children: "Product Categories"
+							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Link, {
+								to: "/products",
+								onClick: () => setIsMobileMenuOpen(false),
+								className: "text-xs font-bold uppercase tracking-wider text-[#8ec44a] block mb-2",
+								children: "Products ▾"
 							}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-								className: "mt-2 flex flex-col gap-2.5 pl-3 text-sm text-gray-200",
+								className: "flex flex-col gap-2.5 pl-3 text-sm text-gray-200",
 								children: [
 									/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Link, {
 										to: "/products/poultry-feed",
@@ -198,52 +213,46 @@ function Header() {
 						/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 							className: "border-t border-white/10 pt-3 flex flex-col gap-3",
 							children: [
-								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
-									className: "text-xs font-bold uppercase tracking-wider text-[#8ec44a]",
-									children: "Navigation"
-								}),
 								/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Link, {
-									to: "/",
+									to: "/quality-nutrition",
 									onClick: () => setIsMobileMenuOpen(false),
 									className: "hover:text-[#8ec44a]",
-									children: "Livestock"
+									children: "Quality & Nutrition"
 								}),
-								/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Link, {
-									to: "/",
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
+									href: "/#industries",
 									onClick: () => setIsMobileMenuOpen(false),
 									className: "hover:text-[#8ec44a]",
-									children: "About Us"
+									children: "Industries We Serve"
 								}),
 								/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Link, {
-									to: "/",
+									to: "/contact",
 									onClick: () => setIsMobileMenuOpen(false),
 									className: "hover:text-[#8ec44a]",
-									children: "Resources & Knowledge"
-								}),
-								/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Link, {
-									to: "/",
-									onClick: () => setIsMobileMenuOpen(false),
-									className: "hover:text-[#8ec44a]",
-									children: "Contact & Support"
+									children: "Contact"
 								})
 							]
 						})
 					]
-				})] }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-					className: "border-t border-white/10 pt-4",
-					children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
-						href: "https://wa.me/919876543210?text=Hello%20FeedRani%2C%20I%20would%20like%20to%20become%20a%20dealer%20for%20your%20feed%20products.",
-						target: "_blank",
-						rel: "noopener noreferrer",
+				})] }), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+					className: "border-t border-white/10 pt-4 flex flex-col gap-3",
+					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
+						href: "tel:+917544000912",
+						onClick: () => setIsMobileMenuOpen(false),
+						className: "block w-full text-center rounded-xl border border-white/20 bg-white/10 py-2.5 text-sm font-semibold text-white hover:bg-white/20",
+						children: "📞 Call Us: +91 7544000912"
+					}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Link, {
+						to: "/contact",
 						onClick: () => setIsMobileMenuOpen(false),
 						className: "block w-full text-center rounded-xl bg-[#327411] py-3 text-sm font-semibold text-white shadow-md hover:bg-[#285e0e]",
-						children: "Become a Dealer"
-					})
+						children: "Become a Dealer →"
+					})]
 				})]
 			})
 		})]
 	});
 }
+var Header = Navbar;
 function Footer() {
 	return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(import_jsx_runtime.Fragment, { children: [
 		/* @__PURE__ */ (0, import_jsx_runtime.jsx)("section", {
@@ -262,7 +271,7 @@ function Footer() {
 							children: "Frequently Asked Questions"
 						}),
 						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-							class: "mt-2 text-slate-600 text-sm",
+							className: "mt-2 text-slate-600 text-sm",
 							children: "Answers regarding FeedRani nutritional specs, feeding guides, and dealership distribution."
 						})
 					]
@@ -272,7 +281,7 @@ function Footer() {
 						/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("details", {
 							className: "group rounded-2xl border border-slate-200 bg-white p-6 shadow-sm transition-all [&_summary::-webkit-details-marker]:hidden",
 							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("summary", {
-								class: "flex cursor-pointer items-center justify-between font-bold text-[#002144] text-base",
+								className: "flex cursor-pointer items-center justify-between font-bold text-[#002144] text-base",
 								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "What makes FeedRani animal feed superior in scientific nutrition?" }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
 									className: "ml-4 shrink-0 text-[#327411] transition-transform duration-300 group-open:-rotate-180",
 									children: "▼"

@@ -1,6 +1,6 @@
 import { n as require_jsx_runtime } from "../_libs/react+tanstack__react-query.mjs";
-import { n as Header, t as Footer } from "./ProductLayout-svKYNA3e.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/privacy-policy-D55OPiLi.js
+import { n as Header, t as Footer } from "./ProductLayout-BiewZlIP.mjs";
+//#region node_modules/.nitro/vite/services/ssr/assets/privacy-policy-DwH3Lodl.js
 var import_jsx_runtime = require_jsx_runtime();
 function PrivacyPolicyPage() {
 	return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {

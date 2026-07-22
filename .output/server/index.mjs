@@ -15,52 +15,59 @@ globalThis.__nitro_vite_envs__ = services;
 //#endregion
 //#region #nitro/virtual/public-assets-data
 var public_assets_data_default = {
-	"/assets/about-ChQj8FsJ.js": {
+	"/assets/about-DT0PdTAi.js": {
 		"type": "text/javascript; charset=utf-8",
-		"etag": "\"2c64-guzYo0FSBmrNlYsBWxD9Lloh66o\"",
-		"mtime": "2026-07-22T10:21:59.440Z",
+		"etag": "\"2c64-D+5sx1yY5Gl/AB1XRLg9IdCzPDc\"",
+		"mtime": "2026-07-22T10:52:46.438Z",
 		"size": 11364,
-		"path": "../public/assets/about-ChQj8FsJ.js"
+		"path": "../public/assets/about-DT0PdTAi.js"
+	},
+	"/assets/aqua-fish-feed-BFYRoa_O.js": {
+		"type": "text/javascript; charset=utf-8",
+		"etag": "\"2b4b-TGQVC1lJaqU8CrgiuRN+il4IZ5o\"",
+		"mtime": "2026-07-22T10:52:46.440Z",
+		"size": 11083,
+		"path": "../public/assets/aqua-fish-feed-BFYRoa_O.js"
+	},
+	"/assets/admin-DY93hhn3.js": {
+		"type": "text/javascript; charset=utf-8",
+		"etag": "\"460e-sHhHG5N9nG+D+n4lg1OC1O4ZE9A\"",
+		"mtime": "2026-07-22T10:52:46.438Z",
+		"size": 17934,
+		"path": "../public/assets/admin-DY93hhn3.js"
 	},
 	"/assets/api-ChnqopLa.js": {
 		"type": "text/javascript; charset=utf-8",
 		"etag": "\"b16e-CAiv2U+/LNKNPEDJFfkrISSIQdI\"",
-		"mtime": "2026-07-22T10:21:59.440Z",
+		"mtime": "2026-07-22T10:52:46.439Z",
 		"size": 45422,
 		"path": "../public/assets/api-ChnqopLa.js"
 	},
-	"/assets/admin-Dg94McKI.js": {
+	"/assets/cattle-dairy-feed-BLGLIW1f.js": {
 		"type": "text/javascript; charset=utf-8",
-		"etag": "\"460e-aINJ5vuze/tfpE2RH3tvi+ZR0sc\"",
-		"mtime": "2026-07-22T10:21:59.440Z",
-		"size": 17934,
-		"path": "../public/assets/admin-Dg94McKI.js"
-	},
-	"/assets/aqua-fish-feed-CzomaH5s.js": {
-		"type": "text/javascript; charset=utf-8",
-		"etag": "\"2b4b-SxTeyIxmrVFMA+zWrUeYFl2Y8jE\"",
-		"mtime": "2026-07-22T10:21:59.441Z",
-		"size": 11083,
-		"path": "../public/assets/aqua-fish-feed-CzomaH5s.js"
-	},
-	"/assets/cattle-dairy-feed-CdynigHd.js": {
-		"type": "text/javascript; charset=utf-8",
-		"etag": "\"333f-lbOGkNndNTH/M0qg38OrTK3dbeE\"",
-		"mtime": "2026-07-22T10:21:59.441Z",
+		"etag": "\"333f-XY+PpAtmkpnRlNtiDQ1ZvtFSXso\"",
+		"mtime": "2026-07-22T10:52:46.440Z",
 		"size": 13119,
-		"path": "../public/assets/cattle-dairy-feed-CdynigHd.js"
+		"path": "../public/assets/cattle-dairy-feed-BLGLIW1f.js"
 	},
-	"/assets/contact-DCcOrjvC.js": {
+	"/assets/contact-BU5YB8gy.js": {
 		"type": "text/javascript; charset=utf-8",
-		"etag": "\"257a-6ylNQKwnH0q3nBFkU9ZlUYUQw9Y\"",
-		"mtime": "2026-07-22T10:21:59.441Z",
+		"etag": "\"257a-kpWLS/Hla1z+7VMsIh4ZrcGB20A\"",
+		"mtime": "2026-07-22T10:52:46.441Z",
 		"size": 9594,
-		"path": "../public/assets/contact-DCcOrjvC.js"
+		"path": "../public/assets/contact-BU5YB8gy.js"
+	},
+	"/feedrani-logo.png": {
+		"type": "image/png",
+		"etag": "\"4100c-GeKvdlwf6jW7Y5JQWVTuDcHVuEc\"",
+		"mtime": "2026-07-18T02:18:12.000Z",
+		"size": 266252,
+		"path": "../public/feedrani-logo.png"
 	},
 	"/sitemap.xml": {
 		"type": "application/xml",
 		"etag": "\"7a5-blrnc27P0fG7PzsbAsV9z4NMjdg\"",
-		"mtime": "2026-07-22T10:21:56.281Z",
+		"mtime": "2026-07-22T10:52:42.919Z",
 		"size": 1957,
 		"path": "../public/sitemap.xml"
 	},
@@ -78,40 +85,12 @@ var public_assets_data_default = {
 		"size": 159942,
 		"path": "../public/assets/cow.webp"
 	},
-	"/feedrani-logo.png": {
-		"type": "image/png",
-		"etag": "\"4100c-GeKvdlwf6jW7Y5JQWVTuDcHVuEc\"",
-		"mtime": "2026-07-18T02:18:12.000Z",
-		"size": 266252,
-		"path": "../public/feedrani-logo.png"
-	},
 	"/assets/cow feed.webp": {
 		"type": "image/webp",
 		"etag": "\"256a4-vIsNJhjjXaSfvkdjRZ6xR/iHGC0\"",
 		"mtime": "2026-07-19T11:05:49.387Z",
 		"size": 153252,
 		"path": "../public/assets/cow feed.webp"
-	},
-	"/assets/goat-swine-minerals-DOdAML9v.js": {
-		"type": "text/javascript; charset=utf-8",
-		"etag": "\"2bbe-AZu8YtzoKswn+HlM2+uBPfN66XY\"",
-		"mtime": "2026-07-22T10:21:59.442Z",
-		"size": 11198,
-		"path": "../public/assets/goat-swine-minerals-DOdAML9v.js"
-	},
-	"/assets/facility.jpg": {
-		"type": "image/jpeg",
-		"etag": "\"2837f-cQbQg9IHWSQ53HbZN9Qr8hBrcEA\"",
-		"mtime": "2026-07-18T02:18:12.000Z",
-		"size": 164735,
-		"path": "../public/assets/facility.jpg"
-	},
-	"/assets/fish-feed.webp": {
-		"type": "image/webp",
-		"etag": "\"22c5a-gMnbUQLQO3auxps2WARTEjL0gPw\"",
-		"mtime": "2026-07-19T11:06:19.562Z",
-		"size": 142426,
-		"path": "../public/assets/fish-feed.webp"
 	},
 	"/assets/dairy-farm.jpg": {
 		"type": "image/jpeg",
@@ -120,19 +99,33 @@ var public_assets_data_default = {
 		"size": 217231,
 		"path": "../public/assets/dairy-farm.jpg"
 	},
+	"/assets/facility.jpg": {
+		"type": "image/jpeg",
+		"etag": "\"2837f-cQbQg9IHWSQ53HbZN9Qr8hBrcEA\"",
+		"mtime": "2026-07-18T02:18:12.000Z",
+		"size": 164735,
+		"path": "../public/assets/facility.jpg"
+	},
+	"/assets/goat-swine-minerals-BoRU4Wm8.js": {
+		"type": "text/javascript; charset=utf-8",
+		"etag": "\"2bbe-pgY908/GQG20bqdNcG6r90v7ebA\"",
+		"mtime": "2026-07-22T10:52:46.441Z",
+		"size": 11198,
+		"path": "../public/assets/goat-swine-minerals-BoRU4Wm8.js"
+	},
+	"/assets/fish-feed.webp": {
+		"type": "image/webp",
+		"etag": "\"22c5a-gMnbUQLQO3auxps2WARTEjL0gPw\"",
+		"mtime": "2026-07-19T11:06:19.562Z",
+		"size": 142426,
+		"path": "../public/assets/fish-feed.webp"
+	},
 	"/assets/fodder.jpg": {
 		"type": "image/jpeg",
 		"etag": "\"31ade-Mnpnm4kiQJ1Uqsy47tMVjn8NHwU\"",
 		"mtime": "2026-07-18T02:18:12.000Z",
 		"size": 203486,
 		"path": "../public/assets/fodder.jpg"
-	},
-	"/assets/hero-bg-960.jpg": {
-		"type": "image/jpeg",
-		"etag": "\"23174-WYMA3c25EmDhkOpde8QhycSIrk8\"",
-		"mtime": "2026-07-18T02:18:12.000Z",
-		"size": 143732,
-		"path": "../public/assets/hero-bg-960.jpg"
 	},
 	"/assets/goat.webp": {
 		"type": "image/webp",
@@ -148,19 +141,19 @@ var public_assets_data_default = {
 		"size": 136390,
 		"path": "../public/assets/hen.webp"
 	},
-	"/assets/hero-bg.jpg": {
+	"/assets/hero-bg-960.jpg": {
 		"type": "image/jpeg",
-		"etag": "\"75fa0-DyEiNWNKUVbND5mUuNx5M/GCb10\"",
+		"etag": "\"23174-WYMA3c25EmDhkOpde8QhycSIrk8\"",
 		"mtime": "2026-07-18T02:18:12.000Z",
-		"size": 483232,
-		"path": "../public/assets/hero-bg.jpg"
+		"size": 143732,
+		"path": "../public/assets/hero-bg-960.jpg"
 	},
-	"/assets/index-W2CtGp2z.js": {
+	"/assets/index-yunr13ik.js": {
 		"type": "text/javascript; charset=utf-8",
-		"etag": "\"54cb6-zDpPALoyf//ZdFdXIvbG4Fsa+4A\"",
-		"mtime": "2026-07-22T10:21:59.439Z",
-		"size": 347318,
-		"path": "../public/assets/index-W2CtGp2z.js"
+		"etag": "\"54cc1-0cvUQzcYwywXec5NJf+UUG3Sefc\"",
+		"mtime": "2026-07-22T10:52:46.436Z",
+		"size": 347329,
+		"path": "../public/assets/index-yunr13ik.js"
 	},
 	"/assets/feed_pellet_machinery.png": {
 		"type": "image/png",
@@ -176,12 +169,12 @@ var public_assets_data_default = {
 		"size": 765509,
 		"path": "../public/assets/grain_quality_inspection.png"
 	},
-	"/assets/hen-2.webp": {
-		"type": "image/webp",
-		"etag": "\"2f166-QHXAKCAIFLLPOjIdp/7th48gQiw\"",
-		"mtime": "2026-07-19T11:06:00.730Z",
-		"size": 192870,
-		"path": "../public/assets/hen-2.webp"
+	"/assets/hero-bg.jpg": {
+		"type": "image/jpeg",
+		"etag": "\"75fa0-DyEiNWNKUVbND5mUuNx5M/GCb10\"",
+		"mtime": "2026-07-18T02:18:12.000Z",
+		"size": 483232,
+		"path": "../public/assets/hero-bg.jpg"
 	},
 	"/assets/lab.jpg": {
 		"type": "image/jpeg",
@@ -190,6 +183,76 @@ var public_assets_data_default = {
 		"size": 145498,
 		"path": "../public/assets/lab.jpg"
 	},
+	"/assets/hen-2.webp": {
+		"type": "image/webp",
+		"etag": "\"2f166-QHXAKCAIFLLPOjIdp/7th48gQiw\"",
+		"mtime": "2026-07-19T11:06:00.730Z",
+		"size": 192870,
+		"path": "../public/assets/hen-2.webp"
+	},
+	"/assets/poultry-feed-CLlNJ0hq.js": {
+		"type": "text/javascript; charset=utf-8",
+		"etag": "\"541a-kBzccGrbk7siMmhaUEUcaHS4/pc\"",
+		"mtime": "2026-07-22T10:52:46.441Z",
+		"size": 21530,
+		"path": "../public/assets/poultry-feed-CLlNJ0hq.js"
+	},
+	"/assets/ProductLayout-CcwJD8GY.js": {
+		"type": "text/javascript; charset=utf-8",
+		"etag": "\"4f4e-TJtuGldiqiYALGlN5ZbxJcfdRg8\"",
+		"mtime": "2026-07-22T10:52:46.437Z",
+		"size": 20302,
+		"path": "../public/assets/ProductLayout-CcwJD8GY.js"
+	},
+	"/assets/products-CjvEzQss.js": {
+		"type": "text/javascript; charset=utf-8",
+		"etag": "\"1229-rZNYNnTzhU+wB/iSAV3g9lhdjEs\"",
+		"mtime": "2026-07-22T10:52:46.442Z",
+		"size": 4649,
+		"path": "../public/assets/products-CjvEzQss.js"
+	},
+	"/assets/privacy-policy-D6JlEzHN.js": {
+		"type": "text/javascript; charset=utf-8",
+		"etag": "\"17a5-4eZb+7aaUgwt/RjUPU74805niwk\"",
+		"mtime": "2026-07-22T10:52:46.442Z",
+		"size": 6053,
+		"path": "../public/assets/privacy-policy-D6JlEzHN.js"
+	},
+	"/assets/quality-nutrition-Cw0QTi_1.js": {
+		"type": "text/javascript; charset=utf-8",
+		"etag": "\"281e-kbOUy8UYG86IsQ3SW5AnCwGR7cM\"",
+		"mtime": "2026-07-22T10:52:46.443Z",
+		"size": 10270,
+		"path": "../public/assets/quality-nutrition-Cw0QTi_1.js"
+	},
+	"/assets/styles-BA_rSKMz.css": {
+		"type": "text/css; charset=utf-8",
+		"etag": "\"2165b-PHmsh0HGwkB53WeBu03kqPgO3IY\"",
+		"mtime": "2026-07-22T10:52:46.446Z",
+		"size": 136795,
+		"path": "../public/assets/styles-BA_rSKMz.css"
+	},
+	"/assets/routes-BrMfE6QY.js": {
+		"type": "text/javascript; charset=utf-8",
+		"etag": "\"2f41f-GbQ3xf44GZT5Pb6hdv6iQVnU/KY\"",
+		"mtime": "2026-07-22T10:52:46.445Z",
+		"size": 193567,
+		"path": "../public/assets/routes-BrMfE6QY.js"
+	},
+	"/assets/terms-conditions-DdDMynSi.js": {
+		"type": "text/javascript; charset=utf-8",
+		"etag": "\"15a1-nHpzDJBoMNj878GcLPnkwn43tTY\"",
+		"mtime": "2026-07-22T10:52:46.446Z",
+		"size": 5537,
+		"path": "../public/assets/terms-conditions-DdDMynSi.js"
+	},
+	"/assets/rolldown-runtime-QTnfLwEv.js": {
+		"type": "text/javascript; charset=utf-8",
+		"etag": "\"2b6-wnqLLSlp3SaE+lbe74bKNe5Rpds\"",
+		"mtime": "2026-07-22T10:52:46.445Z",
+		"size": 694,
+		"path": "../public/assets/rolldown-runtime-QTnfLwEv.js"
+	},
 	"/assets/logo.png": {
 		"type": "image/png",
 		"etag": "\"11d15-IFIsK6n107dDKnId0j4r+y/49Vk\"",
@@ -197,75 +260,12 @@ var public_assets_data_default = {
 		"size": 72981,
 		"path": "../public/assets/logo.png"
 	},
-	"/assets/poultry-feed-CQy5EHOA.js": {
-		"type": "text/javascript; charset=utf-8",
-		"etag": "\"541a-Vqj+6XhA5ySz9OQ1MXesgffs/MQ\"",
-		"mtime": "2026-07-22T10:21:59.442Z",
-		"size": 21530,
-		"path": "../public/assets/poultry-feed-CQy5EHOA.js"
-	},
-	"/assets/privacy-policy-BJOAJRM7.js": {
-		"type": "text/javascript; charset=utf-8",
-		"etag": "\"17a5-mkJjktuMoD6i8XLEymJssOvg8Ug\"",
-		"mtime": "2026-07-22T10:21:59.444Z",
-		"size": 6053,
-		"path": "../public/assets/privacy-policy-BJOAJRM7.js"
-	},
-	"/assets/ProductLayout-D-PKLtnV.js": {
-		"type": "text/javascript; charset=utf-8",
-		"etag": "\"4db8-BShzwjSIG06uNurdynoNkb03DWk\"",
-		"mtime": "2026-07-22T10:21:59.439Z",
-		"size": 19896,
-		"path": "../public/assets/ProductLayout-D-PKLtnV.js"
-	},
 	"/assets/packaging.jpg": {
 		"type": "image/jpeg",
 		"etag": "\"300b1-KHBCoEht+fy+yBRb91YyMHK8sHs\"",
 		"mtime": "2026-07-18T02:18:12.000Z",
 		"size": 196785,
 		"path": "../public/assets/packaging.jpg"
-	},
-	"/assets/products-C0h7eGGF.js": {
-		"type": "text/javascript; charset=utf-8",
-		"etag": "\"1229-KngIaVLnb5/EFOsmIMiZXjH7VvE\"",
-		"mtime": "2026-07-22T10:21:59.444Z",
-		"size": 4649,
-		"path": "../public/assets/products-C0h7eGGF.js"
-	},
-	"/assets/quality-nutrition-Cocsr4Lp.js": {
-		"type": "text/javascript; charset=utf-8",
-		"etag": "\"281e-D3xapgGww79B1YOX4iAnnAZiR5o\"",
-		"mtime": "2026-07-22T10:21:59.450Z",
-		"size": 10270,
-		"path": "../public/assets/quality-nutrition-Cocsr4Lp.js"
-	},
-	"/assets/rolldown-runtime-QTnfLwEv.js": {
-		"type": "text/javascript; charset=utf-8",
-		"etag": "\"2b6-wnqLLSlp3SaE+lbe74bKNe5Rpds\"",
-		"mtime": "2026-07-22T10:21:59.459Z",
-		"size": 694,
-		"path": "../public/assets/rolldown-runtime-QTnfLwEv.js"
-	},
-	"/assets/terms-conditions-egc68Xuy.js": {
-		"type": "text/javascript; charset=utf-8",
-		"etag": "\"15a1-DD5Tr5BO0mqCSjLq9crUcekyY70\"",
-		"mtime": "2026-07-22T10:21:59.461Z",
-		"size": 5537,
-		"path": "../public/assets/terms-conditions-egc68Xuy.js"
-	},
-	"/assets/styles-B4u9S2D1.css": {
-		"type": "text/css; charset=utf-8",
-		"etag": "\"22025-3QXvQmdir3vhlZ5td2NXyFNdjcU\"",
-		"mtime": "2026-07-22T10:21:59.461Z",
-		"size": 139301,
-		"path": "../public/assets/styles-B4u9S2D1.css"
-	},
-	"/assets/routes-a_6KpPDn.js": {
-		"type": "text/javascript; charset=utf-8",
-		"etag": "\"33112-0ITZXQe41zLR64iy0lCgBaAnu9A\"",
-		"mtime": "2026-07-22T10:21:59.460Z",
-		"size": 209170,
-		"path": "../public/assets/routes-a_6KpPDn.js"
 	},
 	"/assets/science_lab_testing.png": {
 		"type": "image/png",
