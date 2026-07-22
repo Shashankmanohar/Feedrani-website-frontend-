@@ -1,7 +1,7 @@
 import { o as __toESM } from "../_runtime.mjs";
 import { n as require_jsx_runtime, r as require_react } from "../_libs/react+tanstack__react-query.mjs";
 import { h as Link } from "../_libs/@tanstack/react-router+[...].mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/ProductLayout-BiewZlIP.js
+//#region node_modules/.nitro/vite/services/ssr/assets/ProductLayout-CYBPkgJf.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
 function Navbar() {
@@ -15,21 +15,21 @@ function Navbar() {
 			children: [
 				/* @__PURE__ */ (0, import_jsx_runtime.jsxs)(Link, {
 					to: "/",
-					className: "flex shrink-0 items-center gap-3",
+					className: "group flex shrink-0 items-center gap-3 transition-all duration-300",
 					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
 						src: "/feedrani-logo.png",
 						alt: "FeedRani Logo",
-						className: "h-11 w-11 shrink-0 object-contain sm:h-12 sm:w-12"
+						className: "h-10 w-10 shrink-0 object-contain sm:h-11 sm:w-11 transition-transform duration-300 group-hover:scale-105"
 					}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", {
-						className: "flex flex-col leading-none",
+						className: "flex flex-col leading-tight",
 						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", {
-							className: "font-['Plus_Jakarta_Sans'] text-[18px] font-extrabold tracking-tight text-[#002144] sm:text-[20px]",
+							className: "font-['Plus_Jakarta_Sans'] text-[18px] font-extrabold tracking-tight text-[#002144] sm:text-[20px] transition-colors group-hover:text-[#327411]",
 							children: ["Feed", /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
 								className: "text-[#327411]",
 								children: "Rani"
 							})]
 						}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
-							className: "mt-1 hidden font-['Plus_Jakarta_Sans'] text-[9px] font-semibold uppercase tracking-[0.18em] text-[#6b7280] sm:block",
+							className: "mt-0.5 hidden font-['Plus_Jakarta_Sans'] text-[9px] font-bold uppercase tracking-[0.16em] text-slate-500 sm:block",
 							children: "Balanced Animal Nutrition"
 						})]
 					})]

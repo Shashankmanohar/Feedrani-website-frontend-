@@ -122,6 +122,38 @@ function RootShell({ children }: { children: ReactNode }) {
 function RootComponent() {
   const { queryClient } = Route.useRouteContext();
 
+  useEffect(() => {
+    // Global Scroll Observer for Smooth Fade-Up Animations on All Components
+    const handleScrollAnimations = () => {
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add("visible");
+            }
+          });
+        },
+        { threshold: 0.08, rootMargin: "0px 0px -40px 0px" }
+      );
+
+      const animatableElements = document.querySelectorAll(
+        "section, .fade-up, .hover-card-rise, [data-animate='true']"
+      );
+
+      animatableElements.forEach((el) => {
+        if (!el.classList.contains("fade-up")) {
+          el.classList.add("fade-up");
+        }
+        observer.observe(el);
+      });
+    };
+
+    handleScrollAnimations();
+    const timer = setTimeout(handleScrollAnimations, 500);
+
+    return () => clearTimeout(timer);
+  }, []);
+
   return (
     <QueryClientProvider client={queryClient}>
       {/* Required: nested routes render here. Removing <Outlet /> breaks all child routes. */}

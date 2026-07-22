@@ -1,8 +1,8 @@
 import { n as require_jsx_runtime } from "../_libs/react+tanstack__react-query.mjs";
-import { n as Header, t as Footer } from "./ProductLayout-BiewZlIP.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/aqua-fish-feed-COkIPXGA.js
+import { n as Header, t as Footer } from "./ProductLayout-CYBPkgJf.mjs";
+//#region node_modules/.nitro/vite/services/ssr/assets/goat-swine-minerals-BRO3k_f1.js
 var import_jsx_runtime = require_jsx_runtime();
-function AquaFishFeedPage() {
+function GoatSwineMineralsPage() {
 	return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 		className: "min-h-screen bg-slate-50 font-['Plus_Jakarta_Sans'] text-slate-900",
 		children: [
@@ -13,21 +13,21 @@ function AquaFishFeedPage() {
 					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("section", {
 						className: "mx-auto max-w-[1400px] px-6 lg:px-8",
 						children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-							className: "rounded-3xl bg-gradient-to-br from-[#002144] via-[#004d61] to-[#327411] p-8 md:p-16 text-white shadow-2xl overflow-hidden relative",
+							className: "rounded-3xl bg-gradient-to-br from-[#002144] via-[#2d3a24] to-[#327411] p-8 md:p-16 text-white shadow-2xl overflow-hidden relative",
 							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 								className: "max-w-2xl relative z-10",
 								children: [
 									/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
 										className: "inline-block rounded-full bg-[#8ec44a]/20 px-4 py-1.5 text-xs font-bold uppercase tracking-widest text-[#8ec44a] backdrop-blur-md",
-										children: "Water Stable Aquaculture Nutrition"
+										children: "Specialty Ruminant & Swine Nutrition"
 									}),
 									/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h1", {
 										className: "mt-6 text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl",
-										children: "Aqua & Fish Feed"
+										children: "Goat, Swine & Mineral Mixtures"
 									}),
 									/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
 										className: "mt-6 text-lg leading-relaxed text-slate-200",
-										children: "Scientifically extruded floating and sinking pellets for Rohu, Katla, Tilapia, Pangasius, and Shrimp. High water stability, low leaching, and superior gut health absorption."
+										children: "Tailored concentrate feed for goats, sheep, swine, and chelated mineral mixtures formulated to overcome soil and fodder deficiency gaps in Indian farming."
 									}),
 									/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 										className: "mt-8 flex flex-wrap gap-4",
@@ -38,13 +38,13 @@ function AquaFishFeedPage() {
 										}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
 											href: "#specifications",
 											className: "rounded-full border border-white/30 bg-white/10 px-8 py-3.5 text-sm font-semibold text-white backdrop-blur-md transition-all hover:bg-white/20",
-											children: "Explore Feed Types"
+											children: "Browse Mineral & Feed Range"
 										})]
 									})
 								]
 							}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
-								src: "/assets/fish-feed.webp",
-								alt: "Aqua Feed",
+								src: "/assets/goat.webp",
+								alt: "Goat and Swine Feed",
 								className: "absolute right-0 bottom-0 h-full w-1/2 object-cover opacity-30 mix-blend-overlay hidden lg:block"
 							})]
 						})
@@ -135,39 +135,39 @@ function AquaFishFeedPage() {
 								children: [
 									/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
 										className: "text-xs font-bold uppercase tracking-widest text-[#327411]",
-										children: "Why FeedRani Aqua?"
+										children: "Why FeedRani Specialty?"
 									}),
 									/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h2", {
 										className: "mt-2 text-3xl font-bold tracking-tight text-[#002144] sm:text-4xl",
-										children: "Key Benefits of FeedRani Aqua & Fish Feed"
+										children: "Key Benefits of FeedRani Goat, Swine & Mineral Formulas"
 									}),
 									/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
 										className: "mt-3 text-slate-600",
-										children: "Advanced extrusion technology delivering clean ponds, fast growth cycles, and maximum harvest yields."
+										children: "Targeted micronutrients and protein concentrates built for superior growth rates, disease resistance, and reproductive health."
 									})
 								]
 							}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
 								className: "mt-10 grid gap-6 md:grid-cols-2 lg:grid-cols-4",
 								children: [
 									{
-										title: "Superior Water Stability (>3 Hours)",
-										desc: "Extruded pellets remain intact in water without disintegrating, preventing nutrient leaching and keeping pond water clean.",
-										icon: "🌊"
+										title: "Rapid Weight & Muscle Accretion",
+										desc: "High digestible protein and energy ratios drive daily live weight gain in goats, sheep, and swine.",
+										icon: "📈"
 									},
 									{
-										title: "Faster Biomass Weight Gain",
-										desc: "High digestible protein and essential fatty acids boost weight gain for Rohu, Katla, Tilapia, and Pangasius.",
-										icon: "🐟"
+										title: "Prevention of Urinary Calculi & Bloat",
+										desc: "Formulated with ammonium chloride and rumen buffers to safeguard male kids, bucks, and rams against urinary blockage.",
+										icon: "🧪"
 									},
 									{
-										title: "100% Buoyancy & Waste Reduction",
-										desc: "Allows farmers to precisely monitor feeding response, eliminating unconsumed feed waste at the pond bottom.",
-										icon: "🎯"
+										title: "3x Higher Bioavailability via Chelated Minerals",
+										desc: "Organically bound minerals bypass rumen degradation, filling regional soil deficiency gaps and boosting conception rates.",
+										icon: "💎"
 									},
 									{
-										title: "Gut Microbiome & Disease Shield",
-										desc: "Fortified with natural immunostimulants, digestive enzymes, and essential trace minerals to lower fish mortality rates.",
-										icon: "🔬"
+										title: "Healthy Litter Sizes & Lactation Yield",
+										desc: "Optimized lysine and vitamin levels in swine diets ensure bigger litters, robust piglets, and high sow milk yield.",
+										icon: "🐖"
 									}
 								].map((b, i) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 									className: "rounded-2xl bg-white p-6 shadow-sm border border-slate-100 transition-transform duration-300 hover:-translate-y-1 hover:shadow-md",
@@ -196,10 +196,10 @@ function AquaFishFeedPage() {
 							className: "text-center max-w-3xl mx-auto",
 							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h2", {
 								className: "text-3xl font-bold tracking-tight text-[#002144] sm:text-4xl",
-								children: "Water-Stable Formulations"
+								children: "Targeted Micronutrient & Growth Formulas"
 							}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
 								className: "mt-4 text-slate-600",
-								children: "Formulated to maintain structural integrity in water for over 2 to 4 hours, minimizing water pollution and maximizing feeding efficiency."
+								children: "Deficiency-free formulation featuring organically bound trace minerals, bio-available calcium, and bypass fat for maximum weight gain and reproductive efficiency."
 							})]
 						}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 							className: "mt-14 grid gap-8 md:grid-cols-2 lg:grid-cols-3",
@@ -209,15 +209,15 @@ function AquaFishFeedPage() {
 									children: [
 										/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
 											className: "text-xs font-bold uppercase tracking-wider text-[#327411]",
-											children: "Category 01"
+											children: "Line 01"
 										}),
 										/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", {
 											className: "mt-2 text-xl font-bold text-[#002144]",
-											children: "Floating Fish Feed Pellets"
+											children: "Goat & Sheep Fattening Pellets"
 										}),
 										/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
 											className: "mt-3 text-sm leading-relaxed text-slate-600",
-											children: "Highly buoyant extruded pellets for surface and column feeders. Perfect for monitoring fish appetite and feeding behaviour."
+											children: "High-energy concentrate feed with ammonium chloride to prevent urinary calculi in male kids and rams while boosting daily weight gain."
 										}),
 										/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("ul", {
 											className: "mt-6 space-y-2 text-xs font-medium text-slate-700 border-t border-slate-100 pt-4",
@@ -229,40 +229,40 @@ function AquaFishFeedPage() {
 														" ",
 														/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
 															className: "font-bold text-[#002144]",
-															children: "28% - 32%"
+															children: "16% - 18%"
 														})
 													]
 												}),
 												/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("li", {
 													className: "flex justify-between",
 													children: [
-														/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "Fat Content:" }),
+														/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "Digestible Energy:" }),
 														" ",
 														/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
 															className: "font-bold text-[#002144]",
-															children: "4% - 6%"
+															children: "2800 kcal/kg"
 														})
 													]
 												}),
 												/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("li", {
 													className: "flex justify-between",
 													children: [
-														/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "Pellet Sizes:" }),
+														/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "Form:" }),
 														" ",
 														/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
 															className: "font-bold text-[#002144]",
-															children: "1.2mm, 2mm, 3mm, 4mm"
+															children: "4mm Pellets"
 														})
 													]
 												}),
 												/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("li", {
 													className: "flex justify-between",
 													children: [
-														/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "Water Stability:" }),
+														/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "Packaging:" }),
 														" ",
 														/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
 															className: "font-bold text-[#002144]",
-															children: "100% Buoyant (>3 Hours)"
+															children: "50 kg HDPE Bag"
 														})
 													]
 												})
@@ -275,15 +275,15 @@ function AquaFishFeedPage() {
 									children: [
 										/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
 											className: "text-xs font-bold uppercase tracking-wider text-[#327411]",
-											children: "Category 02"
+											children: "Line 02"
 										}),
 										/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", {
 											className: "mt-2 text-xl font-bold text-[#002144]",
-											children: "Sinking Fish & Shrimp Feed"
+											children: "Swine Starter & Grower Mash"
 										}),
 										/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
 											className: "mt-3 text-sm leading-relaxed text-slate-600",
-											children: "Dense, highly palatable pellets engineered for bottom-dwelling species and shrimp, enriched with marine proteins and phospholipids."
+											children: "Amino acid fortified pig feed enriched with lysine and methionine for lean muscle accretion, fast growth, and optimal litter size."
 										}),
 										/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("ul", {
 											className: "mt-6 space-y-2 text-xs font-medium text-slate-700 border-t border-slate-100 pt-4",
@@ -295,29 +295,29 @@ function AquaFishFeedPage() {
 														" ",
 														/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
 															className: "font-bold text-[#002144]",
-															children: "32% - 38%"
+															children: "18% - 20%"
 														})
 													]
 												}),
 												/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("li", {
 													className: "flex justify-between",
 													children: [
-														/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "Fat Content:" }),
+														/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "Lysine Content:" }),
 														" ",
 														/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
 															className: "font-bold text-[#002144]",
-															children: "5% - 7%"
+															children: "1.1%"
 														})
 													]
 												}),
 												/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("li", {
 													className: "flex justify-between",
 													children: [
-														/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "Pellet Sizes:" }),
+														/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "Form:" }),
 														" ",
 														/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
 															className: "font-bold text-[#002144]",
-															children: "1.5mm, 2.5mm, 3.5mm"
+															children: "Mash / Crumbles"
 														})
 													]
 												}),
@@ -328,7 +328,7 @@ function AquaFishFeedPage() {
 														" ",
 														/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
 															className: "font-bold text-[#002144]",
-															children: "35 kg & 50 kg HDPE"
+															children: "50 kg HDPE Bag"
 														})
 													]
 												})
@@ -341,15 +341,15 @@ function AquaFishFeedPage() {
 									children: [
 										/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
 											className: "text-xs font-bold uppercase tracking-wider text-[#327411]",
-											children: "Category 03"
+											children: "Line 03"
 										}),
 										/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", {
 											className: "mt-2 text-xl font-bold text-[#002144]",
-											children: "Hatchery Fry & Fingerling Crumble"
+											children: "Chelated Mineral Mixture & Premix"
 										}),
 										/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
 											className: "mt-3 text-sm leading-relaxed text-slate-600",
-											children: "Micro-granules with high protein and essential fatty acids (EPA/DHA) for optimal survival rates in fish nurseries and hatcheries."
+											children: "Area-specific chelated trace mineral supplement enriched with Chromium, Selenium, Zinc, and Iodine for enhanced conception rate and lactation."
 										}),
 										/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("ul", {
 											className: "mt-6 space-y-2 text-xs font-medium text-slate-700 border-t border-slate-100 pt-4",
@@ -357,22 +357,22 @@ function AquaFishFeedPage() {
 												/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("li", {
 													className: "flex justify-between",
 													children: [
-														/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "Crude Protein:" }),
+														/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "Bioavailability:" }),
 														" ",
 														/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
 															className: "font-bold text-[#002144]",
-															children: "40% - 42%"
+															children: "3x Higher Absorption"
 														})
 													]
 												}),
 												/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("li", {
 													className: "flex justify-between",
 													children: [
-														/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "Digestibility:" }),
+														/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "Dosage:" }),
 														" ",
 														/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
 															className: "font-bold text-[#002144]",
-															children: "94%+"
+															children: "50g - 100g per day"
 														})
 													]
 												}),
@@ -383,7 +383,7 @@ function AquaFishFeedPage() {
 														" ",
 														/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
 															className: "font-bold text-[#002144]",
-															children: "Micro Crumble (500–800µm)"
+															children: "Powder / Granules"
 														})
 													]
 												}),
@@ -394,7 +394,7 @@ function AquaFishFeedPage() {
 														" ",
 														/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
 															className: "font-bold text-[#002144]",
-															children: "25 kg Sealed Bags"
+															children: "1 kg, 5 kg, 25 kg Buckets"
 														})
 													]
 												})
@@ -412,4 +412,4 @@ function AquaFishFeedPage() {
 	});
 }
 //#endregion
-export { AquaFishFeedPage as component };
+export { GoatSwineMineralsPage as component };

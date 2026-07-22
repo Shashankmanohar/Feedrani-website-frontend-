@@ -1,4 +1,4 @@
-//#region node_modules/.nitro/vite/services/ssr/assets/_tanstack-start-manifest_v-Bd8m_16M.js
+//#region node_modules/.nitro/vite/services/ssr/assets/_tanstack-start-manifest_v-3zfeCRmE.js
 var tsrStartManifest = () => ({ routes: {
 	__root__: {
 		filePath: "D:/Feedrani/Frontend/src/routes/__root.tsx",
@@ -16,80 +16,80 @@ var tsrStartManifest = () => ({ routes: {
 			"/products/poultry-feed",
 			"/products/"
 		],
-		preloads: ["/assets/index-DdkGF94l.js", "/assets/rolldown-runtime-QTnfLwEv.js"],
+		preloads: ["/assets/index-C7YKEHtK.js", "/assets/rolldown-runtime-QTnfLwEv.js"],
 		scripts: [{ attrs: {
 			type: "module",
 			async: !0,
-			src: "/assets/index-DdkGF94l.js"
+			src: "/assets/index-C7YKEHtK.js"
 		} }]
 	},
 	"/": {
 		filePath: "D:/Feedrani/Frontend/src/routes/index.tsx",
 		children: void 0,
-		preloads: ["/assets/routes-B1SwKQcI.js", "/assets/ProductLayout-pE8f7XFc.js"]
+		preloads: ["/assets/routes-_D3Rt6U6.js", "/assets/ProductLayout-B9jZB6GD.js"]
 	},
 	"/about": {
 		filePath: "D:/Feedrani/Frontend/src/routes/about.tsx",
 		children: void 0,
-		preloads: ["/assets/about-BIsM345P.js", "/assets/ProductLayout-pE8f7XFc.js"]
+		preloads: ["/assets/about-DhLQxqAG.js", "/assets/ProductLayout-B9jZB6GD.js"]
 	},
 	"/admin": {
 		filePath: "D:/Feedrani/Frontend/src/routes/admin.tsx",
 		children: void 0,
-		preloads: ["/assets/admin-DrFqaJZl.js", "/assets/api-ChnqopLa.js"]
+		preloads: ["/assets/admin-Bu4ifJZG.js", "/assets/api-ChnqopLa.js"]
 	},
 	"/contact": {
 		filePath: "D:/Feedrani/Frontend/src/routes/contact.tsx",
 		children: void 0,
 		preloads: [
-			"/assets/contact-BKBgpfYz.js",
-			"/assets/ProductLayout-pE8f7XFc.js",
+			"/assets/contact-C3ya-oie.js",
+			"/assets/ProductLayout-B9jZB6GD.js",
 			"/assets/api-ChnqopLa.js"
 		]
 	},
 	"/privacy-policy": {
 		filePath: "D:/Feedrani/Frontend/src/routes/privacy-policy.tsx",
 		children: void 0,
-		preloads: ["/assets/privacy-policy-C1qyyA3K.js", "/assets/ProductLayout-pE8f7XFc.js"]
+		preloads: ["/assets/privacy-policy-iOtnUg1g.js", "/assets/ProductLayout-B9jZB6GD.js"]
 	},
 	"/quality-nutrition": {
 		filePath: "D:/Feedrani/Frontend/src/routes/quality-nutrition.tsx",
 		children: void 0,
-		preloads: ["/assets/quality-nutrition-DMNeL-Jl.js", "/assets/ProductLayout-pE8f7XFc.js"]
+		preloads: ["/assets/quality-nutrition-HujCQkHL.js", "/assets/ProductLayout-B9jZB6GD.js"]
 	},
 	"/terms-conditions": {
 		filePath: "D:/Feedrani/Frontend/src/routes/terms-conditions.tsx",
 		children: void 0,
-		preloads: ["/assets/terms-conditions-DLU21tol.js", "/assets/ProductLayout-pE8f7XFc.js"]
+		preloads: ["/assets/terms-conditions-BQ6EIgqx.js", "/assets/ProductLayout-B9jZB6GD.js"]
 	},
 	"/products/aqua-fish-feed": {
 		filePath: "D:/Feedrani/Frontend/src/routes/products/aqua-fish-feed.tsx",
 		children: void 0,
-		preloads: ["/assets/aqua-fish-feed-C-NAT60z.js", "/assets/ProductLayout-pE8f7XFc.js"]
+		preloads: ["/assets/aqua-fish-feed-C_wij-o4.js", "/assets/ProductLayout-B9jZB6GD.js"]
 	},
 	"/products/cattle-dairy-feed": {
 		filePath: "D:/Feedrani/Frontend/src/routes/products/cattle-dairy-feed.tsx",
 		children: void 0,
-		preloads: ["/assets/cattle-dairy-feed-Cr4zEN2r.js", "/assets/ProductLayout-pE8f7XFc.js"]
+		preloads: ["/assets/cattle-dairy-feed-BeOjQ8C6.js", "/assets/ProductLayout-B9jZB6GD.js"]
 	},
 	"/products/goat-swine-minerals": {
 		filePath: "D:/Feedrani/Frontend/src/routes/products/goat-swine-minerals.tsx",
 		children: void 0,
-		preloads: ["/assets/goat-swine-minerals-xzNczSHJ.js", "/assets/ProductLayout-pE8f7XFc.js"]
+		preloads: ["/assets/goat-swine-minerals-e5QKJkKh.js", "/assets/ProductLayout-B9jZB6GD.js"]
 	},
 	"/products/poultry-feed": {
 		filePath: "D:/Feedrani/Frontend/src/routes/products/poultry-feed.tsx",
 		children: void 0,
 		preloads: [
-			"/assets/poultry-feed-BPLxqQka.js",
-			"/assets/ProductLayout-pE8f7XFc.js",
+			"/assets/poultry-feed-eyt5wG3t.js",
+			"/assets/ProductLayout-B9jZB6GD.js",
 			"/assets/api-ChnqopLa.js"
 		]
 	},
 	"/products/": {
 		filePath: "D:/Feedrani/Frontend/src/routes/products/index.tsx",
 		children: void 0,
-		preloads: ["/assets/products-BgrbtJB6.js", "/assets/ProductLayout-pE8f7XFc.js"]
+		preloads: ["/assets/products-_LBVvIsc.js", "/assets/ProductLayout-B9jZB6GD.js"]
 	}
 } });
 //#endregion

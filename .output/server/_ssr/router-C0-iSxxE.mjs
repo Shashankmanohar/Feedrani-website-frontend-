@@ -2,10 +2,10 @@ import { o as __toESM } from "../_runtime.mjs";
 import { n as require_jsx_runtime, r as require_react, t as QueryClientProvider } from "../_libs/react+tanstack__react-query.mjs";
 import { c as HeadContent, d as Outlet, f as lazyRouteComponent, g as useRouter, h as Link, m as createRootRouteWithContext, p as createFileRoute, s as Scripts, u as createRouter } from "../_libs/@tanstack/react-router+[...].mjs";
 import { t as QueryClient } from "../_libs/tanstack__query-core.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/router-C02n8Ikc.js
+//#region node_modules/.nitro/vite/services/ssr/assets/router-C0-iSxxE.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
-var styles_default = "/assets/styles-Dt9H-471.css";
+var styles_default = "/assets/styles-B_b1x9yl.css";
 function reportLovableError(error, context = {}) {
 	if (typeof window === "undefined") return;
 	window.__lovableEvents?.captureException?.(error, {
@@ -164,34 +164,53 @@ function RootShell({ children }) {
 }
 function RootComponent() {
 	const { queryClient } = Route$12.useRouteContext();
+	(0, import_react.useEffect)(() => {
+		const handleScrollAnimations = () => {
+			const observer = new IntersectionObserver((entries) => {
+				entries.forEach((entry) => {
+					if (entry.isIntersecting) entry.target.classList.add("visible");
+				});
+			}, {
+				threshold: .08,
+				rootMargin: "0px 0px -40px 0px"
+			});
+			document.querySelectorAll("section, .fade-up, .hover-card-rise, [data-animate='true']").forEach((el) => {
+				if (!el.classList.contains("fade-up")) el.classList.add("fade-up");
+				observer.observe(el);
+			});
+		};
+		handleScrollAnimations();
+		const timer = setTimeout(handleScrollAnimations, 500);
+		return () => clearTimeout(timer);
+	}, []);
 	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)(QueryClientProvider, {
 		client: queryClient,
 		children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Outlet, {})
 	});
 }
-var $$splitComponentImporter$11 = () => import("./routes-XuqTR0iO.mjs");
+var $$splitComponentImporter$11 = () => import("./routes-CIlTotdP.mjs");
 var Route$11 = createFileRoute("/")({ component: lazyRouteComponent($$splitComponentImporter$11, "component") });
-var $$splitComponentImporter$10 = () => import("./about-uP6ltSlf.mjs");
+var $$splitComponentImporter$10 = () => import("./about-Dk9JNFAL.mjs");
 var Route$10 = createFileRoute("/about")({ component: lazyRouteComponent($$splitComponentImporter$10, "component") });
 var $$splitComponentImporter$9 = () => import("./admin-BkqBfmA7.mjs");
 var Route$9 = createFileRoute("/admin")({ component: lazyRouteComponent($$splitComponentImporter$9, "component") });
-var $$splitComponentImporter$8 = () => import("./contact-D5JV0M5k.mjs");
+var $$splitComponentImporter$8 = () => import("./contact-CFc9crtG.mjs");
 var Route$8 = createFileRoute("/contact")({ component: lazyRouteComponent($$splitComponentImporter$8, "component") });
-var $$splitComponentImporter$7 = () => import("./privacy-policy-DwH3Lodl.mjs");
+var $$splitComponentImporter$7 = () => import("./privacy-policy-Tf6bDRIc.mjs");
 var Route$7 = createFileRoute("/privacy-policy")({ component: lazyRouteComponent($$splitComponentImporter$7, "component") });
-var $$splitComponentImporter$6 = () => import("./quality-nutrition-DdVCV0vr.mjs");
+var $$splitComponentImporter$6 = () => import("./quality-nutrition-XeXxw415.mjs");
 var Route$6 = createFileRoute("/quality-nutrition")({ component: lazyRouteComponent($$splitComponentImporter$6, "component") });
-var $$splitComponentImporter$5 = () => import("./terms-conditions-f-VlKLtU.mjs");
+var $$splitComponentImporter$5 = () => import("./terms-conditions-Xo-IFVtX.mjs");
 var Route$5 = createFileRoute("/terms-conditions")({ component: lazyRouteComponent($$splitComponentImporter$5, "component") });
-var $$splitComponentImporter$4 = () => import("./products-B25hDkhP.mjs");
+var $$splitComponentImporter$4 = () => import("./products-ClHzXx3_.mjs");
 var Route$4 = createFileRoute("/products/")({ component: lazyRouteComponent($$splitComponentImporter$4, "component") });
-var $$splitComponentImporter$3 = () => import("./aqua-fish-feed-COkIPXGA.mjs");
+var $$splitComponentImporter$3 = () => import("./aqua-fish-feed-DTLQEHKA.mjs");
 var Route$3 = createFileRoute("/products/aqua-fish-feed")({ component: lazyRouteComponent($$splitComponentImporter$3, "component") });
-var $$splitComponentImporter$2 = () => import("./cattle-dairy-feed-C76Ltn1G.mjs");
+var $$splitComponentImporter$2 = () => import("./cattle-dairy-feed-BGAhVmai.mjs");
 var Route$2 = createFileRoute("/products/cattle-dairy-feed")({ component: lazyRouteComponent($$splitComponentImporter$2, "component") });
-var $$splitComponentImporter$1 = () => import("./goat-swine-minerals-DQDubyk8.mjs");
+var $$splitComponentImporter$1 = () => import("./goat-swine-minerals-BRO3k_f1.mjs");
 var Route$1 = createFileRoute("/products/goat-swine-minerals")({ component: lazyRouteComponent($$splitComponentImporter$1, "component") });
-var $$splitComponentImporter = () => import("./poultry-feed-KvMyZbZ3.mjs");
+var $$splitComponentImporter = () => import("./poultry-feed-C1qIcJs5.mjs");
 var Route = createFileRoute("/products/poultry-feed")({ component: lazyRouteComponent($$splitComponentImporter, "component") });
 var IndexRoute = Route$11.update({
 	id: "/",

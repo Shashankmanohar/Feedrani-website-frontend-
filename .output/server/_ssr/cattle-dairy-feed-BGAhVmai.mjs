@@ -1,8 +1,9 @@
 import { n as require_jsx_runtime } from "../_libs/react+tanstack__react-query.mjs";
-import { n as Header, t as Footer } from "./ProductLayout-BiewZlIP.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/goat-swine-minerals-DQDubyk8.js
+import { h as Link } from "../_libs/@tanstack/react-router+[...].mjs";
+import { n as Header, t as Footer } from "./ProductLayout-CYBPkgJf.mjs";
+//#region node_modules/.nitro/vite/services/ssr/assets/cattle-dairy-feed-BGAhVmai.js
 var import_jsx_runtime = require_jsx_runtime();
-function GoatSwineMineralsPage() {
+function CattleDairyFeedPage() {
 	return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 		className: "min-h-screen bg-slate-50 font-['Plus_Jakarta_Sans'] text-slate-900",
 		children: [
@@ -11,23 +12,23 @@ function GoatSwineMineralsPage() {
 				className: "pt-36 lg:pt-44 pb-24",
 				children: [
 					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("section", {
-						className: "mx-auto max-w-[1400px] px-6 lg:px-8",
+						className: "mx-auto max-w-[1400px] px-6 lg:px-8 animate-fade-up",
 						children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-							className: "rounded-3xl bg-gradient-to-br from-[#002144] via-[#2d3a24] to-[#327411] p-8 md:p-16 text-white shadow-2xl overflow-hidden relative",
+							className: "rounded-3xl bg-gradient-to-br from-[#002144] via-[#003822] to-[#327411] p-8 md:p-16 text-white shadow-2xl overflow-hidden relative",
 							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 								className: "max-w-2xl relative z-10",
 								children: [
 									/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
-										className: "inline-block rounded-full bg-[#8ec44a]/20 px-4 py-1.5 text-xs font-bold uppercase tracking-widest text-[#8ec44a] backdrop-blur-md",
-										children: "Specialty Ruminant & Swine Nutrition"
+										className: "inline-block rounded-full bg-[#8ec44a]/20 px-4 py-1.5 text-xs font-bold uppercase tracking-widest text-[#8ec44a] backdrop-blur-md animate-pulse",
+										children: "Premier Bovine & Dairy Yield Nutrition"
 									}),
 									/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h1", {
 										className: "mt-6 text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl",
-										children: "Goat, Swine & Mineral Mixtures"
+										children: "Cattle & Dairy Feed"
 									}),
 									/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
 										className: "mt-6 text-lg leading-relaxed text-slate-200",
-										children: "Tailored concentrate feed for goats, sheep, swine, and chelated mineral mixtures formulated to overcome soil and fodder deficiency gaps in Indian farming."
+										children: "Balanced bypass protein, bypass fat, and high-energy mash & pellets for milking cows, buffaloes, pregnant heifers, and dry cattle. Boost milk yield, FAT %, and SNF naturally."
 									}),
 									/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 										className: "mt-8 flex flex-wrap gap-4",
@@ -38,13 +39,13 @@ function GoatSwineMineralsPage() {
 										}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
 											href: "#specifications",
 											className: "rounded-full border border-white/30 bg-white/10 px-8 py-3.5 text-sm font-semibold text-white backdrop-blur-md transition-all hover:bg-white/20",
-											children: "Browse Mineral & Feed Range"
+											children: "Explore Cattle Feed Rations"
 										})]
 									})
 								]
 							}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
-								src: "/assets/goat.webp",
-								alt: "Goat and Swine Feed",
+								src: "/assets/cow.webp",
+								alt: "Cattle and Dairy Feed",
 								className: "absolute right-0 bottom-0 h-full w-1/2 object-cover opacity-30 mix-blend-overlay hidden lg:block"
 							})]
 						})
@@ -135,39 +136,39 @@ function GoatSwineMineralsPage() {
 								children: [
 									/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
 										className: "text-xs font-bold uppercase tracking-widest text-[#327411]",
-										children: "Why FeedRani Specialty?"
+										children: "Why FeedRani Cattle Feed?"
 									}),
 									/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h2", {
 										className: "mt-2 text-3xl font-bold tracking-tight text-[#002144] sm:text-4xl",
-										children: "Key Benefits of FeedRani Goat, Swine & Mineral Formulas"
+										children: "Key Benefits of FeedRani Cattle & Dairy Feed"
 									}),
 									/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
 										className: "mt-3 text-slate-600",
-										children: "Targeted micronutrients and protein concentrates built for superior growth rates, disease resistance, and reproductive health."
+										children: "Formulated for Indian dairy cows and buffaloes to maximize daily milk revenue and protect animal longevity."
 									})
 								]
 							}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
 								className: "mt-10 grid gap-6 md:grid-cols-2 lg:grid-cols-4",
 								children: [
 									{
-										title: "Rapid Weight & Muscle Accretion",
-										desc: "High digestible protein and energy ratios drive daily live weight gain in goats, sheep, and swine.",
-										icon: "📈"
+										title: "Increased Daily Milk Fat & SNF",
+										desc: "Rumen-protected bypass fat and balanced bypass protein significantly enhance total milk yield, Fat %, and Solid-Not-Fat (SNF).",
+										icon: "🥛"
 									},
 									{
-										title: "Prevention of Urinary Calculi & Bloat",
-										desc: "Formulated with ammonium chloride and rumen buffers to safeguard male kids, bucks, and rams against urinary blockage.",
-										icon: "🧪"
+										title: "Maintains Body Condition During Lactation",
+										desc: "Prevents negative energy balance (NEB) in high-producing cows and buffaloes, reducing metabolic disorders like ketosis.",
+										icon: "🐄"
 									},
 									{
-										title: "3x Higher Bioavailability via Chelated Minerals",
-										desc: "Organically bound minerals bypass rumen degradation, filling regional soil deficiency gaps and boosting conception rates.",
-										icon: "💎"
+										title: "Improved Inter-Calving Period & Fertility",
+										desc: "Fortified with organic zinc, copper, selenium, and vitamin E to accelerate uterine involution and boost conception rates.",
+										icon: "🌾"
 									},
 									{
-										title: "Healthy Litter Sizes & Lactation Yield",
-										desc: "Optimized lysine and vitamin levels in swine diets ensure bigger litters, robust piglets, and high sow milk yield.",
-										icon: "🐖"
+										title: "Optimal Rumen Digestion & Buffer Shield",
+										desc: "Contains live yeast culture and sodium bicarbonate buffers to maintain optimal rumen pH (6.2-6.8) and prevent acidosis.",
+										icon: "🌿"
 									}
 								].map((b, i) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 									className: "rounded-2xl bg-white p-6 shadow-sm border border-slate-100 transition-transform duration-300 hover:-translate-y-1 hover:shadow-md",
@@ -196,10 +197,10 @@ function GoatSwineMineralsPage() {
 							className: "text-center max-w-3xl mx-auto",
 							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h2", {
 								className: "text-3xl font-bold tracking-tight text-[#002144] sm:text-4xl",
-								children: "Targeted Micronutrient & Growth Formulas"
+								children: "Scientific Formulations for High Milk Fat & SNF"
 							}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
 								className: "mt-4 text-slate-600",
-								children: "Deficiency-free formulation featuring organically bound trace minerals, bio-available calcium, and bypass fat for maximum weight gain and reproductive efficiency."
+								children: "Tested across thousands of dairy farms across India to ensure peak lactation performance, metabolic health, and calving efficiency."
 							})]
 						}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 							className: "mt-14 grid gap-8 md:grid-cols-2 lg:grid-cols-3",
@@ -209,15 +210,15 @@ function GoatSwineMineralsPage() {
 									children: [
 										/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
 											className: "text-xs font-bold uppercase tracking-wider text-[#327411]",
-											children: "Line 01"
+											children: "Grade 01"
 										}),
 										/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", {
 											className: "mt-2 text-xl font-bold text-[#002144]",
-											children: "Goat & Sheep Fattening Pellets"
+											children: "High Yield Lactation Pellets"
 										}),
 										/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
 											className: "mt-3 text-sm leading-relaxed text-slate-600",
-											children: "High-energy concentrate feed with ammonium chloride to prevent urinary calculi in male kids and rams while boosting daily weight gain."
+											children: "Formulated for cows and buffaloes yielding over 15+ liters per day. Features bypass protein and bypass fat for maintaining peak milk curve without body weight loss."
 										}),
 										/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("ul", {
 											className: "mt-6 space-y-2 text-xs font-medium text-slate-700 border-t border-slate-100 pt-4",
@@ -229,29 +230,29 @@ function GoatSwineMineralsPage() {
 														" ",
 														/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
 															className: "font-bold text-[#002144]",
-															children: "16% - 18%"
+															children: "22% - 24%"
 														})
 													]
 												}),
 												/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("li", {
 													className: "flex justify-between",
 													children: [
-														/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "Digestible Energy:" }),
+														/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "Crude Fat:" }),
 														" ",
 														/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
 															className: "font-bold text-[#002144]",
-															children: "2800 kcal/kg"
+															children: "4.5% - 5.5%"
 														})
 													]
 												}),
 												/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("li", {
 													className: "flex justify-between",
 													children: [
-														/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "Form:" }),
+														/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "TDN (Total Digestible Nutrients):" }),
 														" ",
 														/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
 															className: "font-bold text-[#002144]",
-															children: "4mm Pellets"
+															children: "75%"
 														})
 													]
 												}),
@@ -275,15 +276,15 @@ function GoatSwineMineralsPage() {
 									children: [
 										/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
 											className: "text-xs font-bold uppercase tracking-wider text-[#327411]",
-											children: "Line 02"
+											children: "Grade 02"
 										}),
 										/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", {
 											className: "mt-2 text-xl font-bold text-[#002144]",
-											children: "Swine Starter & Grower Mash"
+											children: "Bypass Fat Balanced Feed"
 										}),
 										/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
 											className: "mt-3 text-sm leading-relaxed text-slate-600",
-											children: "Amino acid fortified pig feed enriched with lysine and methionine for lean muscle accretion, fast growth, and optimal litter size."
+											children: "Optimal daily compound feed for commercial milk producers seeking reliable milk volume, improved solid-not-fat (SNF), and clean digestive health."
 										}),
 										/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("ul", {
 											className: "mt-6 space-y-2 text-xs font-medium text-slate-700 border-t border-slate-100 pt-4",
@@ -295,29 +296,29 @@ function GoatSwineMineralsPage() {
 														" ",
 														/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
 															className: "font-bold text-[#002144]",
-															children: "18% - 20%"
+															children: "20% - 21%"
 														})
 													]
 												}),
 												/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("li", {
 													className: "flex justify-between",
 													children: [
-														/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "Lysine Content:" }),
+														/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "Crude Fat:" }),
 														" ",
 														/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
 															className: "font-bold text-[#002144]",
-															children: "1.1%"
+															children: "3.5% - 4.0%"
 														})
 													]
 												}),
 												/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("li", {
 													className: "flex justify-between",
 													children: [
-														/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "Form:" }),
+														/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "TDN:" }),
 														" ",
 														/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
 															className: "font-bold text-[#002144]",
-															children: "Mash / Crumbles"
+															children: "70%"
 														})
 													]
 												}),
@@ -341,15 +342,15 @@ function GoatSwineMineralsPage() {
 									children: [
 										/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
 											className: "text-xs font-bold uppercase tracking-wider text-[#327411]",
-											children: "Line 03"
+											children: "Grade 03"
 										}),
 										/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", {
 											className: "mt-2 text-xl font-bold text-[#002144]",
-											children: "Chelated Mineral Mixture & Premix"
+											children: "Calf Starter & Heifer Grower"
 										}),
 										/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
 											className: "mt-3 text-sm leading-relaxed text-slate-600",
-											children: "Area-specific chelated trace mineral supplement enriched with Chromium, Selenium, Zinc, and Iodine for enhanced conception rate and lactation."
+											children: "Promotes early rumen papillae development, faster frame growth, and earlier age at first calving in young heifers."
 										}),
 										/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("ul", {
 											className: "mt-6 space-y-2 text-xs font-medium text-slate-700 border-t border-slate-100 pt-4",
@@ -357,22 +358,22 @@ function GoatSwineMineralsPage() {
 												/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("li", {
 													className: "flex justify-between",
 													children: [
-														/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "Bioavailability:" }),
+														/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "Crude Protein:" }),
 														" ",
 														/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
 															className: "font-bold text-[#002144]",
-															children: "3x Higher Absorption"
+															children: "23% - 24%"
 														})
 													]
 												}),
 												/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("li", {
 													className: "flex justify-between",
 													children: [
-														/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "Dosage:" }),
+														/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "Rumen Boosters:" }),
 														" ",
 														/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
 															className: "font-bold text-[#002144]",
-															children: "50g - 100g per day"
+															children: "Yeast Culture Enriched"
 														})
 													]
 												}),
@@ -383,7 +384,7 @@ function GoatSwineMineralsPage() {
 														" ",
 														/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
 															className: "font-bold text-[#002144]",
-															children: "Powder / Granules"
+															children: "Crumble / Pellets"
 														})
 													]
 												}),
@@ -394,7 +395,7 @@ function GoatSwineMineralsPage() {
 														" ",
 														/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
 															className: "font-bold text-[#002144]",
-															children: "1 kg, 5 kg, 25 kg Buckets"
+															children: "25 kg & 50 kg Bags"
 														})
 													]
 												})
@@ -404,6 +405,81 @@ function GoatSwineMineralsPage() {
 								})
 							]
 						})]
+					}),
+					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("section", {
+						className: "mx-auto max-w-[1400px] px-6 lg:px-8 mt-16",
+						children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+							className: "rounded-3xl border border-slate-200 bg-white p-8 md:p-12 shadow-sm",
+							children: [
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+									className: "text-xs font-bold uppercase tracking-wider text-[#327411]",
+									children: "Explore Other Categories"
+								}),
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h2", {
+									className: "mt-1 text-2xl font-extrabold text-[#002144]",
+									children: "Related Feed Formulations"
+								}),
+								/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+									className: "mt-6 grid gap-4 sm:grid-cols-3",
+									children: [
+										/* @__PURE__ */ (0, import_jsx_runtime.jsxs)(Link, {
+											to: "/products/poultry-feed",
+											className: "rounded-2xl border border-slate-200 bg-slate-50 p-5 hover:border-[#327411] hover:bg-emerald-50/50 transition-all",
+											children: [
+												/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+													className: "text-2xl mb-1",
+													children: "🐔"
+												}),
+												/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", {
+													className: "font-bold text-[#002144] text-sm",
+													children: "Poultry Feed"
+												}),
+												/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+													className: "text-xs font-semibold text-[#327411] mt-1 inline-block",
+													children: "Broiler & Layer Nutrition →"
+												})
+											]
+										}),
+										/* @__PURE__ */ (0, import_jsx_runtime.jsxs)(Link, {
+											to: "/products/aqua-fish-feed",
+											className: "rounded-2xl border border-slate-200 bg-slate-50 p-5 hover:border-[#327411] hover:bg-emerald-50/50 transition-all",
+											children: [
+												/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+													className: "text-2xl mb-1",
+													children: "🐟"
+												}),
+												/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", {
+													className: "font-bold text-[#002144] text-sm",
+													children: "Aqua & Fish Feed"
+												}),
+												/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+													className: "text-xs font-semibold text-[#327411] mt-1 inline-block",
+													children: "Floating & Sinking Pellets →"
+												})
+											]
+										}),
+										/* @__PURE__ */ (0, import_jsx_runtime.jsxs)(Link, {
+											to: "/products/goat-swine-minerals",
+											className: "rounded-2xl border border-slate-200 bg-slate-50 p-5 hover:border-[#327411] hover:bg-emerald-50/50 transition-all",
+											children: [
+												/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+													className: "text-2xl mb-1",
+													children: "🐐"
+												}),
+												/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", {
+													className: "font-bold text-[#002144] text-sm",
+													children: "Goat, Swine & Minerals"
+												}),
+												/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+													className: "text-xs font-semibold text-[#327411] mt-1 inline-block",
+													children: "Chelated Mineral Mixtures →"
+												})
+											]
+										})
+									]
+								})
+							]
+						})
 					})
 				]
 			}),
@@ -412,4 +488,4 @@ function GoatSwineMineralsPage() {
 	});
 }
 //#endregion
-export { GoatSwineMineralsPage as component };
+export { CattleDairyFeedPage as component };

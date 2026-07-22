@@ -1,8 +1,8 @@
 import { o as __toESM } from "../_runtime.mjs";
 import { n as require_jsx_runtime, r as require_react } from "../_libs/react+tanstack__react-query.mjs";
-import { n as Header, t as Footer } from "./ProductLayout-BiewZlIP.mjs";
+import { n as Header, t as Footer } from "./ProductLayout-CYBPkgJf.mjs";
 import { i as submitInquiry } from "./api-DNlTiZk9.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/contact-D5JV0M5k.js
+//#region node_modules/.nitro/vite/services/ssr/assets/contact-CFc9crtG.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
 function ContactPage() {
