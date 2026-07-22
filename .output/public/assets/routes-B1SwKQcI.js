@@ -1,4 +1,4 @@
-import{r as e}from"./rolldown-runtime-QTnfLwEv.js";import{n as t,r as n}from"./index-yunr13ik.js";import{n as r}from"./ProductLayout-CcwJD8GY.js";var i=e(n()),a=`<!doctype html>
+import{r as e}from"./rolldown-runtime-QTnfLwEv.js";import{n as t,r as n}from"./index-DdkGF94l.js";import{n as r}from"./ProductLayout-pE8f7XFc.js";var i=e(n()),a=`<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -275,10 +275,10 @@ import{r as e}from"./rolldown-runtime-QTnfLwEv.js";import{n as t,r as n}from"./i
             </div>
           </div>
 
-          <!-- Floating Stats Bar (lg+) -->
+          <!-- Floating Stats Bar (Right Side) -->
           <div
-            class="hero-stats-anim absolute bottom-28 left-1/2 z-20 hidden w-[min(1120px,90vw)] -translate-x-1/2 items-center justify-between rounded-full border border-white/20 bg-emerald-950/20 px-10 shadow-2xl backdrop-blur-2xl lg:flex"
-            style="height: 120px; transform: translateX(-50%);"
+            class="hero-stats-anim absolute bottom-16 right-2 lg:right-4 xl:right-4 z-20 hidden items-center gap-5 rounded-full border border-white/20 bg-emerald-950/40 px-6 py-4 shadow-2xl backdrop-blur-2xl lg:flex"
+            style="height: 105px;"
           >
             <!-- Stat 1: Milk Yield -->
             <div class="flex items-center gap-4">
