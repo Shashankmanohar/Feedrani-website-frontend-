@@ -12,17 +12,17 @@ export function Navbar() {
         style={{ height: "72px" }}
       >
         {/* Brand Logo */}
-        <Link to="/" className="flex shrink-0 items-center gap-3">
+        <Link to="/" className="group flex shrink-0 items-center gap-3 transition-all duration-300">
           <img
             src="/feedrani-logo.png"
             alt="FeedRani Logo"
-            className="h-11 w-11 shrink-0 object-contain sm:h-12 sm:w-12"
+            className="h-10 w-10 shrink-0 object-contain sm:h-11 sm:w-11 transition-transform duration-300 group-hover:scale-105"
           />
-          <span className="flex flex-col leading-none">
-            <span className="font-['Plus_Jakarta_Sans'] text-[18px] font-extrabold tracking-tight text-[#002144] sm:text-[20px]">
+          <span className="flex flex-col leading-tight">
+            <span className="font-['Plus_Jakarta_Sans'] text-[18px] font-extrabold tracking-tight text-[#002144] sm:text-[20px] transition-colors group-hover:text-[#327411]">
               Feed<span className="text-[#327411]">Rani</span>
             </span>
-            <span className="mt-1 hidden font-['Plus_Jakarta_Sans'] text-[9px] font-semibold uppercase tracking-[0.18em] text-[#6b7280] sm:block">
+            <span className="mt-0.5 hidden font-['Plus_Jakarta_Sans'] text-[9px] font-bold uppercase tracking-[0.16em] text-slate-500 sm:block">
               Balanced Animal Nutrition
             </span>
           </span>
@@ -97,7 +97,7 @@ export function Navbar() {
             className="inline-flex items-center gap-2 rounded-full border border-slate-200 bg-slate-100/90 px-4 py-2 text-xs font-semibold text-[#002144] shadow-sm transition-all duration-300 hover:bg-[#002144] hover:text-white"
           >
             <svg xmlns="http://www.w3.org/2000/svg" className="size-4 text-[#327411]" viewBox="0 0 24 24" fill="currentColor">
-              <path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
+              <path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z" />
             </svg>
             <span className="hidden sm:inline font-['Plus_Jakarta_Sans'] text-xs font-semibold">Call Us</span>
           </a>
