@@ -41,7 +41,7 @@ function ProductsOverviewPage() {
     <div className="min-h-screen bg-slate-50 font-['Plus_Jakarta_Sans'] text-slate-900">
       <Header />
 
-      <main className="pt-32 pb-24">
+      <main className="pt-36 lg:pt-44 pb-24">
         <section className="mx-auto max-w-[1400px] px-6 lg:px-8 text-center">
           <span className="text-xs font-bold uppercase tracking-widest text-[#327411]">
             Comprehensive Animal Nutrition
@@ -89,6 +89,31 @@ function ProductsOverviewPage() {
                 </div>
               </div>
             ))}
+          </div>
+        </section>
+
+        {/* Internal Link CTA Banner */}
+        <section className="mx-auto max-w-[1400px] px-6 lg:px-8 mt-16">
+          <div className="rounded-3xl bg-gradient-to-r from-[#002144] to-[#327411] p-8 md:p-12 text-white text-center shadow-xl">
+            <span className="text-xs font-bold uppercase tracking-widest text-[#8ec44a]">Direct Factory Dispatch</span>
+            <h2 className="mt-2 text-3xl font-extrabold sm:text-4xl">Interested in Bulk Feed Orders or Dealership?</h2>
+            <p className="mt-3 max-w-xl mx-auto text-sm text-slate-200">
+              Connect with our regional distribution managers to get bulk pricing, dealer margins, and logistics support.
+            </p>
+            <div className="mt-6 flex flex-wrap items-center justify-center gap-4">
+              <Link
+                to="/contact"
+                className="rounded-xl bg-[#8ec44a] px-6 py-3.5 text-xs font-bold uppercase tracking-wider text-[#002144] shadow-md hover:bg-white transition-all"
+              >
+                Contact Sales &amp; Dealer Team →
+              </Link>
+              <Link
+                to="/about"
+                className="rounded-xl border border-white/30 bg-white/10 px-6 py-3.5 text-xs font-bold uppercase tracking-wider text-white backdrop-blur-md hover:bg-white/20 transition-all"
+              >
+                Learn About Our Quality Science →
+              </Link>
+            </div>
           </div>
         </section>
       </main>

@@ -33,7 +33,7 @@ function GoatSwineMineralsPage() {
     <div className="min-h-screen bg-slate-50 font-['Plus_Jakarta_Sans'] text-slate-900">
       <Header />
 
-      <main className="pt-32 pb-24">
+      <main className="pt-36 lg:pt-44 pb-24">
         {/* Hero Section */}
         <section className="mx-auto max-w-[1400px] px-6 lg:px-8">
           <div className="rounded-3xl bg-gradient-to-br from-[#002144] via-[#2d3a24] to-[#327411] p-8 md:p-16 text-white shadow-2xl overflow-hidden relative">

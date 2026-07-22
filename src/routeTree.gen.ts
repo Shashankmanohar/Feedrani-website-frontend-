@@ -11,7 +11,11 @@
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as AboutRouteImport } from './routes/about'
+import { Route as AdminRouteImport } from './routes/admin'
 import { Route as ContactRouteImport } from './routes/contact'
+import { Route as PrivacyPolicyRouteImport } from './routes/privacy-policy'
+import { Route as QualityNutritionRouteImport } from './routes/quality-nutrition'
+import { Route as TermsConditionsRouteImport } from './routes/terms-conditions'
 import { Route as ProductsIndexRouteImport } from './routes/products/index'
 import { Route as ProductsAquaFishFeedRouteImport } from './routes/products/aqua-fish-feed'
 import { Route as ProductsCattleDairyFeedRouteImport } from './routes/products/cattle-dairy-feed'
@@ -28,9 +32,29 @@ const AboutRoute = AboutRouteImport.update({
   path: '/about',
   getParentRoute: () => rootRouteImport,
 } as any)
+const AdminRoute = AdminRouteImport.update({
+  id: '/admin',
+  path: '/admin',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const ContactRoute = ContactRouteImport.update({
   id: '/contact',
   path: '/contact',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const PrivacyPolicyRoute = PrivacyPolicyRouteImport.update({
+  id: '/privacy-policy',
+  path: '/privacy-policy',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const QualityNutritionRoute = QualityNutritionRouteImport.update({
+  id: '/quality-nutrition',
+  path: '/quality-nutrition',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const TermsConditionsRoute = TermsConditionsRouteImport.update({
+  id: '/terms-conditions',
+  path: '/terms-conditions',
   getParentRoute: () => rootRouteImport,
 } as any)
 const ProductsIndexRoute = ProductsIndexRouteImport.update({
@@ -63,7 +87,11 @@ const ProductsPoultryFeedRoute = ProductsPoultryFeedRouteImport.update({
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
+  '/admin': typeof AdminRoute
   '/contact': typeof ContactRoute
+  '/privacy-policy': typeof PrivacyPolicyRoute
+  '/quality-nutrition': typeof QualityNutritionRoute
+  '/terms-conditions': typeof TermsConditionsRoute
   '/products/aqua-fish-feed': typeof ProductsAquaFishFeedRoute
   '/products/cattle-dairy-feed': typeof ProductsCattleDairyFeedRoute
   '/products/goat-swine-minerals': typeof ProductsGoatSwineMineralsRoute
@@ -73,7 +101,11 @@ export interface FileRoutesByFullPath {
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
+  '/admin': typeof AdminRoute
   '/contact': typeof ContactRoute
+  '/privacy-policy': typeof PrivacyPolicyRoute
+  '/quality-nutrition': typeof QualityNutritionRoute
+  '/terms-conditions': typeof TermsConditionsRoute
   '/products/aqua-fish-feed': typeof ProductsAquaFishFeedRoute
   '/products/cattle-dairy-feed': typeof ProductsCattleDairyFeedRoute
   '/products/goat-swine-minerals': typeof ProductsGoatSwineMineralsRoute
@@ -84,7 +116,11 @@ export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
+  '/admin': typeof AdminRoute
   '/contact': typeof ContactRoute
+  '/privacy-policy': typeof PrivacyPolicyRoute
+  '/quality-nutrition': typeof QualityNutritionRoute
+  '/terms-conditions': typeof TermsConditionsRoute
   '/products/aqua-fish-feed': typeof ProductsAquaFishFeedRoute
   '/products/cattle-dairy-feed': typeof ProductsCattleDairyFeedRoute
   '/products/goat-swine-minerals': typeof ProductsGoatSwineMineralsRoute
@@ -96,7 +132,11 @@ export interface FileRouteTypes {
   fullPaths:
     | '/'
     | '/about'
+    | '/admin'
     | '/contact'
+    | '/privacy-policy'
+    | '/quality-nutrition'
+    | '/terms-conditions'
     | '/products/aqua-fish-feed'
     | '/products/cattle-dairy-feed'
     | '/products/goat-swine-minerals'
@@ -106,7 +146,11 @@ export interface FileRouteTypes {
   to:
     | '/'
     | '/about'
+    | '/admin'
     | '/contact'
+    | '/privacy-policy'
+    | '/quality-nutrition'
+    | '/terms-conditions'
     | '/products/aqua-fish-feed'
     | '/products/cattle-dairy-feed'
     | '/products/goat-swine-minerals'
@@ -116,7 +160,11 @@ export interface FileRouteTypes {
     | '__root__'
     | '/'
     | '/about'
+    | '/admin'
     | '/contact'
+    | '/privacy-policy'
+    | '/quality-nutrition'
+    | '/terms-conditions'
     | '/products/aqua-fish-feed'
     | '/products/cattle-dairy-feed'
     | '/products/goat-swine-minerals'
@@ -127,7 +175,11 @@ export interface FileRouteTypes {
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   AboutRoute: typeof AboutRoute
+  AdminRoute: typeof AdminRoute
   ContactRoute: typeof ContactRoute
+  PrivacyPolicyRoute: typeof PrivacyPolicyRoute
+  QualityNutritionRoute: typeof QualityNutritionRoute
+  TermsConditionsRoute: typeof TermsConditionsRoute
   ProductsAquaFishFeedRoute: typeof ProductsAquaFishFeedRoute
   ProductsCattleDairyFeedRoute: typeof ProductsCattleDairyFeedRoute
   ProductsGoatSwineMineralsRoute: typeof ProductsGoatSwineMineralsRoute
@@ -151,11 +203,39 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof AboutRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/admin': {
+      id: '/admin'
+      path: '/admin'
+      fullPath: '/admin'
+      preLoaderRoute: typeof AdminRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/contact': {
       id: '/contact'
       path: '/contact'
       fullPath: '/contact'
       preLoaderRoute: typeof ContactRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/privacy-policy': {
+      id: '/privacy-policy'
+      path: '/privacy-policy'
+      fullPath: '/privacy-policy'
+      preLoaderRoute: typeof PrivacyPolicyRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/quality-nutrition': {
+      id: '/quality-nutrition'
+      path: '/quality-nutrition'
+      fullPath: '/quality-nutrition'
+      preLoaderRoute: typeof QualityNutritionRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/terms-conditions': {
+      id: '/terms-conditions'
+      path: '/terms-conditions'
+      fullPath: '/terms-conditions'
+      preLoaderRoute: typeof TermsConditionsRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/products/': {
@@ -199,7 +279,11 @@ declare module '@tanstack/react-router' {
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   AboutRoute: AboutRoute,
+  AdminRoute: AdminRoute,
   ContactRoute: ContactRoute,
+  PrivacyPolicyRoute: PrivacyPolicyRoute,
+  QualityNutritionRoute: QualityNutritionRoute,
+  TermsConditionsRoute: TermsConditionsRoute,
   ProductsAquaFishFeedRoute: ProductsAquaFishFeedRoute,
   ProductsCattleDairyFeedRoute: ProductsCattleDairyFeedRoute,
   ProductsGoatSwineMineralsRoute: ProductsGoatSwineMineralsRoute,

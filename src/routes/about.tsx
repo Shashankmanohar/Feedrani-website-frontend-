@@ -1,4 +1,4 @@
-import { createFileRoute } from "@tanstack/react-router";
+import { createFileRoute, Link } from "@tanstack/react-router";
 import { Header, Footer } from "../components/ProductLayout";
 
 export const Route = createFileRoute("/about")({
@@ -46,7 +46,7 @@ function AboutPage() {
     <div className="min-h-screen bg-slate-50 font-['Plus_Jakarta_Sans'] text-slate-900">
       <Header />
 
-      <main className="pt-32 pb-24">
+      <main className="pt-36 lg:pt-44 pb-24">
         {/* Hero Section */}
         <section className="mx-auto max-w-[1400px] px-6 lg:px-8">
           <div className="rounded-3xl bg-gradient-to-br from-[#002144] via-[#003822] to-[#327411] p-8 md:p-16 text-white shadow-2xl overflow-hidden relative">
@@ -60,6 +60,20 @@ function AboutPage() {
               <p className="mt-6 text-lg leading-relaxed text-slate-200">
                 FeedRani Feeds &amp; Nutrition Private Limited is committed to transforming livestock farming through scientific feed manufacturing, balanced micro-nutrients, and trustworthy dealer partnerships.
               </p>
+              <div className="mt-8 flex flex-wrap gap-4">
+                <Link
+                  to="/products"
+                  className="rounded-xl bg-[#8ec44a] px-6 py-3 text-xs font-bold uppercase tracking-wider text-[#002144] shadow-md hover:bg-white transition-all"
+                >
+                  Explore Products →
+                </Link>
+                <Link
+                  to="/contact"
+                  className="rounded-xl border border-white/30 bg-white/10 px-6 py-3 text-xs font-bold uppercase tracking-wider text-white backdrop-blur-md hover:bg-white/20 transition-all"
+                >
+                  Become a Dealer →
+                </Link>
+              </div>
             </div>
           </div>
         </section>
@@ -110,6 +124,9 @@ function AboutPage() {
               <p className="mt-4 text-slate-600 leading-relaxed text-sm">
                 Our mission is to empower farmers by manufacturing nutrient-dense poultry, dairy cattle, aqua, and swine feed that improves body weight gain, milk production, and immune strength while optimizing operational feed costs.
               </p>
+              <Link to="/products" className="mt-4 inline-block text-xs font-bold text-[#327411] hover:underline">
+                View All Product Lines →
+              </Link>
             </div>
 
             <div className="rounded-3xl bg-white p-8 md:p-12 border border-slate-200/80 shadow-sm">
@@ -118,6 +135,56 @@ function AboutPage() {
               <p className="mt-4 text-slate-600 leading-relaxed text-sm">
                 To build India's most trusted, scientifically backed animal feed brand through state-of-the-art manufacturing plants, transparent dealer networks, and relentless nutritional research.
               </p>
+              <Link to="/contact" className="mt-4 inline-block text-xs font-bold text-[#327411] hover:underline">
+                Connect With Distribution Team →
+              </Link>
+            </div>
+          </div>
+        </section>
+
+        {/* Product Internal Links Section */}
+        <section className="mx-auto max-w-[1400px] px-6 lg:px-8 mt-16">
+          <div className="rounded-3xl bg-[#002144] p-8 md:p-12 text-white shadow-xl">
+            <span className="text-xs font-bold uppercase tracking-widest text-[#8ec44a]">Product Ecosystem</span>
+            <h2 className="mt-2 text-3xl font-extrabold sm:text-4xl">Explore Our Livestock Feed Range</h2>
+            <p className="mt-2 text-xs text-slate-300">Discover scientifically tested feeds tailored for every species and growth stage.</p>
+
+            <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+              <Link
+                to="/products/cattle-dairy-feed"
+                className="rounded-2xl bg-white/10 p-5 backdrop-blur-md hover:bg-white/20 transition-all border border-white/10"
+              >
+                <div className="text-2xl mb-2">🐄</div>
+                <h3 className="font-bold text-white text-base">Cattle &amp; Dairy Feed</h3>
+                <span className="mt-2 inline-block text-xs font-bold text-[#8ec44a]">Explore Dairy Range →</span>
+              </Link>
+
+              <Link
+                to="/products/poultry-feed"
+                className="rounded-2xl bg-white/10 p-5 backdrop-blur-md hover:bg-white/20 transition-all border border-white/10"
+              >
+                <div className="text-2xl mb-2">🐔</div>
+                <h3 className="font-bold text-white text-base">Poultry Feed</h3>
+                <span className="mt-2 inline-block text-xs font-bold text-[#8ec44a]">Explore Avian Feeds →</span>
+              </Link>
+
+              <Link
+                to="/products/aqua-fish-feed"
+                className="rounded-2xl bg-white/10 p-5 backdrop-blur-md hover:bg-white/20 transition-all border border-white/10"
+              >
+                <div className="text-2xl mb-2">🐟</div>
+                <h3 className="font-bold text-white text-base">Aqua &amp; Fish Feed</h3>
+                <span className="mt-2 inline-block text-xs font-bold text-[#8ec44a]">Explore Aqua Range →</span>
+              </Link>
+
+              <Link
+                to="/products/goat-swine-minerals"
+                className="rounded-2xl bg-white/10 p-5 backdrop-blur-md hover:bg-white/20 transition-all border border-white/10"
+              >
+                <div className="text-2xl mb-2">🐐</div>
+                <h3 className="font-bold text-white text-base">Goat, Swine &amp; Minerals</h3>
+                <span className="mt-2 inline-block text-xs font-bold text-[#8ec44a]">Explore Minerals →</span>
+              </Link>
             </div>
           </div>
         </section>
@@ -169,3 +236,4 @@ function AboutPage() {
     </div>
   );
 }
+

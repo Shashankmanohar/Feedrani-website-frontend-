@@ -241,8 +241,7 @@
             </div>
           </div>
 
-          <a href="#science" class="transition-colors duration-200 hover:text-[#327411]">Quality &amp; Science</a>
-          <a href="#knowledge" class="transition-colors duration-200 hover:text-[#327411]">Knowledge Hub</a>
+          <a href="#industries" class="transition-colors duration-200 hover:text-[#327411]">Industries We Serve</a>
           <a href="/contact" class="transition-colors duration-200 hover:text-[#327411]">Contact</a>
         </div>
 
@@ -583,8 +582,8 @@
 
           <!-- Floating Stats Bar (lg+) -->
           <div
-            class="hero-stats-anim absolute bottom-28 left-1/2 z-20 hidden w-[min(1120px,90vw)] -translate-x-1/2 items-center justify-between rounded-[999px] border border-white/[0.18] bg-gradient-to-r from-white/[0.1] to-[rgba(50, 116, 17,0.08)] px-10 shadow-[0_16px_48px_rgba(0,0,0,0.15)] backdrop-blur-[35px] lg:flex"
-            style="height: 120px"
+            class="hero-stats-anim absolute bottom-28 left-1/2 z-20 hidden w-[min(1120px,90vw)] -translate-x-1/2 items-center justify-between rounded-full border border-white/20 bg-emerald-950/20 px-10 shadow-2xl backdrop-blur-2xl lg:flex"
+            style="height: 120px; transform: translateX(-50%);"
           >
             <!-- Stat 1: Milk Yield -->
             <div class="flex items-center gap-4">
@@ -1156,6 +1155,152 @@
               </div>
             </div>
           </article>
+        </div>
+      <!-- Industries We Serve Section -->
+      <section id="industries" class="bg-[#FAFAF8] py-20 lg:py-36 text-slate-900 border-t border-[#DCDCD7] relative overflow-hidden">
+        <div class="mx-auto max-w-[1480px] px-5 sm:px-10 lg:px-16 xl:px-24">
+          <!-- Header -->
+          <div class="mb-14 grid gap-8 lg:grid-cols-12 lg:items-end">
+            <div class="lg:col-span-8">
+              <p class="reveal mb-4 text-xs font-bold uppercase tracking-[0.18rem] text-[#327411]">
+                Sector Expertise / 03
+              </p>
+              <h2 class="reveal text-4xl font-[800] leading-[0.94] tracking-[-0.03em] text-[#002144] sm:text-5xl lg:text-6xl">
+                Industries &amp; Sectors We Serve
+              </h2>
+            </div>
+            <p class="reveal text-base leading-relaxed text-[#666666] lg:col-span-4 lg:text-lg">
+              FeedRani provides tailored nutritional solutions and reliable distribution for dairy farms, poultry integrators, fish hatcheries, goat rearers, and regional feed stockists across Eastern India.
+            </p>
+          </div>
+
+          <!-- Cards Grid (3 Columns Desktop, 2 Columns Tablet) -->
+          <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+            <!-- Industry 1: Dairy & Cattle Industry -->
+            <div class="group rounded-3xl border border-slate-200/80 bg-white p-8 md:p-10 shadow-sm transition-all duration-300 hover:-translate-y-2 hover:border-[#327411]/50 hover:shadow-xl flex flex-col justify-between">
+              <div>
+                <div class="flex items-center justify-between">
+                  <div class="flex size-14 items-center justify-center rounded-2xl bg-[#327411]/10 text-3xl group-hover:scale-110 transition-transform">
+                    🐄
+                  </div>
+                  <span class="rounded-full bg-emerald-50 border border-emerald-200/60 px-3 py-1 text-[11px] font-bold text-[#327411]">
+                    High Fat &amp; SNF
+                  </span>
+                </div>
+                <h3 class="mt-6 text-2xl font-bold tracking-tight text-[#002144]">Dairy &amp; Milch Livestock</h3>
+                <p class="mt-3 text-sm leading-relaxed text-slate-600">
+                  Commercial dairy farms, cattle breeding units, milk co-operatives, and gaushalas seeking maximum milk volume, fat percentage, and calving metabolic health.
+                </p>
+              </div>
+              <div class="mt-8 pt-6 border-t border-slate-100 flex items-center justify-between">
+                <span class="text-xs font-semibold text-slate-400">Milch Feed &amp; Supplements</span>
+                <a href="/products/cattle-dairy-feed" class="inline-flex items-center gap-1.5 text-xs font-bold text-[#327411] hover:underline">
+                  <span>Explore Feed</span>
+                  <span>→</span>
+                </a>
+              </div>
+            </div>
+
+            <!-- Industry 2: Poultry Farming Sector -->
+            <div class="group rounded-3xl border border-slate-200/80 bg-white p-8 md:p-10 shadow-sm transition-all duration-300 hover:-translate-y-2 hover:border-[#327411]/50 hover:shadow-xl flex flex-col justify-between">
+              <div>
+                <div class="flex items-center justify-between">
+                  <div class="flex size-14 items-center justify-center rounded-2xl bg-amber-500/10 text-3xl group-hover:scale-110 transition-transform">
+                    🐔
+                  </div>
+                  <span class="rounded-full bg-amber-50 border border-amber-200/60 px-3 py-1 text-[11px] font-bold text-amber-700">
+                    High FCR &amp; Immunity
+                  </span>
+                </div>
+                <h3 class="mt-6 text-2xl font-bold tracking-tight text-[#002144]">Poultry Farming Sector</h3>
+                <p class="mt-3 text-sm leading-relaxed text-slate-600">
+                  Broiler integrators, layer egg producers, and hatcheries requiring fast weight gain, gut health, uniform flock growth, and strong eggshells.
+                </p>
+              </div>
+              <div class="mt-8 pt-6 border-t border-slate-100 flex items-center justify-between">
+                <span class="text-xs font-semibold text-slate-400">Broiler &amp; Layer Feeds</span>
+                <a href="/products/poultry-feed" class="inline-flex items-center gap-1.5 text-xs font-bold text-[#327411] hover:underline">
+                  <span>Explore Feed</span>
+                  <span>→</span>
+                </a>
+              </div>
+            </div>
+
+            <!-- Industry 3: Aquaculture & Fish Hatcheries -->
+            <div class="group rounded-3xl border border-slate-200/80 bg-white p-8 md:p-10 shadow-sm transition-all duration-300 hover:-translate-y-2 hover:border-[#327411]/50 hover:shadow-xl flex flex-col justify-between">
+              <div>
+                <div class="flex items-center justify-between">
+                  <div class="flex size-14 items-center justify-center rounded-2xl bg-cyan-500/10 text-3xl group-hover:scale-110 transition-transform">
+                    🐟
+                  </div>
+                  <span class="rounded-full bg-cyan-50 border border-cyan-200/60 px-3 py-1 text-[11px] font-bold text-cyan-700">
+                    Floating Pellets
+                  </span>
+                </div>
+                <h3 class="mt-6 text-2xl font-bold tracking-tight text-[#002144]">Aquaculture &amp; Aqua Farms</h3>
+                <p class="mt-3 text-sm leading-relaxed text-slate-600">
+                  Inland fish pond farmers, shrimp culture, biofloc units, and cage culture setups looking for high-protein floating pellets and clean pond water balance.
+                </p>
+              </div>
+              <div class="mt-8 pt-6 border-t border-slate-100 flex items-center justify-between">
+                <span class="text-xs font-semibold text-slate-400">Fish &amp; Aqua Nutrition</span>
+                <a href="/products/aqua-fish-feed" class="inline-flex items-center gap-1.5 text-xs font-bold text-[#327411] hover:underline">
+                  <span>Explore Feed</span>
+                  <span>→</span>
+                </a>
+              </div>
+            </div>
+
+            <!-- Industry 4: Goat, Swine & Small Ruminants -->
+            <div class="group rounded-3xl border border-slate-200/80 bg-white p-8 md:p-10 shadow-sm transition-all duration-300 hover:-translate-y-2 hover:border-[#327411]/50 hover:shadow-xl flex flex-col justify-between">
+              <div>
+                <div class="flex items-center justify-between">
+                  <div class="flex size-14 items-center justify-center rounded-2xl bg-emerald-500/10 text-3xl group-hover:scale-110 transition-transform">
+                    🐐
+                  </div>
+                  <span class="rounded-full bg-emerald-50 border border-emerald-200/60 px-3 py-1 text-[11px] font-bold text-[#327411]">
+                    Weight Gain &amp; Minerals
+                  </span>
+                </div>
+                <h3 class="mt-6 text-2xl font-bold tracking-tight text-[#002144]">Goat &amp; Swine Operations</h3>
+                <p class="mt-3 text-sm leading-relaxed text-slate-600">
+                  Commercial goat rearers, piggeries, and sheep breeding units focused on rapid weight gain, organically bound trace minerals, and reproductive vigor.
+                </p>
+              </div>
+              <div class="mt-8 pt-6 border-t border-slate-100 flex items-center justify-between">
+                <span class="text-xs font-semibold text-slate-400">Concentrate &amp; Minerals</span>
+                <a href="/products/goat-swine-minerals" class="inline-flex items-center gap-1.5 text-xs font-bold text-[#327411] hover:underline">
+                  <span>Explore Feed</span>
+                  <span>→</span>
+                </a>
+              </div>
+            </div>
+
+            <!-- Industry 5: Feed Dealers & Agri-Retailers -->
+            <div class="group rounded-3xl border border-slate-200/80 bg-white p-8 md:p-10 shadow-sm transition-all duration-300 hover:-translate-y-2 hover:border-[#327411]/50 hover:shadow-xl flex flex-col justify-between lg:col-span-2">
+              <div>
+                <div class="flex items-center justify-between">
+                  <div class="flex size-14 items-center justify-center rounded-2xl bg-purple-500/10 text-3xl group-hover:scale-110 transition-transform">
+                    🏪
+                  </div>
+                  <span class="rounded-full bg-purple-50 border border-purple-200/60 px-3 py-1 text-[11px] font-bold text-purple-700">
+                    Distribution Network
+                  </span>
+                </div>
+                <h3 class="mt-6 text-2xl font-bold tracking-tight text-[#002144]">Feed Dealers, Stockists &amp; Agri-Retailers</h3>
+                <p class="mt-3 text-sm leading-relaxed text-slate-600">
+                  Rural agri-input shops, district feed stockists, and Farmer Producer Organizations (FPOs) backed by exclusive territory protection, marketing support, and direct factory dispatch logistics.
+                </p>
+              </div>
+              <div class="mt-8 pt-6 border-t border-slate-100 flex items-center justify-between">
+                <span class="text-xs font-semibold text-slate-400">Become an Authorized Dealer</span>
+                <a href="/contact" class="inline-flex items-center gap-2 rounded-xl bg-[#327411] px-5 py-2.5 text-xs font-bold text-white hover:bg-[#285e0e] transition-all">
+                  <span>Apply for Dealership</span>
+                  <span>→</span>
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 

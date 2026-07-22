@@ -3013,4 +3013,4 @@ function mergeHeaders(...headers) {
 	}, new Headers());
 }
 //#endregion
-export { defaultSerovalPlugins as a, makeSerovalPlugin as c, lu as d, getOrigin as i, Ou as l, attachRouterServerSsrUtils as n, createRawStreamRPCPlugin as o, getNormalizedURL as r, createSerializationAdapter as s, mergeHeaders as t, cu as u };
+export { defaultSerovalPlugins as a, makeSerovalPlugin as c, lu as d, globalthis_default as f, getOrigin as i, Ou as l, attachRouterServerSsrUtils as n, createRawStreamRPCPlugin as o, getNormalizedURL as r, createSerializationAdapter as s, mergeHeaders as t, cu as u };

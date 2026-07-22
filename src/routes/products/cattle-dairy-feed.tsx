@@ -33,7 +33,7 @@ function CattleDairyFeedPage() {
     <div className="min-h-screen bg-slate-50 font-['Plus_Jakarta_Sans'] text-slate-900">
       <Header />
 
-      <main className="pt-32 pb-24">
+      <main className="pt-36 lg:pt-44 pb-24">
         {/* Hero Section */}
         <section className="mx-auto max-w-[1400px] px-6 lg:px-8 animate-fade-up">
           <div className="rounded-3xl bg-gradient-to-br from-[#002144] via-[#003822] to-[#327411] p-8 md:p-16 text-white shadow-2xl overflow-hidden relative">
@@ -187,6 +187,43 @@ function CattleDairyFeedPage() {
                 <li className="flex justify-between"><span>Form:</span> <span className="font-bold text-[#002144]">Crumble / Pellets</span></li>
                 <li className="flex justify-between"><span>Packaging:</span> <span className="font-bold text-[#002144]">25 kg &amp; 50 kg Bags</span></li>
               </ul>
+            </div>
+          </div>
+        </section>
+
+        {/* Cross-Product Internal Links */}
+        <section className="mx-auto max-w-[1400px] px-6 lg:px-8 mt-16">
+          <div className="rounded-3xl border border-slate-200 bg-white p-8 md:p-12 shadow-sm">
+            <span className="text-xs font-bold uppercase tracking-wider text-[#327411]">Explore Other Categories</span>
+            <h2 className="mt-1 text-2xl font-extrabold text-[#002144]">Related Feed Formulations</h2>
+
+            <div className="mt-6 grid gap-4 sm:grid-cols-3">
+              <Link
+                to="/products/poultry-feed"
+                className="rounded-2xl border border-slate-200 bg-slate-50 p-5 hover:border-[#327411] hover:bg-emerald-50/50 transition-all"
+              >
+                <div className="text-2xl mb-1">🐔</div>
+                <h3 className="font-bold text-[#002144] text-sm">Poultry Feed</h3>
+                <span className="text-xs font-semibold text-[#327411] mt-1 inline-block">Broiler &amp; Layer Nutrition →</span>
+              </Link>
+
+              <Link
+                to="/products/aqua-fish-feed"
+                className="rounded-2xl border border-slate-200 bg-slate-50 p-5 hover:border-[#327411] hover:bg-emerald-50/50 transition-all"
+              >
+                <div className="text-2xl mb-1">🐟</div>
+                <h3 className="font-bold text-[#002144] text-sm">Aqua &amp; Fish Feed</h3>
+                <span className="text-xs font-semibold text-[#327411] mt-1 inline-block">Floating &amp; Sinking Pellets →</span>
+              </Link>
+
+              <Link
+                to="/products/goat-swine-minerals"
+                className="rounded-2xl border border-slate-200 bg-slate-50 p-5 hover:border-[#327411] hover:bg-emerald-50/50 transition-all"
+              >
+                <div className="text-2xl mb-1">🐐</div>
+                <h3 className="font-bold text-[#002144] text-sm">Goat, Swine &amp; Minerals</h3>
+                <span className="text-xs font-semibold text-[#327411] mt-1 inline-block">Chelated Mineral Mixtures →</span>
+              </Link>
             </div>
           </div>
         </section>

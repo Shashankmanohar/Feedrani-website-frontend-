@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { Header, Footer } from "../../components/ProductLayout";
+import { submitInquiry } from "../../lib/api";
 
 export const Route = createFileRoute("/products/poultry-feed")({
   component: PoultryFeedPage,
@@ -9,6 +10,8 @@ export const Route = createFileRoute("/products/poultry-feed")({
 function PoultryFeedPage() {
   const [selectedProduct, setSelectedProduct] = useState<string | null>(null);
   const [isSubmitted, setIsSubmitted] = useState(false);
+  const [inquiryData, setInquiryData] = useState({ name: "", phone: "", location: "", qty: "" });
+  const [isSubmitting, setIsSubmitting] = useState(false);
   const benefits = [
     {
       title: "Optimal FCR & Fast Weight Gain",
@@ -178,7 +181,7 @@ function PoultryFeedPage() {
     <div className="min-h-screen bg-slate-50 font-['Plus_Jakarta_Sans'] text-slate-900">
       <Header />
 
-      <main className="pt-32 pb-24">
+      <main className="pt-36 lg:pt-44 pb-24">
         {/* Hero Section */}
         <section className="mx-auto max-w-[1400px] px-6 lg:px-8 animate-fade-up">
           <div className="rounded-3xl bg-gradient-to-br from-[#002144] via-[#003366] to-[#327411] p-8 md:p-16 text-white shadow-2xl overflow-hidden relative">
@@ -495,9 +498,24 @@ function PoultryFeedPage() {
                 <p className="mt-1 text-xs text-slate-500">Fill in your contact details for pricing and dealer quotes.</p>
 
                 <form
-                  onSubmit={(e) => {
+                  onSubmit={async (e) => {
                     e.preventDefault();
-                    setIsSubmitted(true);
+                    setIsSubmitting(true);
+                    try {
+                      await submitInquiry({
+                        name: inquiryData.name,
+                        phone: inquiryData.phone,
+                        location: inquiryData.location,
+                        message: `Product Inquiry: ${selectedProduct}. Qty: ${inquiryData.qty}`,
+                        product: selectedProduct || "Poultry Feed",
+                        type: "Product Modal Quote",
+                      });
+                      setIsSubmitted(true);
+                    } catch (err) {
+                      console.error("Inquiry submit error:", err);
+                    } finally {
+                      setIsSubmitting(false);
+                    }
                   }}
                   className="mt-6 space-y-4 text-left"
                 >
@@ -506,6 +524,8 @@ function PoultryFeedPage() {
                     <input
                       type="text"
                       required
+                      value={inquiryData.name}
+                      onChange={(e) => setInquiryData({ ...inquiryData, name: e.target.value })}
                       placeholder="e.g. Ramesh Kumar"
                       className="mt-1.5 w-full rounded-xl border border-slate-200 px-4 py-2.5 text-sm outline-none focus:border-[#327411] focus:ring-2 focus:ring-[#327411]/20"
                     />
@@ -515,6 +535,8 @@ function PoultryFeedPage() {
                     <input
                       type="tel"
                       required
+                      value={inquiryData.phone}
+                      onChange={(e) => setInquiryData({ ...inquiryData, phone: e.target.value })}
                       placeholder="+91 98765 43210"
                       className="mt-1.5 w-full rounded-xl border border-slate-200 px-4 py-2.5 text-sm outline-none focus:border-[#327411] focus:ring-2 focus:ring-[#327411]/20"
                     />
@@ -524,6 +546,8 @@ function PoultryFeedPage() {
                     <input
                       type="text"
                       required
+                      value={inquiryData.location}
+                      onChange={(e) => setInquiryData({ ...inquiryData, location: e.target.value })}
                       placeholder="e.g. Patna, Bihar"
                       className="mt-1.5 w-full rounded-xl border border-slate-200 px-4 py-2.5 text-sm outline-none focus:border-[#327411] focus:ring-2 focus:ring-[#327411]/20"
                     />
@@ -532,6 +556,8 @@ function PoultryFeedPage() {
                     <label className="block text-xs font-bold text-slate-700">Estimated Quantity (Bags)</label>
                     <input
                       type="text"
+                      value={inquiryData.qty}
+                      onChange={(e) => setInquiryData({ ...inquiryData, qty: e.target.value })}
                       placeholder="e.g. 50 Bags / 2 Tons"
                       className="mt-1.5 w-full rounded-xl border border-slate-200 px-4 py-2.5 text-sm outline-none focus:border-[#327411] focus:ring-2 focus:ring-[#327411]/20"
                     />
@@ -540,12 +566,13 @@ function PoultryFeedPage() {
                   <div className="pt-2 flex gap-3">
                     <button
                       type="submit"
-                      className="w-full rounded-xl bg-[#327411] py-3 text-xs font-bold uppercase tracking-wider text-white shadow-md hover:bg-[#285e0e] transition-all"
+                      disabled={isSubmitting}
+                      className="w-full rounded-xl bg-[#327411] py-3 text-xs font-bold uppercase tracking-wider text-white shadow-md hover:bg-[#285e0e] transition-all disabled:opacity-50 flex items-center justify-center gap-2"
                     >
-                      Submit Inquiry
+                      {isSubmitting ? "Submitting..." : "Submit Inquiry"}
                     </button>
                     <a
-                      href={`https://wa.me/919876543210?text=Hello%20FeedRani%2C%20I%20want%20to%20inquire%20about%20${encodeURIComponent(selectedProduct)}.`}
+                      href={`https://wa.me/917544000912?text=Hello%20FeedRani%2C%20I%20want%20to%20inquire%20about%20${encodeURIComponent(selectedProduct || "")}.`}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="w-full text-center rounded-xl bg-[#25D366] py-3 text-xs font-bold uppercase tracking-wider text-white shadow-md hover:bg-[#20ba5a] transition-all"

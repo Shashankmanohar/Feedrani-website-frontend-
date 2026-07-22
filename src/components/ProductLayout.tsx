@@ -77,34 +77,36 @@ export function Header() {
             </div>
           </div>
 
-          <Link to="/" class="transition-colors duration-200 hover:text-[#327411]">
-            Quality &amp; Science
+          <Link to="/quality-nutrition" className="transition-colors duration-200 hover:text-[#327411]">
+            Quality &amp; Nutrition
           </Link>
-          <Link to="/" class="transition-colors duration-200 hover:text-[#327411]">
-            Knowledge Hub
-          </Link>
-          <Link to="/contact" class="transition-colors duration-200 hover:text-[#327411]">
+          <a href="/#industries" className="transition-colors duration-200 hover:text-[#327411]">
+            Industries We Serve
+          </a>
+          <Link to="/contact" className="transition-colors duration-200 hover:text-[#327411]">
             Contact
           </Link>
-        </div>        <div className="flex items-center gap-3">
+        </div>
+
+        <div className="flex items-center gap-3">
           <a
             href="tel:+917544000912"
             aria-label="Call FeedRani"
-            className="inline-flex items-center justify-center rounded-full border border-slate-200/80 bg-slate-100/80 p-2.5 sm:px-4 sm:py-2 text-xs font-semibold text-[#002144] shadow-sm transition-all duration-300 hover:bg-[#002144] hover:text-white hover:shadow-md"
+            className="inline-flex items-center gap-2 rounded-full border border-slate-200 bg-slate-100/90 px-4 py-2 text-xs font-semibold text-[#002144] shadow-sm transition-all duration-300 hover:bg-[#002144] hover:text-white"
           >
-            <span className="text-[#e11d48] sm:text-[#327411] text-base">📞</span>
-            <span className="hidden sm:inline">Call Us</span>
+            <svg xmlns="http://www.w3.org/2000/svg" className="size-4 text-[#327411]" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
+            </svg>
+            <span className="hidden sm:inline font-['Plus_Jakarta_Sans'] text-xs font-semibold">Call Us</span>
           </a>
 
-          <a
-            href="https://wa.me/919876543210?text=Hello%20FeedRani%2C%20I%20would%20like%20to%20become%20a%20dealer%20for%20your%20feed%20products."
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hidden items-center gap-2 rounded-[999px] bg-gradient-to-r from-[#327411] to-[#002144] px-6 font-['Plus_Jakarta_Sans'] text-[13px] font-semibold text-white shadow-[0_4px_16px_rgba(50,116,17,0.3)] transition-all duration-300 hover:shadow-lg lg:inline-flex"
-            style={{ height: "48px", lineHeight: "48px" }}
+          <Link
+            to="/contact"
+            className="hidden items-center gap-2 rounded-full bg-[#327411] px-6 py-2.5 font-['Plus_Jakarta_Sans'] text-[13px] font-semibold text-white shadow-md transition-all duration-300 hover:bg-[#285e0e] hover:shadow-lg sm:inline-flex"
           >
-            Become a Dealer →
-          </a>
+            <span>Become a Dealer</span>
+            <span>→</span>
+          </Link>
 
           {/* Mobile Hamburger Menu Button */}
           <button
@@ -296,68 +298,86 @@ export function Footer() {
       </a>
 
       <div className="mx-auto max-w-[1400px] px-6 lg:px-8">
-        <div className="grid gap-12 lg:grid-cols-4">
-          <div>
+        <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-5">
+          <div className="lg:col-span-1">
             <div className="flex items-center gap-3">
               <img src="/feedrani-logo.png" alt="FeedRani" className="h-10 w-10 bg-white rounded-full p-1" />
               <span className="text-xl font-bold text-white">FeedRani</span>
             </div>
-            <p className="mt-4 text-sm leading-relaxed text-gray-300">
+            <p className="mt-4 text-xs leading-relaxed text-gray-300">
               Scientifically formulated livestock nutrition engineered for Indian farm conditions. Higher yields, improved health, superior conversion.
             </p>
           </div>
           <div>
-            <h4 className="text-sm font-bold uppercase tracking-wider text-[#8ec44a]">Product Lines</h4>
-            <ul className="mt-4 space-y-2 text-sm text-gray-300">
+            <h4 className="text-xs font-bold uppercase tracking-wider text-[#8ec44a]">Product Lines</h4>
+            <ul className="mt-4 space-y-2 text-xs text-gray-300">
               <li><Link to="/products/poultry-feed" className="hover:text-white transition-colors">Poultry Feed</Link></li>
               <li><Link to="/products/aqua-fish-feed" className="hover:text-white transition-colors">Aqua &amp; Fish Feed</Link></li>
-              <li><Link to="/products/goat-swine-minerals" className="hover:text-white transition-colors">Goat, Swine &amp; Mineral Mixtures</Link></li>
+              <li><Link to="/products/goat-swine-minerals" className="hover:text-white transition-colors">Goat, Swine &amp; Mineral</Link></li>
               <li><Link to="/products/cattle-dairy-feed" className="hover:text-white transition-colors">Cattle &amp; Dairy Feed</Link></li>
             </ul>
           </div>
           <div>
-            <h4 className="text-sm font-bold uppercase tracking-wider text-[#8ec44a]">Quality &amp; Standards</h4>
-            <ul className="mt-4 space-y-2 text-sm text-gray-300">
-              <li>ISO 9001 Certified Manufacturing</li>
-              <li>Mycotoxin Screened Raw Ingredients</li>
-              <li>NIR Chemical Analysis Tested</li>
-              <li>Custom Formulation Services</li>
+            <h4 className="text-xs font-bold uppercase tracking-wider text-[#8ec44a]">Quality &amp; Standards</h4>
+            <ul className="mt-4 space-y-2 text-xs text-gray-300">
+              <li>ISO 9001 Certified</li>
+              <li>Mycotoxin Screened</li>
+              <li>NIR Chemical Tested</li>
+              <li>Custom Formulations</li>
             </ul>
           </div>
           <div>
-            <h4 className="text-sm font-bold uppercase tracking-wider text-[#8ec44a]">Dealer &amp; Order Inquiries</h4>
-            <p className="mt-4 text-sm text-gray-300">Reach out to our animal nutritionists and regional distribution hubs on WhatsApp or email.</p>
+            <h4 className="text-xs font-bold uppercase tracking-wider text-[#8ec44a]">Legal &amp; Policies</h4>
+            <ul className="mt-4 space-y-2 text-xs text-gray-300">
+              <li><Link to="/privacy-policy" className="hover:text-white transition-colors">Privacy Policy</Link></li>
+              <li><Link to="/terms-conditions" className="hover:text-white transition-colors">Terms &amp; Conditions</Link></li>
+              <li><Link to="/contact" className="hover:text-white transition-colors">Contact Support</Link></li>
+            </ul>
+          </div>
+          <div>
+            <h4 className="text-xs font-bold uppercase tracking-wider text-[#8ec44a]">Dealer Inquiries</h4>
+            <p className="mt-4 text-xs text-gray-300">Reach out to our animal nutritionists and regional distribution hubs.</p>
             <div className="mt-4 flex flex-col gap-2">
               <a
-                href="https://wa.me/919876543210?text=Hello%20FeedRani%2C%20I%20would%20like%20to%20inquire%20about%20your%20feed%20products."
+                href="https://wa.me/917544000912?text=Hello%20FeedRani%2C%20I%20would%20like%20to%20inquire%20about%20your%20feed%20products."
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center gap-2 rounded-lg bg-[#25D366] px-5 py-2.5 text-xs font-bold uppercase tracking-wider text-white transition-all hover:bg-[#20ba5a]"
+                className="inline-flex items-center justify-center gap-2 rounded-lg bg-[#25D366] px-4 py-2.5 text-xs font-bold uppercase tracking-wider text-white transition-all hover:bg-[#20ba5a]"
               >
-                <span>💬 WhatsApp Quick Sales</span>
+                <span>💬 WhatsApp Sales</span>
               </a>
-              <a
-                href="mailto:contact@feedrani.com"
-                className="inline-block text-center rounded-lg bg-[#327411] px-5 py-2.5 text-xs font-bold uppercase tracking-wider text-white transition-all hover:bg-[#327411]/90"
+              <Link
+                to="/contact"
+                className="inline-block text-center rounded-lg bg-[#327411] px-4 py-2.5 text-xs font-bold uppercase tracking-wider text-white transition-all hover:bg-[#327411]/90"
               >
                 Contact Sales Team
-              </a>
+              </Link>
             </div>
           </div>
         </div>
         <div className="mt-12 border-t border-white/10 pt-8 flex flex-col items-center justify-between gap-3 text-center text-xs text-gray-400 sm:flex-row">
           <p>© {new Date().getFullYear()} FeedRani Agricultural Solutions. All rights reserved.</p>
-          <p>
-            Developed &amp; Maintained by{" "}
-            <a
-              href="https://www.webfloratechnologies.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-[#8ec44a] hover:underline transition-colors font-medium"
-            >
-              Webflora Technologies
-            </a>
-          </p>
+          <div className="flex flex-wrap items-center justify-center gap-4">
+            <Link to="/privacy-policy" className="text-gray-400 hover:text-white transition-colors">
+              Privacy Policy
+            </Link>
+            <span>•</span>
+            <Link to="/terms-conditions" className="text-gray-400 hover:text-white transition-colors">
+              Terms &amp; Conditions
+            </Link>
+            <span>•</span>
+            <p>
+              Developed &amp; Maintained by{" "}
+              <a
+                href="https://www.webfloratechnologies.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[#8ec44a] hover:underline transition-colors font-medium"
+              >
+                Webflora Technologies
+              </a>
+            </p>
+          </div>
         </div>
       </div>
     </footer>
